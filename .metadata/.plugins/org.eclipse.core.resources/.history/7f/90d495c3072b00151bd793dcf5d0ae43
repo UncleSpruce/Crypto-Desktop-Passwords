@@ -1,0 +1,20 @@
+'''
+Created on Jul 15, 2015
+
+@author: Daniel Bruce
+'''
+
+
+class clsBasicKeyGenerator(iKeyGenerator):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+	
+	def generateKey(self, pPasswordList, pResultMap):
+		return ""
+		

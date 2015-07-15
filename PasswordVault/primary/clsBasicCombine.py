@@ -18,4 +18,4 @@ class BasicCombine(iCombiningMethodology):
 		total = 0
 		for i in pList:
 			total += i
-					
+		return total

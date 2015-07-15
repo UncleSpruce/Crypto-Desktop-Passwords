@@ -1,7 +1,7 @@
 '''
 Created on Jul 15, 2015
 
-@author: Owner
+@author: Daniel Bruce
 '''
 
 class BasicStringBigIntCorrespondence(object):

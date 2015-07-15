@@ -6,76 +6,108 @@ primary.__init__|1436891361686|D:\Google Drive\My Documents\Github\Python\Passwo
 primary.clsSaltedHash|1436968862742|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsSaltedHash.py
 primary.iCombiningMethodology|1436969345969|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iCombiningMethodology.py
 primary.clsBasicStringJoiner|1436971590317|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringJoiner.py
-primary.clsBasicStringBigIntCorrespondence|1436972157333|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringBigIntCorrespondence.py
+primary.clsBasicStringBigIntCorrespondence|1436973966348|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringBigIntCorrespondence.py
+primary.clsBasicBigIntGenerator|1436974485820|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicBigIntGenerator.py
 primary.clsPasswordMap|1436970710198|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsPasswordMap.py
+primary.iBigIntGenerator|1436974313668|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iBigIntGenerator.py
+primary.clsBasicIntermediateMapper|1436973706478|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicIntermediateMapper.py
+primary.clsBasicKeyGenerator|1436976188968|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicKeyGenerator.py
+primary.clsBasicCombine|1436973396547|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicCombine.py
 primary.clsPasswordList|1436930306586|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsPasswordList.py
 primary.mdlGUI1|1436923923254|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\mdlGUI1.py
 primary.iHashMethodology|1436972482556|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iHashMethodology.py
-primary.iJoiningBehavior|1436971215697|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iJoiningBehavior.py
+primary.iKeyGenerator|1436974181321|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iKeyGenerator.py
+primary.iJoiningBehavior|1436973309681|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iJoiningBehavior.py
 primary.clsBasicHash|1436972443433|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicHash.py
 primary.iStringBigIntCorrespondence|1436971453581|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iStringBigIntCorrespondence.py
+primary.iIntermediateMapper|1436973562990|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iIntermediateMapper.py
 -- END DISKCACHE
 -- START DICTIONARY
-26
-11=primary.mdlPasswordAppGUISetup1
-12=primary.clsSaltedHash
-19=iJoiningBehavior
-16=BasicStringJoiner
-15=iStringBigIntCorrepsondence
-13=BasicStringBigIntCorrespondence
-17=SaltedHash
-22=PasswordApp1x1
-24=PasswordApp1x1.__init__
-7=primary.iJoiningBehavior
-14=BasicHash
+41
+18=primary.mdlPasswordAppGUISetup1
+19=primary.clsSaltedHash
+4=primary.clsBasicBigIntGenerator
+7=primary.iBigIntGenerator
+8=primary.clsBasicKeyGenerator
+24=iJoiningBehavior
+22=BasicStringJoiner
+33=iStringBigIntCorrepsondence
+36=BasicIntermediateMapper
+21=BasicStringBigIntCorrespondence
+23=SaltedHash
+28=PasswordApp1x1
+38=PasswordApp1x1.__init__
+35=iIntermediateMapper
+13=primary.iJoiningBehavior
+30=BasicHash
+12=primary.iIntermediateMapper
+31=BasicCombine
 1=primary.clsBasicStringJoiner
-5=primary.iCombiningMethodology
-3=primary.clsBasicStringBigIntCorrespondence
-10=primary.clsPasswordMap
-25=CustomPasswordApp1x1
-18=iCombiningMethodology
-21=iHashMethodology
-23=PasswordList
-9=primary.clsPasswordList
-4=primary.mdlGUI1
-6=primary.iHashMethodology
-20=PasswordMap
-26=SaltedHash.__init__
+10=primary.iCombiningMethodology
+5=primary.clsBasicStringBigIntCorrespondence
+25=BigIntGenerator
+17=primary.clsPasswordMap
+39=CustomPasswordApp1x1
+6=primary.clsBasicIntermediateMapper
+3=primary.clsBasicCombine
+27=iHashMethodology
+34=iCombiningMethodology
+37=PasswordList
+16=primary.clsPasswordList
+20=BasicBigIntGenerator
+9=primary.mdlGUI1
+11=primary.iHashMethodology
+26=PasswordMap
+14=primary.iKeyGenerator
+32=clsBasicKeyGenerator
+41=SaltedHash.__init__
+40=clsBasicKeyGenerator.__init__
+29=iKeyGenerator
 2=primary.clsBasicHash
-8=primary.iStringBigIntCorrespondence
+15=primary.iStringBigIntCorrespondence
 -- END DICTIONARY
 -- START TREE 1
-10
-bas|3|BasicStringJoiner!9@BasicHash!17@BasicStringBigIntCorrespondence!25@
-cus|1|CustomPasswordApp1x1!33@
-ico|1|iCombiningMethodology!41@
-iha|1|iHashMethodology!49@
-ijo|1|iJoiningBehavior!57@
-ist|1|iStringBigIntCorrepsondence!65@
-mai|1|main!34@
+14
+bas|6|BasicStringJoiner!9@BasicHash!17@BasicCombine!25@BasicBigIntGenerator!33@BasicStringBigIntCorrespondence!41@BasicIntermediateMapper!49@
+big|1|BigIntGenerator!57@
+cls|1|clsBasicKeyGenerator!65@
+cus|1|CustomPasswordApp1x1!73@
+ico|1|iCombiningMethodology!81@
+iha|1|iHashMethodology!89@
+iin|1|iIntermediateMapper!97@
+ijo|1|iJoiningBehavior!105@
+ike|1|iKeyGenerator!113@
+ist|1|iStringBigIntCorrepsondence!121@
+mai|1|main!74@
 myc|0|
-pas|3|PasswordList!73@PasswordMap!81@PasswordApp1x1!89@
-sal|1|SaltedHash!97@
+pas|3|PasswordList!129@PasswordMap!137@PasswordApp1x1!145@
+sal|1|SaltedHash!153@
 -- END TREE
 -- START TREE 2
-19
+25
 !<m|0|
 Ba|0|
-__i|11|__init__!13&26@__init__!14&18@__init__!15&66@__init__!16&10@__init__!17&98@__init__!18&42@__init__!19&58@__init__!20&82@__init__!21&50@__init__!22&90@__init__!23&74@
-_fr|1|_frame_6!24&91@
-_im|1|_images!22&91@
+__i|18|__init__!20&34@__init__!21&42@__init__!22&10@__init__!23&154@__init__!24&106@__init__!25&58@__init__!26&138@__init__!27&90@__init__!28&146@__init__!29&114@__init__!30&18@__init__!31&26@__init__!32&66@__init__!33&122@__init__!34&82@__init__!35&98@__init__!36&50@__init__!37&130@
+_fr|1|_frame_6!38&147@
+_im|1|_images!28&147@
 bas|0|
-btn|6|btnEnterKeyCredentials!24&91@btnNewVault!24&91@btnModifyVault_command!25&34@btnModifyVault!24&91@btnNewVault_command!25&34@btnEnterKeyCredentials_command!25&34@
-com|4|combine!18&42@compute!14&18@compute!17&98@compute!21&50@
-ent|8|entPasswordSearch_validatecommand!25&34@entPasswordSearch!24&91@entVaultText_validatecommand!25&34@entVaultText_invalidcommand!25&34@entPasswordSearch_invalidcommand!25&34@entVaultText_xscrollcommand!25&34@entPasswordSearch_xscrollcommand!25&34@entVaultText!24&91@
-has|0|
-joi|2|joinTwoStrings!16&10@joinTwoStrings!19&58@
-lbl|3|lblSelectAVault!24&91@lblSelectAVaultKey!24&91@lblPasswordSelection!24&91@
-lst|6|lstPasswords_xscrollcommand!25&34@lstVaultKeySelector_yscrollcommand!25&34@lstVaultKeySelector!24&91@lstPasswords_yscrollcommand!25&34@lstVaultKeySelector_xscrollcommand!25&34@lstPasswords!24&91@
-m_s|1|m_salt!26&99@
-rad|2|radUsingText!24&91@radUsingText_command!25&34@
+btn|6|btnEnterKeyCredentials!38&147@btnNewVault!38&147@btnModifyVault_command!39&74@btnModifyVault!38&147@btnNewVault_command!39&74@btnEnterKeyCredentials_command!39&74@
+com|6|combine!34&82@compute!30&18@compute!23&154@combine!31&26@combiner!40&67@compute!27&90@
+dif|0|
+ent|8|entPasswordSearch_validatecommand!39&74@entPasswordSearch!38&147@entVaultText_validatecommand!39&74@entVaultText_invalidcommand!39&74@entPasswordSearch_invalidcommand!39&74@entVaultText_xscrollcommand!39&74@entPasswordSearch_xscrollcommand!39&74@entVaultText!38&147@
+fir|1|firstDifferenceMethod!40&67@
+gen|4|generateKey!32&66@generateKey!29&114@generate!20&34@generator!40&67@
+has|1|hasher!40&67@
+joi|3|joinTwoStrings!22&10@joiner!40&67@joinTwoStrings!24&106@
+las|1|lastDifferenceMethod!40&67@
+lbl|3|lblSelectAVault!38&147@lblSelectAVaultKey!38&147@lblPasswordSelection!38&147@
+lst|6|lstPasswords_xscrollcommand!39&74@lstVaultKeySelector_yscrollcommand!39&74@lstVaultKeySelector!38&147@lstPasswords_yscrollcommand!39&74@lstVaultKeySelector_xscrollcommand!39&74@lstPasswords!38&147@
+m_s|1|m_salt!41&155@
+map|2|map!36&50@map!35&98@
+rad|2|radUsingText!38&147@radUsingText_command!39&74@
 sal|0|
-tob|1|toBigInt!13&26@
-toi|1|toInt!15&66@
-tos|2|toString!13&26@toString!15&66@
+tob|1|toBigInt!21&42@
+toi|1|toInt!33&122@
+tos|2|toString!21&42@toString!33&122@
+use|1|useKey!32&66@
 -- END TREE
