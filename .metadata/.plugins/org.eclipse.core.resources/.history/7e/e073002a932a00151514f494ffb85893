@@ -1,0 +1,19 @@
+'''
+Created on Jul 14, 2015
+
+@author: Owner
+'''
+
+class MyClass(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, pString):
+        '''
+        Constructor
+        '''
+        
+        #Given a vault string, this function will create a list
+        

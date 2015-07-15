@@ -1,0 +1,17 @@
+'''
+Created on Jul 15, 2015
+
+@author: Owner
+'''
+import iJoiningBehavior
+
+class BasicStringJoiner(iJoiningBehavior):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+		
