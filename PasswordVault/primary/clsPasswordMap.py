@@ -13,4 +13,5 @@ class PasswordMap(object):
 		'''
 		Constructor
 		'''
-	
+		self.identifier = pIdentifier
+		self.password = pPassword

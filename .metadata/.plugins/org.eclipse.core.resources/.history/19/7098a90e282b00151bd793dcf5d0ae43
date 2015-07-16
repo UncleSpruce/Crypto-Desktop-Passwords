@@ -1,0 +1,34 @@
+'''
+Created on Jul 15, 2015
+
+@author: Daniel Bruce
+'''
+
+if __name__ == '__main__':
+	pass
+
+class BasicStringIntCoverter(object):
+	'''
+	classdocs
+	'''
+
+	def __init__(self):
+		'''
+		Constructor
+		'''
+		
+	def toString(self, pBigInt):
+		lclStringList = []
+		while pBigInt != 0:
+			lclStringList.append(chr(pBigInt % 128))
+			pBigInt -= pBigInt % 128
+			pBigInt = pBigInt / 128
+		assert(pBigInt == 0)
+		return ''.join(lclStringList)
+		
+	def toInt(self, pString):
+		total = 0
+		lclStringList = list(pString)
+		for index, value in enumerate(lclStringList):
+			total += 128 ^ index * ord(value)
+		return total	

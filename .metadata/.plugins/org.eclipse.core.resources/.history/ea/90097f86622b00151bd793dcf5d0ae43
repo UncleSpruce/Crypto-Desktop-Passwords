@@ -1,0 +1,19 @@
+'''
+Created on Jul 15, 2015
+
+@author: Owner
+'''
+
+class BasicMapIntermediateToResult(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, pOneWayHashFunction, pIntermediate, pResult):
+		'''
+		Constructor
+		'''
+		self.oneWayHashFunction = pOneWayHashFunction
+		lclJoinedAndCombinedInput = pOneWayHashFunction.compute(pIntermediate)
+		self.differenceMapper = BasicDifferenceMapper(lclJoinedAndCombinedInput, pIntermediate)
+	
+	def mapToResult(self, pIntermediate):

@@ -1,0 +1,17 @@
+'''
+Created on Jul 15, 2015
+
+@author: Owner
+'''
+
+class BasicMapIntermediateToResult(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, pOneWayHashFunction, pIntermediate, pResult):
+		'''
+		Constructor
+		'''
+		self.oneWayHashFunction = pOneWayHashFunction.compute()
+	
+	def mapToResult(self, pIntermediate):

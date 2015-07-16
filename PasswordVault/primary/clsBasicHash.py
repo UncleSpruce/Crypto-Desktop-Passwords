@@ -16,4 +16,4 @@ class BasicHash(iHashMethodology):
 		'''
 	
 	def compute(self, pArgument):
-		return hashlib.md5(pArgument)
+		return hashlib.sha512(pArgument)

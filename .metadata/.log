@@ -503,3 +503,146 @@ org.eclipse.jface.text.BadLocationException
 	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
 	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 1 1 2015-07-15 15:16:24.246
+!MESSAGE No existing console history at: D:\Google Drive\My Documents\Github\Python\PasswordStorage\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py
+!STACK 0
+java.io.FileNotFoundException: D:\Google Drive\My Documents\Github\Python\PasswordStorage\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.load(ScriptConsoleGlobalHistory.java:95)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.<init>(ScriptConsoleGlobalHistory.java:44)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.<clinit>(ScriptConsoleGlobalHistory.java:36)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleHistory.<init>(ScriptConsoleHistory.java:56)
+	at org.python.pydev.shared_interactive_console.console.ui.ScriptConsole.<init>(ScriptConsole.java:183)
+	at org.python.pydev.debug.newconsole.PydevConsole.<init>(PydevConsole.java:84)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory.connectDebugger(PydevConsoleFactory.java:169)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory.access$1(PydevConsoleFactory.java:163)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory$1.run(PydevConsoleFactory.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-07-15 16:00:37.256
+!MESSAGE No message gotten (null message).
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1055)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1182)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:929)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:337)
+	at org.python.pydev.shared_core.string.TextSelectionUtils.getStartLine(TextSelectionUtils.java:164)
+	at org.python.pydev.editor.refactoring.RefactoringRequest.getBeginCol(RefactoringRequest.java:201)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:76)
+	at com.python.pydev.refactoring.refactorer.RefactorerFindDefinition.findDefinition(RefactorerFindDefinition.java:61)
+	at com.python.pydev.refactoring.refactorer.Refactorer.findDefinition(Refactorer.java:114)
+	at com.python.pydev.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:106)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-07-15 22:15:38.893
+!MESSAGE ERROR reading shell.
+ProcessInfo:
+
+ - Executed: C:\Python34\python.exe -u C:\eclipse\plugins\org.python.pydev_4.0.0.201504132356\pysrc\pycompletionserver.py 22029
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+ANT_HOME=D:\Google Drive\Downloads\apache-ant-1.9.3-bin\apache-ant-1.9.3
+APPDATA=C:\Users\Owner\AppData\Roaming
+ASL.LOG=Destination=file
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=OWNER-MSI
+COMSPEC=C:\windows\system32\cmd.exe
+CONFIGSETROOT=C:\windows\ConfigSetRoot
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\Owner
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_26
+LOCALAPPDATA=C:\Users\Owner\AppData\Local
+LOGONSERVER=\\OWNER-MSI
+MYSQL=C:\mysql\bin\
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\Python34\;C:\Python34\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\bin;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\9.0\DLLShared\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Java\jdk1.6.0_26\bin\;C:\Program Files (x86)\Android\android-sdk\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Google Drive\Downloads\apache-ant-1.9.3-bin\apache-ant-1.9.3\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\MATLAB\R2015a\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\libexec\git-core;C:\Program Files\Chrome Driver;C:\mysql\bin\;C:\Users\Owner\AppData\Roaming\npm;C:\eclipse;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=2502
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\eclipse\plugins\org.python.pydev_4.0.0.201504132356\pysrc\pydev_sitecustomize;C:\Python34\DLLs;C:\Python34\lib;C:\Python34;C:\Python34\lib\site-packages
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\windows
+TEMP=C:\Users\Owner\AppData\Local\Temp
+TMP=C:\Users\Owner\AppData\Local\Temp
+USERDOMAIN=Owner-msi
+USERNAME=Owner
+USERPROFILE=C:\Users\Owner
+VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+WINDIR=C:\windows
+
+ - Working Dir:
+C:\eclipse\plugins\org.python.pydev_4.0.0.201504132356\pysrc
+
+ - OS:
+Windows 7
+
+ - Std output:
+pycompletionserver exception occurred
+pycompletionserver received error: Traceback (most recent call last):
+  File "C:\eclipse\plugins\org.python.pydev_4.0.0.201504132356\pysrc\pycompletionserver.py", line 293, in run
+    defFile, comps = _pydev_imports_tipper.GenerateTip(data, log)
+  File "C:\eclipse\plugins\org.python.pydev_4.0.0.201504132356\pysrc\_pydev_imports_tipper.py", line 132, in GenerateTip
+    f, mod, parent, foundAs = Find(data, log)
+  File "C:\eclipse\plugins\org.python.pydev_4.0.0.201504132356\pysrc\_pydev_imports_tipper.py", line 97, in Find
+    mod = getattr(mod, comp)
+AttributeError: 'module' object has no attribute 'self'
+
+
+
+ - Err output:
+
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.poll(Unknown Source)
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.createInnerFromServer(CompiledModule.java:331)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.getGlobalTokens(CompiledModule.java:531)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:732)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:557)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:526)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:518)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:509)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:740)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:557)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:526)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:518)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:1020)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:969)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:951)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:664)
+	at org.python.pydev.editor.codecompletion.revisited.modules.AbstractModule.findDefinition(AbstractModule.java:1)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:177)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:79)
+	at org.python.pydev.editor.hover.PyTextHover.getDocstringHover(PyTextHover.java:198)
+	at org.python.pydev.editor.hover.PyTextHover.getHoverInfo(PyTextHover.java:142)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)

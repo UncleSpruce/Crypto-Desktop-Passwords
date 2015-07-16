@@ -1,9 +1,10 @@
 '''
 Created on Jul 15, 2015
 
-@author: Owner
+@author: Daniel Bruce
 '''
 from primary import iBigIntGenerator
+import random
 
 class BasicBigIntGenerator(iBigIntGenerator):
 	'''
@@ -16,4 +17,4 @@ class BasicBigIntGenerator(iBigIntGenerator):
 		'''
 	
 	def generate(self):
-		return 0	
+		return random.getrandbits(1000)	
