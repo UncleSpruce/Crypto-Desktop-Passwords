@@ -1,20 +1,27 @@
 MODULES_MANAGER_V2
 primary.TestBasicLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicLabelledKeyGenerator.py
 primary.TestBasicStringIntCoverter|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicStringIntCoverter.py
+primary.TestFullProcess|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestFullProcess.py
+primary.TestMapInputToIntermediate|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestMapInputToIntermediate.py
+primary.TestMapIntermediateToResult|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestMapIntermediateToResult.py
+primary.TesterQuoraHasher|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TesterQuoraHasher.py
 primary.__init__|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\__init__.py
 primary.clsBasicBigIntGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicBigIntGenerator.py
 primary.clsBasicCombine|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicCombine.py
 primary.clsBasicCombiner|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicCombiner.py
+primary.clsBasicDifferenceMapper|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicDifferenceMapper.py
 primary.clsBasicHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicHash.py
 primary.clsBasicIntermediateMapper|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicIntermediateMapper.py
-primary.clsBasicJoinerAndCombiner|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicJoinerAndCombiner.py
 primary.clsBasicKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicKey.py
 primary.clsBasicKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicKeyGenerator.py
 primary.clsBasicLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicLabelledKeyGenerator.py
+primary.clsBasicMapInputToIntermediate|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicMapInputToIntermediate.py
+primary.clsBasicMapIntermediateToResult|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicMapIntermediateToResult.py
 primary.clsBasicStringBigIntCorrespondence|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringBigIntCorrespondence.py
 primary.clsBasicStringIntCalculator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringIntCalculator.py
 primary.clsBasicStringIntConverter|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringIntConverter.py
 primary.clsBasicStringJoiner|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringJoiner.py
+primary.clsBasicStringJoinerAndCombiner|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringJoinerAndCombiner.py
 primary.clsPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsPasswordList.py
 primary.clsPasswordMap|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsPasswordMap.py
 primary.clsSaltedHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsSaltedHash.py
@@ -27,4 +34,6 @@ primary.iKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage
 primary.iStringBigIntCorrespondence|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iStringBigIntCorrespondence.py
 primary.mdlGUI1|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\mdlGUI1.py
 primary.mdlPasswordAppGUISetup1|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\mdlPasswordAppGUISetup1.py
+primary.obseleteBasicMapToIntermediate|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\obseleteBasicMapToIntermediate.py
 primary.testBasicKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\testBasicKeyGenerator.py
+primary.testerQuoraHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\testerQuoraHash.py

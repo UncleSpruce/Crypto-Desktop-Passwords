@@ -1,22 +1,23 @@
 '''
 Created on Jul 15, 2015
 
-@author: Owner
+@author: Daniel Bruce
 '''
-from primary.clsBasicDifferenceMapper import BasicDifferenceMapper
 
 class BasicMapInputToIntermediate(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pStringJoinerAndCombiner, pPasswordList, pIntermediate):
+	def __init__(self, pDifferenceMapper, pStringJoinerAndCombiner):
 		'''
 		Constructor
 		'''
-		lclJoinedAndCombinedInput = pStringJoinerAndCombiner.joinAndCombine(pPasswordList)
-		self.differenceMapper = BasicDifferenceMapper(lclJoinedAndCombinedInput, pIntermediate)
 		self.stringJoinerAndCombiner = pStringJoinerAndCombiner
-		
+		self.differenceMapper = pDifferenceMapper
+	
+	def defineMap(self, pPasswordList, pIntermediate):
+		lclJoinedAndCombinedInput = self.stringJoinerAndCombiner.joinAndCombine(pPasswordList)
+		self.differenceMapper.defineMapper(lclJoinedAndCombinedInput, pIntermediate)
 	
 	def compute(self, pPasswordList):
 		lclJandC = self.stringJoinerAndCombiner.joinAndCombine(pPasswordList)

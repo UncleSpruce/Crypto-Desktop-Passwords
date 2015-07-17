@@ -1,0 +1,27 @@
+'''
+Created on Jul 14, 2015
+
+@author: Daniel Bruce
+'''
+from primary.clsPasswordMap import PasswordMap
+
+class PasswordList(list):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, pStartList):
+		'''
+		Constructor
+		'''
+		self.list = pStartList
+		#Given a vault string, this function will create a list
+	
+	def append(self, pPasswordTuple):
+		if not isinstance(pPasswordTuple, PasswordMap):
+			raise TypeError("Argument passed into append function for PasswordList is not a PasswordMap.")
+		list.append(pPasswordTuple)
+		
+	def popByIdentifier(self, pIdentifier):
+		matches = [x for x in self.list if x.identifier() == pIdentifier]
+		

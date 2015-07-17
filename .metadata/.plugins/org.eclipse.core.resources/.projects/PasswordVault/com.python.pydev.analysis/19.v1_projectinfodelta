@@ -1,7 +1,6 @@
-INSTUPprimary.TestMapInputToIntermediate
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestMapInputToIntermediate.py
-INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1
-TestMapInputToIntermediate=1
-primary.TestMapInputToIntermediate=2
-test_FullFunctionality=4
-__init__=3
+INSTUPprimary.TestPasswordList
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestPasswordList.py
+INFOS:&&1|1|2|0&&2|3|2|1
+test_FullFunctionality=3
+TestPasswordList=1
+primary.TestPasswordList=2

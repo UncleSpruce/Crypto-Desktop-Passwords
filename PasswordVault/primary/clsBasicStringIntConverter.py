@@ -7,7 +7,7 @@ Created on Jul 15, 2015
 if __name__ == '__main__':
 	pass
 
-class BasicStringIntCoverter(object):
+class BasicStringIntConverter(object):
 	'''
 	classdocs
 	'''
@@ -31,6 +31,7 @@ class BasicStringIntCoverter(object):
 		
 	def toInt(self, pString):
 		total = 0
+		#print(pString)
 		lclStringList = list(pString)
 		for index, value in enumerate(lclStringList):
 			#print((128**index), ord(value))

@@ -9,10 +9,12 @@ class BasicDifferenceMapper(object):
 	classdocs
 	'''
 
-	def __init__(self, pSource, pTarget):
+	def __init__(self):
 		'''
 		Constructor
 		'''
+	
+	def defineMapper(self, pSource, pTarget):
 		self.difference = pTarget - pSource
 		
 	def compute(self, pSource):

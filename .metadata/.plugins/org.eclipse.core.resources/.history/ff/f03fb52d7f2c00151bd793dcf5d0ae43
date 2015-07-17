@@ -1,0 +1,22 @@
+'''
+Created on Jul 14, 2015
+
+@author: Daniel Bruce
+'''
+from primary.clsPasswordMap import PasswordMap
+
+class PasswordList(list):
+    '''
+    classdocs
+    '''
+
+    def __init__(self, pStartList):
+        '''
+        Constructor
+        '''
+        self.list = pStartList
+        #Given a vault string, this function will create a list
+    
+    def append(self, pNewPassword):
+    	if not isinstance(pNewPassword, PasswordMap):
+    		raise TypeError("Argument passed into append function for PasswordList is not a PasswordMap.") 

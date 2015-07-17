@@ -17,6 +17,6 @@ class BasicStringJoinerAndCombiner(object):
 		
 	def joinAndCombine(self, pPasswordList):
 		lclList = []
-		for i in pPasswordList:
-			lclList.append(self.stringJoiner.joinTwoStrings(i.identifier, i.password))
+		for i in pPasswordList.list:
+			lclList.append(self.stringJoiner.joinTwoStrings(i.identifier(), i.password()))
 		return self.combiner.combine(lclList)

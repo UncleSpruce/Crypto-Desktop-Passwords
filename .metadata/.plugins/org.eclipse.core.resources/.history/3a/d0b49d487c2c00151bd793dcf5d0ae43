@@ -1,0 +1,39 @@
+'''
+Created on Jul 17, 2015
+
+@author: Daniel Bruce
+'''
+
+from primary.clsBasicStringIntConverter import BasicStringIntCoverter
+from primary.clsBasicStringJoiner import BasicStringJoiner
+from primary.clsBasicCombiner import BasicCombiner
+from primary.clsBasicDifferenceMapper import BasicDifferenceMapper
+
+class TestMapInputToIntermediate(object):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+	
+	def test_FullFunctionality(self):
+		print("Running test FullFunctionality on TestMapIntermediateToResult.")
+		
+		#
+		
+		lclStringIntConverter = BasicStringIntConverter()
+		lclStringJoiner = BasicStringJoiner(lclStringIntConverter)
+		lclCombiner = BasicCombiner()
+		lclDifferenceMapper = BasicDifferenceMapper(lclJoinedAndCombinedInput, 7)
+		
+		
+		lclStringJoiner = BasicStringJoiner()
+		lclBasicCombiner = BasicCombiner()
+		
+		lclHash = BasicHash(BasicStringIntCoverter())
+		lclMap = BasicMapIntermediateToResult(lclHash, 7, 14)
+		#print(lclMap.compute(7))
+		self.assertEqual(lclMap.compute(7), 14)
