@@ -1,0 +1,24 @@
+'''
+Created on Jul 15, 2015
+
+@author: Daniel Bruce
+'''
+
+from Crypto.Hash import SHA512
+import hashlib
+from primary.iHashMethodology import iHashMethodology
+
+class BasicHash(iHashMethodology):
+	'''
+	classdocs
+	'''
+	def __init__(self):
+		'''
+		Constructor
+		'''
+		
+	def compute(self, pArgument):
+		lclString = str(pArgument)
+		lclHashValue = hashlib.sha512(lclString)
+		lclHash = int(.hexdigest())
+		return lclHash

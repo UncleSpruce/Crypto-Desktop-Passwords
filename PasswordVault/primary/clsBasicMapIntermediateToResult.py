@@ -1,8 +1,9 @@
 '''
 Created on Jul 15, 2015
 
-@author: Owner
+@author: Daniel Bruce
 '''
+from primary.clsBasicDifferenceMapper import BasicDifferenceMapper
 
 class BasicMapIntermediateToResult(object):
 	'''
@@ -16,5 +17,6 @@ class BasicMapIntermediateToResult(object):
 		lclHashed = pOneWayHashFunction.compute(pIntermediate)
 		self.differenceMapper = BasicDifferenceMapper(lclHashed, pResult)
 	
-	def mapToResult(self, pIntermediate):
-		return self.differenceMapper.compute(self.oneWayHashFunction.compute(pIntermediate))
+	def compute(self, pIntermediate):
+		lclHashed = self.oneWayHashFunction.compute(pIntermediate)
+		return self.differenceMapper.compute(lclHashed)

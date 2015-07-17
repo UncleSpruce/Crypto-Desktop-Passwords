@@ -9,7 +9,7 @@ class BasicMapInputToIntermediate(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pStringJoinerAndCombiner, pIntermediate, pPasswordList):
+	def __init__(self, pStringJoinerAndCombiner, pPasswordList, pIntermediate):
 		'''
 		Constructor
 		'''
@@ -18,6 +18,6 @@ class BasicMapInputToIntermediate(object):
 		self.stringJoinerAndCombiner = pStringJoinerAndCombiner
 		
 	
-	def mapToIntermediate(self, pPasswordList):
+	def compute(self, pPasswordList):
 		lclJandC = self.stringJoinerAndCombiner.joinAndCombine(pPasswordList)
 		return self.differenceMapper.compute(lclJandC)
