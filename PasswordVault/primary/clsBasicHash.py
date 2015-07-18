@@ -3,24 +3,32 @@ Created on Jul 15, 2015
 
 @author: Daniel Bruce
 '''
-
-from Crypto.Hash import SHA512
+import hashlib
 from primary.iHashMethodology import iHashMethodology
+from primary.clsBasicStringIntConverter import BasicStringIntConverter
 
 class BasicHash(iHashMethodology):
 	'''
 	classdocs
 	'''
-	def __init__(self, pStringIntConverter):
+	def __init__(self, pSalt = 0, pStringIntConverter = BasicStringIntConverter()):
 		'''
 		Constructor
 		'''
-		self.stringIntConverter = pStringIntConverter
+		self.salt = pSalt
+		self.converter = pStringIntConverter
 		
 	def compute(self, pArgument):
-		lclTempString = self.stringIntConverter.toString(pArgument)
-		lclTempString = SHA512.new(lclTempString.encode('utf-8')).hexdigest()
-		return self.stringIntConverter.toInt(lclTempString)
+		lclTemp = self.converter.toString(pArgument).encode('utf-8') #self.stringIntConverter.toString(pArgument + self.salt)
+		#lclTempString = lclTempString.encode('utf-8')
+		#print(lclTempString)
+		lclHash = hashlib.sha512(lclTemp)
+		lclTemp = lclHash.hexdigest()
+		#print(lclTemp)
+		lclTemp = int(lclTemp, base=16)
+		#lclTemp = lclTemp.decode('utf-8') 
+		#lclTemp = self.converter.toInt(lclTemp)
+		return lclTemp
 		#lclHashFunction = SHA512.new()
 		#lclString = str(pArgument)
 		#lclHashValue = lclHashFunction.update(lclString)

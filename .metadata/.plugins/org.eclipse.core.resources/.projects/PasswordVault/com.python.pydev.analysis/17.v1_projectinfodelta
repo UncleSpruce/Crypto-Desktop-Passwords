@@ -1,6 +1,5 @@
-INSTUPprimary.TestPasswordList
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestPasswordList.py
-INFOS:&&1|1|2|0&&2|3|2|1
-test_FullFunctionality=3
-TestPasswordList=1
-primary.TestPasswordList=2
+INSTUPprimary.clsBasicKeyGenerator
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicKeyGenerator.py
+INFOS:&&1|1|2|0
+primary.clsBasicKeyGenerator=2
+BasicKeyGenerator=1

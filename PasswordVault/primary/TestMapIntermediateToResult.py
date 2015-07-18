@@ -6,18 +6,18 @@ Created on Jul 16, 2015
 import unittest
 from primary.clsBasicHash import BasicHash
 from primary.clsBasicMapIntermediateToResult import BasicMapIntermediateToResult
-from primary.clsBasicStringIntConverter import BasicStringIntCoverter
 
 class TestMapIntermediateToResult(unittest.TestCase):
 
-
+	def sample(self, pIntermediate, pResult):
+		lclMap = BasicMapIntermediateToResult()
+		lclMap.defineMap(pIntermediate, pResult)
+		self.assertEqual(lclMap.compute(pIntermediate), pResult)
+		
 	def test_FullFunctionality(self):
 		print("Running test FullFunctionality on TestMapIntermediateToResult.")
-		
-		lclHash = BasicHash(BasicStringIntCoverter())
-		lclMap = BasicMapIntermediateToResult(lclHash, 7, 14)
 		#print(lclMap.compute(7))
-		self.assertEqual(lclMap.compute(7), 14)
+		self.sample(523565, "password")
 
 if __name__ == "__main__":
 	#import sys;sys.argv = ['', 'Test.test_F']

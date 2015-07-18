@@ -13,11 +13,27 @@ from primary.clsBasicMapInputToIntermediate import BasicMapInputToIntermediate
 from primary.clsPasswordTuple import PasswordTuple
 from primary.clsPasswordList import PasswordList
 
-class TestMapFromIntermediateToResult(unittest.TestCase):
+class TestMapFromInputToIntermediate(unittest.TestCase):
 
 	def testName(self):
 		pass
-
+	
+	def sample(self, pPasswordList, pIntermediate):		
+		lclStringIntConverter = BasicStringIntConverter()
+		lclStringJoiner = BasicStringJoiner(lclStringIntConverter)
+		lclCombiner = BasicCombiner()
+		lclJoinerAndCombiner = BasicStringJoinerAndCombiner(lclStringJoiner, lclCombiner)
+		
+		lclCombinedInput = lclJoinerAndCombiner.joinAndCombine(pPasswordList)
+		
+		lclDifferenceMapper = BasicDifferenceMapper()
+		lclDifferenceMapper.defineMap(lclCombinedInput, pIntermediate)
+		
+		lclMapInputToIntermediate = BasicMapInputToIntermediate(lclDifferenceMapper, lclJoinerAndCombiner)
+		lclMapInputToIntermediate.defineMap(pPasswordList, pIntermediate)
+		
+		self.assertEqual(lclMapInputToIntermediate.compute(pPasswordList), pIntermediate)		
+	
 	def test_FullFunctionality(self):
 		print("Running test FullFunctionality on TestMapFromIntermediateToResult.")
 		
@@ -27,22 +43,7 @@ class TestMapFromIntermediateToResult(unittest.TestCase):
 		lclPasswordList.append(lclpwd1)
 		lclPasswordList.append(lclpwd2)
 		
-		lclIntermediate = 77823465
-		
-		lclStringIntConverter = BasicStringIntConverter()
-		lclStringJoiner = BasicStringJoiner(lclStringIntConverter)
-		lclCombiner = BasicCombiner()
-		lclJoinerAndCombiner = BasicStringJoinerAndCombiner(lclStringJoiner, lclCombiner)
-		
-		lclCombinedInput = lclJoinerAndCombiner.joinAndCombine(lclPasswordList)
-		
-		lclDifferenceMapper = BasicDifferenceMapper()
-		lclDifferenceMapper.defineMapper(lclCombinedInput, lclIntermediate)
-		
-		lclMapInputToIntermediate = BasicMapInputToIntermediate(lclDifferenceMapper, lclJoinerAndCombiner)
-		lclMapInputToIntermediate.defineMap(lclPasswordList, lclIntermediate)
-		
-		self.assertEqual(lclMapInputToIntermediate.compute(lclPasswordList), lclIntermediate)
+		self.sample(lclPasswordList, 12894891324)
 
 if __name__ == "__main__":
 	#import sys;sys.argv = ['', 'Test.testName']

@@ -1,10 +1,11 @@
-INSTUPprimary.clsBasicStringJoinerAndCombiner
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringJoinerAndCombiner.py
-INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1
-joinAndCombine=7
-primary.clsBasicStringJoinerAndCombiner=2
-stringJoiner=4
-BasicStringJoinerAndCombiner=1
+INSTUPprimary.clsBasicKeyGenerator
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicKeyGenerator.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&3|7|2|5&&2|8|2|1
+generateKey=8
+mapInputToIntermediate=6
+BasicKeyGenerator.__init__=5
+primary.clsBasicKeyGenerator=2
+mapIntermediateToResult=7
+generator=4
 __init__=3
-combiner=6
-BasicStringJoinerAndCombiner.__init__=5
+BasicKeyGenerator=1

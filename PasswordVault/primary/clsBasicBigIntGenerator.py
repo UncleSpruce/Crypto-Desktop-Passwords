@@ -3,7 +3,7 @@ Created on Jul 15, 2015
 
 @author: Daniel Bruce
 '''
-from primary import iBigIntGenerator
+from primary.iBigIntGenerator import iBigIntGenerator
 import random
 
 class BasicBigIntGenerator(iBigIntGenerator):
@@ -11,10 +11,11 @@ class BasicBigIntGenerator(iBigIntGenerator):
 	classdocs
 	'''
 	
-	def __init__(self, params):
+	def __init__(self, pNumBits = 512):
 		'''
 		Constructor
 		'''
+		self.numBits = pNumBits
 	
 	def generate(self):
-		return random.getrandbits(1000)	
+		return random.getrandbits(self.numBits)	

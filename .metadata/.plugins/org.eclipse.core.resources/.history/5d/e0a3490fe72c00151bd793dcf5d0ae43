@@ -1,0 +1,52 @@
+'''
+Created on Jul 17, 2015
+
+@author: Owner
+'''
+import unittest
+from primary.clsBasicStringJoiner import BasicStringJoiner
+from primary.clsBasicCombiner import BasicCombiner
+from primary.clsBasicDifferenceMapper import BasicDifferenceMapper
+from primary.clsBasicStringJoinerAndCombiner import BasicStringJoinerAndCombiner
+from primary.clsBasicMapInputToIntermediate import BasicMapInputToIntermediate
+from primary.clsPasswordTuple import PasswordTuple
+from primary.clsPasswordList import PasswordList
+from primary.clsBasicHash import BasicHash
+from primary.clsBasicMapIntermediateToResult import BasicMapIntermediateToResult
+from primary.clsBasicStringIntConverter import BasicStringIntConverter
+
+class BasicKeyTest(unittest.TestCase):
+
+
+	def Test_FullFunctionality(self):
+		print("Running FullFunctionality for BasicKeyTest. ")
+		
+		lclpwd1 = PasswordTuple("Facebook", "q234")
+		lclpwd2 = PasswordTuple("Google", "778")
+		lclPasswordList = PasswordList()
+		lclPasswordList.append(lclpwd1)
+		lclPasswordList.append(lclpwd2)
+		
+		lclIntermediate = 77823465
+		
+		lclStringIntConverter = BasicStringIntConverter()
+		lclStringJoiner = BasicStringJoiner(lclStringIntConverter)
+		lclCombiner = BasicCombiner()
+		lclJoinerAndCombiner = BasicStringJoinerAndCombiner(lclStringJoiner, lclCombiner)
+		
+		lclCombinedInput = lclJoinerAndCombiner.joinAndCombine(lclPasswordList)
+		
+		lclDifferenceMapper = BasicDifferenceMapper()
+		lclDifferenceMapper.defineMapper(lclCombinedInput, lclIntermediate)
+		
+		lclMapInputToIntermediate = BasicMapInputToIntermediate(lclDifferenceMapper, lclJoinerAndCombiner)
+		lclMapInputToIntermediate.defineMap(lclPasswordList, lclIntermediate)
+		
+		lclHash = BasicHash(BasicStringIntConverter())
+		lclMap = BasicMapIntermediateToResult(lclHash, 7, 14)
+		#print(lclMap.compute(7))
+		self.assertEqual(lclMap.compute(7), 14)
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main()

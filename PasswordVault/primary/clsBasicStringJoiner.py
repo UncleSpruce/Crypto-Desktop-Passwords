@@ -4,13 +4,14 @@ Created on Jul 15, 2015
 @author: Daniel Bruce
 '''
 from primary.iJoiningBehavior import iJoiningBehavior
+from primary.clsBasicStringIntConverter import BasicStringIntConverter
 
 class BasicStringJoiner(iJoiningBehavior):
 	'''
 	classdocs
 	'''
 
-	def __init__(self, pConverter):
+	def __init__(self, pConverter = BasicStringIntConverter()):
 		'''
 		Constructor
 		'''

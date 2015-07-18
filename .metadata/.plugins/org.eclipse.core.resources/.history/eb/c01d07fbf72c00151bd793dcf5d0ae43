@@ -1,0 +1,27 @@
+'''
+Created on Jul 17, 2015
+
+@author: Daniel Bruce
+'''
+import unittest
+from primary.clsBasicHash import BasicHash
+import hashlib
+
+class TestHash(unittest.TestCase):
+
+	# 2015-07-17 http://www.convertstring.com/Hash/SHA512 states HashSHA512("") = 64D24560970CA14D349BEA0E7D2526D4754BF3283568AB4DD602BD79EB454DC3657D5BB6F9A30C90EA98D9600EBD0FB45D582F4CAE3F8E3C50B0E8FB18059892
+	def test_BasicCase(self):
+		#lclTempString = self.stringIntConverter.toString(pArgument + self.salt)
+		#print(lclTempString)
+		lclHashFunction = BasicHash()
+		lclTempInt = lclHashFunction.compute(0)
+		print(lclTempString)
+		lclTempInt = self.stringIntConverter.toInt(lclTempString) 
+		return lclTempInt
+		
+		#lclHash = BasicHash()
+		#print(lclHash.compute(0))
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main() 

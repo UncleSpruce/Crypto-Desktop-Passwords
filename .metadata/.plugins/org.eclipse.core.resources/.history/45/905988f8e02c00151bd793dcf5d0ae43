@@ -1,0 +1,22 @@
+'''
+Created on Jul 15, 2015
+
+@author: Daniel Bruce
+'''
+
+class BasicKey(object):
+	'''
+	classdocs
+	'''
+	
+	
+	
+	def __init__(self, pInputToIntermediate, pIntermediateToResult):
+		'''
+		Constructor
+		'''
+		self.inputToIntermediate = pInputToIntermediate
+		self.intermediateToResult = pIntermediateToResult
+		
+	def compute(self, pPasswordList):
+		

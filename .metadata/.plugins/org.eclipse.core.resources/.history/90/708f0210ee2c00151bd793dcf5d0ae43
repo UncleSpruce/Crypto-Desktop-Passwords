@@ -1,0 +1,28 @@
+'''
+Created on Jul 15, 2015
+
+@author: Daniel Bruce
+'''
+from primary.clsBasicDifferenceMapper import BasicDifferenceMapper
+
+class BasicMapIntermediateToResult(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, pOneWayHashFunction, pDifferenceMapper = BasicDifferenceMapper()):
+		'''
+		Constructor
+		'''
+		self.oneWayHashFunction = pOneWayHashFunction
+		self.differenceMapper = pDifferenceMapper
+	
+	def defineMap(self, pIntermediate, pResult):
+		#lclHashed = self.oneWayHashFunction.compute(pIntermediate)
+				
+	
+	def compute(self, pIntermediate):
+		lclHashed = self.oneWayHashFunction.compute(pIntermediate)
+		return self.differenceMapper.compute(lclHashed)
+	
+	def encode(self):
+		return self.differenceMapper.difference

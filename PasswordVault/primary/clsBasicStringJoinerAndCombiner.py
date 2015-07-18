@@ -3,12 +3,14 @@ Created on Jul 15, 2015
 
 @author: Daniel Bruce
 '''
+from primary.clsBasicCombiner import BasicCombiner
+from primary.clsBasicStringJoiner import BasicStringJoiner
 
 class BasicStringJoinerAndCombiner(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pStringJoiner, pCombiner):
+	def __init__(self, pStringJoiner = BasicStringJoiner(), pCombiner = BasicCombiner()):
 		'''
 		Constructor
 		'''

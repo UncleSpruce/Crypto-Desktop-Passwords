@@ -1,0 +1,15 @@
+'''
+Created on Jul 17, 2015
+
+@author: Owner
+'''
+
+class Spreader(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, pGenerator):
+		'''
+		Constructor
+		'''
+		

@@ -14,8 +14,11 @@ class BasicDifferenceMapper(object):
 		Constructor
 		'''
 	
-	def defineMapper(self, pSource, pTarget):
+	def defineMap(self, pSource, pTarget):
 		self.difference = pTarget - pSource
 		
 	def compute(self, pSource):
 		return pSource + self.difference
+	
+	def toEncoding(self):
+		return self.difference
