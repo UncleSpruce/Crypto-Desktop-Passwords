@@ -23,5 +23,5 @@ class BasicKey(object):
 		lclResult = self.intermediateToResult.compute(lclIntermediate)
 		return lclResult
 	
-	def encodeKey(self):
-		return ""
+	def encode(self):
+		return (self.inputToIntermediate.encode(), self.intermediateToResult.encode())

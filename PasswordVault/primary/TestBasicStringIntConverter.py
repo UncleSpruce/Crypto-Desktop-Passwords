@@ -7,7 +7,6 @@ import unittest
 from primary.clsBasicStringIntConverter import BasicStringIntConverter
 
 class TestBasicStringIntConverter(unittest.TestCase):
-
 	def test_ConversionFunctionality(self):
 		print("Running ConversionFunctionality for BasicStringIntConverter.")
 		

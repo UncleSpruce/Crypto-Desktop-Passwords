@@ -18,4 +18,4 @@ class BasicStringJoiner(iJoiningBehavior):
 		self.converter = pConverter
 	
 	def joinTwoStrings(self, pString1, pString2):
-		return self.converter.toInt(pString1) + self.converter.toInt(pString2)	
+		return self.converter.toInt(pString1) * self.converter.toInt(pString2)	

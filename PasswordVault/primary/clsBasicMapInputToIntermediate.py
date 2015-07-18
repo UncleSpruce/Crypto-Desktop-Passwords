@@ -25,5 +25,5 @@ class BasicMapInputToIntermediate(object):
 		lclJandC = self.stringJoinerAndCombiner.joinAndCombine(pPasswordList)
 		return self.differenceMapper.compute(lclJandC)
 	
-	def encodeMap(self):
-		return self.differenceMapper.difference
+	def encode(self):
+		return self.differenceMapper.encode()

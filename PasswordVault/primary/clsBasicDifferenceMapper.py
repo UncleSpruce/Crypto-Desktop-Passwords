@@ -9,10 +9,11 @@ class BasicDifferenceMapper(object):
 	classdocs
 	'''
 
-	def __init__(self):
+	def __init__(self, pDifference = 0):
 		'''
 		Constructor
 		'''
+		self.difference = 0
 	
 	def defineMap(self, pSource, pTarget):
 		self.difference = pTarget - pSource
@@ -21,5 +22,5 @@ class BasicDifferenceMapper(object):
 	def compute(self, pSource):
 		return pSource + self.difference
 	
-	def toEncoding(self):
+	def encode(self):
 		return self.difference

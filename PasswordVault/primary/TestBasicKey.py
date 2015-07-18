@@ -32,8 +32,8 @@ class BasicKeyTest(unittest.TestCase):
 		
 		lclBasicKeyGenerator = BasicKeyGenerator()
 		lclKey = lclBasicKeyGenerator.generateKey(pPasswordList, pResult)
-		print(lclKey.compute(pPasswordList))
-		print(pResult)
+		#print(lclKey.compute(pPasswordList))
+		#print(pResult)
 		self.assertEqual(lclKey.compute(pPasswordList), pResult)		
 
 	def test_FullFunctionality(self):
@@ -47,7 +47,23 @@ class BasicKeyTest(unittest.TestCase):
 
 		self.sampleCase(lclPasswordList, "")
 		self.sampleCase(lclPasswordList, "Jeff Henry")
+		self.sampleCase(lclPasswordList, "@@@@@@@@@@@@@@@@@")
+		self.sampleCase(lclPasswordList, "%@%@%^#&")
+		self.sampleCase(lclPasswordList, "hg hg hg hg")
 
+	def test_createSampleKey(self, ):
+		print("Running createSampleKey for BasicKeyTest.")
+		
+		lclpwd1 = PasswordTuple("Facebook", "q234")
+		lclpwd2 = PasswordTuple("Google", "778")
+		lclPasswordList = PasswordList()
+		lclPasswordList.append(lclpwd1)
+		lclPasswordList.append(lclpwd2)
+		
+		lclBasicKeyGenerator = BasicKeyGenerator()
+		lclKey = lclBasicKeyGenerator.generateKey(lclPasswordList, "Grazzly")
+		print(lclKey.encode())
+		
 if __name__ == "__main__":
 	#import sys;sys.argv = ['', 'Test.testName']
 	unittest.main()
