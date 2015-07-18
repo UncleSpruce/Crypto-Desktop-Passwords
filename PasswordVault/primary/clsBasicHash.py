@@ -19,21 +19,22 @@ class BasicHash(iHashMethodology):
 		self.converter = pStringIntConverter
 		
 	def compute(self, pArgument):
-		lclTempString = self.converter.toString(pArgument)
-		print ("Hash computing:")
-		print(lclTempString)
-		lclTempUtf = lclTempString.encode('utf-8') #self.stringIntConverter.toString(pArgument + self.salt)
-		#lclTempString = lclTempString.encode('utf-8')
-		print(lclTempUtf)
-		lclHash = hashlib.sha512(lclTempUtf)
-		print(lclHash)
-		lclTempResult = lclHash.hexdigest()
-		print(lclTempResult)
-		lclTempInt = int(lclTempResult, base=16)
-		print(lclTempInt)
-		#lclTemp = lclTemp.decode('utf-8') 
-		#lclTemp = self.converter.toInt(lclTemp)
-		return lclTempInt
+		return pArgument
+# 		lclTempString = self.converter.toString(pArgument)
+# 		print ("Hash computing:")
+# 		print(lclTempString)
+# 		lclTempUtf = lclTempString.encode('utf-8') #self.stringIntConverter.toString(pArgument + self.salt)
+# 		#lclTempString = lclTempString.encode('utf-8')
+# 		print(lclTempUtf)
+# 		lclHash = hashlib.sha512(lclTempUtf)
+# 		print(lclHash)
+# 		lclTempResult = lclHash.hexdigest()
+# 		print(lclTempResult)
+# 		lclTempInt = int(lclTempResult, base=16)
+# 		print(lclTempInt)
+# 		#lclTemp = lclTemp.decode('utf-8') 
+# 		#lclTemp = self.converter.toInt(lclTemp)
+# 		return lclTempInt
 		#lclHashFunction = SHA512.new()
 		#lclString = str(pArgument)
 		#lclHashValue = lclHashFunction.update(lclString)

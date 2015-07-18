@@ -1,0 +1,43 @@
+'''
+Created on Jul 15, 2015
+
+@author: Daniel Bruce
+'''
+
+import copy
+
+if __name__ == '__main__':
+	pass
+
+class BasicStringIntConverter(object):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, pBase = 128):
+		'''
+		Constructor
+		'''
+		self.base = pBase
+		
+	def toString(self, pBigInt):
+		assert(pBigInt >= 0)
+		lclStringList = []
+		lclBigInt = copy.deepcopy(pBigInt)
+		while lclBigInt != 0:
+			#print(pBigInt)
+			lclStringList.append(chr(lclBigInt % self.base))
+			lclBigInt -= lclBigInt % self.base
+			assert(int(lclBigInt) == lclBigInt)
+			lclBigInt = int(lclBigInt / self.base)
+		assert(lclBigInt == 0)
+		return ''.join(lclStringList)
+		
+	def toInt(self, pString):
+		total = 0
+		print(pString)
+		lclStringList = list(pString)
+		for index, value in enumerate(lclStringList):
+			#print((128**index), ord(value))
+			total += ((self.base ** (index)) * ord(value))
+		return total	

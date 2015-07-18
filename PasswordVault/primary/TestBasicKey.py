@@ -44,8 +44,9 @@ class BasicKeyTest(unittest.TestCase):
 		lclPasswordList = PasswordList()
 		lclPasswordList.append(lclpwd1)
 		lclPasswordList.append(lclpwd2)
-		lclResult = "Jeff Henry"
-		self.sampleCase(lclPasswordList, lclResult)
+
+		self.sampleCase(lclPasswordList, "")
+		self.sampleCase(lclPasswordList, "Jeff Henry")
 
 if __name__ == "__main__":
 	#import sys;sys.argv = ['', 'Test.testName']

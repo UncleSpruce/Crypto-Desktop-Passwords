@@ -28,6 +28,8 @@ class TestCombinedMap(unittest.TestCase):
 		self.assertEqual(lclResult, pResult)
 
 	def test_FullFunctionality(self):
+		print("Running Full Functionality Test For TestCombinedMap.")
+		
 		lclpwd1 = PasswordTuple("Facebook", "q234")
 		lclpwd2 = PasswordTuple("Google", "778")
 		lclPasswordList = PasswordList()

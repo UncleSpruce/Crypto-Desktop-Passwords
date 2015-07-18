@@ -54,12 +54,12 @@ class BasicKeyGenerator(iKeyGenerator):
 # 		
 # 		self.combiner = pCombiner	
 		
-	def generateKey(self, pInputPasswordList, pResultPasswordList):
+	def generateKey(self, pInputPasswordList, pResult):
 		# Generate a large BigInt.
 		lclIntermediate = self.generator.generate()
 		
 		self.mapInputToIntermediate.defineMap(pInputPasswordList, lclIntermediate)
-		self.mapIntermediateToResult.defineMap(lclIntermediate, pResultPasswordList)
+		self.mapIntermediateToResult.defineMap(lclIntermediate, pResult)
 		
 		return BasicKey(self.mapInputToIntermediate, self.mapIntermediateToResult)
 		#lclStringIntConverter = BasicStringIntConverter()
