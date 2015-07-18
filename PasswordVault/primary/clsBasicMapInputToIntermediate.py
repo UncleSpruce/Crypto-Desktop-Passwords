@@ -19,7 +19,7 @@ class BasicMapInputToIntermediate(object):
 	
 	def defineMap(self, pPasswordList, pIntermediate):
 		lclJoinedAndCombinedInput = self.stringJoinerAndCombiner.joinAndCombine(pPasswordList)
-		self.differenceMapper.defineMap(lclJoinedAndCombinedInput, pIntermediate)
+		return self.differenceMapper.defineMap(lclJoinedAndCombinedInput, pIntermediate)
 	
 	def compute(self, pPasswordList):
 		lclJandC = self.stringJoinerAndCombiner.joinAndCombine(pPasswordList)

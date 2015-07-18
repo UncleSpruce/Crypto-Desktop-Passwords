@@ -23,7 +23,7 @@ class BasicMapIntermediateToResult(object):
 		#lclHashed = self.oneWayHashFunction.compute(pIntermediate)
 		lclHashed = self.oneWayHashFunction.compute(pIntermediate)
 		lclResultAsInt = self.converter.toInt(pResult)
-		self.differenceMapper.defineMap(lclHashed, lclResultAsInt)
+		return self.differenceMapper.defineMap(lclHashed, lclResultAsInt)
 	
 	def compute(self, pIntermediate):
 		lclHashed = self.oneWayHashFunction.compute(pIntermediate)

@@ -19,16 +19,21 @@ class BasicHash(iHashMethodology):
 		self.converter = pStringIntConverter
 		
 	def compute(self, pArgument):
-		lclTemp = self.converter.toString(pArgument).encode('utf-8') #self.stringIntConverter.toString(pArgument + self.salt)
+		lclTempString = self.converter.toString(pArgument)
+		print ("Hash computing:")
+		print(lclTempString)
+		lclTempUtf = lclTempString.encode('utf-8') #self.stringIntConverter.toString(pArgument + self.salt)
 		#lclTempString = lclTempString.encode('utf-8')
-		#print(lclTempString)
-		lclHash = hashlib.sha512(lclTemp)
-		lclTemp = lclHash.hexdigest()
-		#print(lclTemp)
-		lclTemp = int(lclTemp, base=16)
+		print(lclTempUtf)
+		lclHash = hashlib.sha512(lclTempUtf)
+		print(lclHash)
+		lclTempResult = lclHash.hexdigest()
+		print(lclTempResult)
+		lclTempInt = int(lclTempResult, base=16)
+		print(lclTempInt)
 		#lclTemp = lclTemp.decode('utf-8') 
 		#lclTemp = self.converter.toInt(lclTemp)
-		return lclTemp
+		return lclTempInt
 		#lclHashFunction = SHA512.new()
 		#lclString = str(pArgument)
 		#lclHashValue = lclHashFunction.update(lclString)

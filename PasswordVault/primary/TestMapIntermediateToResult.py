@@ -17,7 +17,7 @@ class TestMapIntermediateToResult(unittest.TestCase):
 	def test_FullFunctionality(self):
 		print("Running test FullFunctionality on TestMapIntermediateToResult.")
 		#print(lclMap.compute(7))
-		self.sample(523565, "password")
+		self.sample(5235654324980852804578394785, "password")
 
 if __name__ == "__main__":
 	#import sys;sys.argv = ['', 'Test.test_F']

@@ -18,4 +18,4 @@ class BasicBigIntGenerator(iBigIntGenerator):
 		self.numBits = pNumBits
 	
 	def generate(self):
-		return random.getrandbits(self.numBits)	
+		return 0#random.getrandbits(self.numBits)	

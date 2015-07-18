@@ -32,6 +32,8 @@ class BasicKeyTest(unittest.TestCase):
 		
 		lclBasicKeyGenerator = BasicKeyGenerator()
 		lclKey = lclBasicKeyGenerator.generateKey(pPasswordList, pResult)
+		print(lclKey.compute(pPasswordList))
+		print(pResult)
 		self.assertEqual(lclKey.compute(pPasswordList), pResult)		
 
 	def test_FullFunctionality(self):

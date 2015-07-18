@@ -1,0 +1,24 @@
+'''
+Created on Jul 18, 2015
+
+@author: Owner
+'''
+import unittest
+
+
+class TestCombinedMap(unittest.TestCase):
+
+	def test_FullFunctionality(self):
+		lclpwd1 = PasswordTuple("Facebook", "q234")
+		lclpwd2 = PasswordTuple("Google", "778")
+		lclPasswordList = PasswordList()
+		lclPasswordList.append(lclpwd1)
+		lclPasswordList.append(lclpwd2)
+		
+		lclIntermediate = 0
+		
+
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.test_FullFunctionality']
+	unittest.main()

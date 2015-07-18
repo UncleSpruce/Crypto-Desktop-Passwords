@@ -35,7 +35,7 @@ class TestMapFromInputToIntermediate(unittest.TestCase):
 		self.assertEqual(lclMapInputToIntermediate.compute(pPasswordList), pIntermediate)		
 	
 	def test_FullFunctionality(self):
-		print("Running test FullFunctionality on TestMapFromIntermediateToResult.")
+		print("Running test FullFunctionality on TestMapFromInputToIntermediate.")
 		
 		lclpwd1 = PasswordTuple("Facebook", "q234")
 		lclpwd2 = PasswordTuple("Google", "778")

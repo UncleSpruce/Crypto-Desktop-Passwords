@@ -1,5 +1,7 @@
-INSTUPprimary.clsBasicMapInputToIntermediate
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicMapInputToIntermediate.py
-INFOS:&&1|1|2|0
-primary.clsBasicMapInputToIntermediate=2
-BasicMapInputToIntermediate=1
+INSTUPprimary.TestCombinedMap
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestCombinedMap.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1
+TestCombinedMap=1
+test_FullFunctionality=4
+primary.TestCombinedMap=2
+sample=3

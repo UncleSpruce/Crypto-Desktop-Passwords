@@ -5,6 +5,7 @@ Created on Jul 17, 2015
 '''
 import unittest
 from primary.clsBasicHash import BasicHash
+from primary.clsBasicStringIntConverter import BasicStringIntConverter
 
 class TestHash(unittest.TestCase):
 
@@ -12,10 +13,14 @@ class TestHash(unittest.TestCase):
 	def test_BasicCase(self):
 		#lclTempString = self.stringIntConverter.toString(pArgument + self.salt)
 		#print(lclTempString)
-		lclHashFunction = BasicHash()
-		lclTempInt = lclHashFunction.compute(0)
-		print(lclTempInt)
 		
+		lclHash = BasicHash()
+		lclConverter = BasicStringIntConverter()
+		lclInt = lclConverter.toInt("")
+		lclResultInt = lclHash.compute(hex(lclInt))
+		print(lclResultInt)
+		
+		#assert()
 		#lclHash = BasicHash()
 		#print(lclHash.compute(0))
 

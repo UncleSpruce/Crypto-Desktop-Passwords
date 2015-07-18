@@ -16,6 +16,7 @@ class BasicDifferenceMapper(object):
 	
 	def defineMap(self, pSource, pTarget):
 		self.difference = pTarget - pSource
+		return self.difference
 		
 	def compute(self, pSource):
 		return pSource + self.difference
