@@ -1,0 +1,19 @@
+'''
+Created on Jul 19, 2015
+
+@author: Daniel Bruce
+'''
+
+class BasicRecovery(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+	
+	def recover(self, pLabelledKey, pInputPasswordList):
+		
+	
+	def recoverList(self, pVault, pInputList):
