@@ -1,0 +1,18 @@
+'''
+Created on Jul 18, 2015
+
+@author: Daniel Bruce
+'''
+import unittest
+
+class TestPickleBasicLabelledKeyReader(unittest.TestCase):
+	def test_FullFunctionality(self):
+		print("Running FullFunctionality test for the TestPickleBasicLabelledKeyReader.")
+		
+	
+	
+
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.test_FullFunctionality']
+	unittest.main()

@@ -1,0 +1,29 @@
+'''
+Created on Jul 18, 2015
+
+@author: Daniel Bruce
+'''
+import unittest
+import json
+from primary.clsBasicLabelledKeyGenerator import BasicLabelledKeyGenerator
+from primary.clsBasicLabelledKey import BasicLabelledKey
+from primary.clsPasswordList import PasswordList
+from primary.clsPasswordTuple import PasswordTuple
+
+class TestJSONReader(unittest.TestCase):
+
+	def test_FullFunctionality(self):
+		print("Running FullFunctionality test for the TestJSONReader.")
+		
+		x = BasicLabelledKeyGenerator()
+		y = x.generate(PasswordList(), PasswordTuple("RIdentifier", "RPassword"))
+		
+		print(y.encode())
+		#lclJSON = json.decoder() 
+		#lclJSON.decode("['foo', {'bar': ('baz', None, 1.0, 2)}]".encode('utf-8'))
+		#print(lclJSON[0])
+
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main()
