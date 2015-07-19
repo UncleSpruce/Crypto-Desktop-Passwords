@@ -1,0 +1,20 @@
+'''
+Created on Jul 15, 2015
+
+@author: Daniel Bruce
+'''
+
+from primary.clsBasicKeyGenerator import BasicKeyGenerator
+
+class BasicLabelledKeyGenerator(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, pKeyGen = BasicKeyGenerator()):
+		'''
+		Constructor
+		'''
+		self.keyGen = pKeyGen
+	
+	def generate(self, pPasswordList, pResult):
+		

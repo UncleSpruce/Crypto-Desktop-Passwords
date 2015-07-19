@@ -33,4 +33,9 @@ class PasswordList(object):
 # 		>>> x
 # 		list(filter((2).__ne__, x)) #[1, 3, 3, 4]
 # 		matches = [x for x in self.list if x.identifier() == pIdentifier]
-		
+
+	def getIdentifierList(self):
+		lclList = []
+		for v in self.list:
+			lclList.append(v.identifier())
+		return lclList

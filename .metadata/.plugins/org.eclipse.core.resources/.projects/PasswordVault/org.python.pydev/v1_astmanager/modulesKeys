@@ -2,10 +2,11 @@ MODULES_MANAGER_V2
 primary.TestBasicDifferenceMapper|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicDifferenceMapper.py
 primary.TestBasicKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicKey.py
 primary.TestBasicLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicLabelledKeyGenerator.py
-primary.TestBasicStringIntCoverter|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicStringIntCoverter.py
+primary.TestBasicStringIntConverter|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicStringIntConverter.py
 primary.TestCombinedMap|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestCombinedMap.py
 primary.TestFullProcess|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestFullProcess.py
 primary.TestHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestHash.py
+primary.TestInBuiltFunctionality=|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestInBuiltFunctionality=.py
 primary.TestMapFromInputToIntermediate|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestMapFromInputToIntermediate.py
 primary.TestMapIntermediateToResult|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestMapIntermediateToResult.py
 primary.TestPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestPasswordList.py

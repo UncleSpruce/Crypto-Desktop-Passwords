@@ -4,9 +4,9 @@ D:\Google Drive\My Documents\Github\Python\PasswordStorage\.metadata\.plugins\or
 primary.mdlPasswordAppGUISetup1|1436894425945|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\mdlPasswordAppGUISetup1.py
 primary.obseleteBasicMapToIntermediate|1437012033583|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\obseleteBasicMapToIntermediate.py
 primary.clsSaltedHash|1436968862742|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsSaltedHash.py
-primary.TestBasicLabelledKeyGenerator|1436986058860|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicLabelledKeyGenerator.py
-primary.clsBasicStringIntConverter|1437245812524|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringIntConverter.py
-primary.clsBasicBigIntGenerator|1437196391000|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicBigIntGenerator.py
+primary.TestBasicLabelledKeyGenerator|1437266456348|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicLabelledKeyGenerator.py
+primary.clsBasicStringIntConverter|1437250144086|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringIntConverter.py
+primary.clsBasicBigIntGenerator|1437249727912|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicBigIntGenerator.py
 primary.testBasicKeyGenerator|1436983294586|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\testBasicKeyGenerator.py
 primary.TesterQuoraHasher|1437131865923|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TesterQuoraHasher.py
 primary.iBigIntGenerator|1437182425779|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iBigIntGenerator.py
@@ -19,19 +19,21 @@ primary.TestBasicStringIntConverter|1437245655637|D:\Google Drive\My Documents\G
 primary.TestBasicDifferenceMapper|1437195061587|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestBasicDifferenceMapper.py
 primary.iJoiningBehavior|1436973309681|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iJoiningBehavior.py
 primary.clsTestPasswordList|1437151375781|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsTestPasswordList.py
-primary.clsBasicLabelledKeyGenerator|1436977204329|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicLabelledKeyGenerator.py
+primary.clsBasicLabelledKeyGenerator|1437266289021|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicLabelledKeyGenerator.py
 primary.clsBasicKey|1437248653850|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicKey.py
 primary.iIntermediateMapper|1436973562990|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iIntermediateMapper.py
 primary.clsBasicSpreader|1437176607896|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicSpreader.py
 primary.__init__|1436891361686|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\__init__.py
 primary.iCombiningMethodology|1436969345969|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iCombiningMethodology.py
 primary.clsBasicStringJoiner|1437248800376|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringJoiner.py
+primary.clsKeyParser|1437251161943|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsKeyParser.py
 primary.clsBasicStringBigIntCorrespondence|1436973966348|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringBigIntCorrespondence.py
 primary.TestFullProcess|1437049533213|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestFullProcess.py
 primary.TestMapIntermediateToResult|1437226370693|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestMapIntermediateToResult.py
 primary.TestHash|1437195608575|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\TestHash.py
+primary.clsBasicKeyParser|1437251412791|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicKeyParser.py
 primary.clsBasicCombine|1436973396547|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicCombine.py
-primary.clsPasswordList|1437154277870|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsPasswordList.py
+primary.clsPasswordList|1437266235182|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsPasswordList.py
 primary.mdlGUI1|1436923923254|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\mdlGUI1.py
 primary.clsBasicStringJoinerAndCombiner|1437191364413|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringJoinerAndCombiner.py
 primary.iHashMethodology|1436972482556|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iHashMethodology.py
@@ -48,188 +50,198 @@ primary.TestBasicKey|1437249650196|D:\Google Drive\My Documents\Github\Python\Pa
 primary.iStringBigIntCorrespondence|1436971453581|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\iStringBigIntCorrespondence.py
 -- END DISKCACHE
 -- START DICTIONARY
-100
-29=primary.mdlPasswordAppGUISetup1
-11=primary.clsBasicStringIntConverter
-83=BasicSpreader.__init__
-62=iJoiningBehavior
-13=primary.clsBasicCombiner
-57=BasicKey
-33=primary.TestMapFromInputToIntermediate
-58=iIntermediateMapper
-24=primary.iJoiningBehavior
-86=PasswordList.__init__
-55=BasicHash
+104
+31=primary.mdlPasswordAppGUISetup1
+12=primary.clsBasicStringIntConverter
+87=BasicSpreader.__init__
+66=iJoiningBehavior
+14=primary.clsBasicCombiner
+61=BasicKey
+35=primary.TestMapFromInputToIntermediate
+62=iIntermediateMapper
+25=primary.iJoiningBehavior
+91=PasswordList.__init__
+59=BasicHash
 17=primary.clsBasicKey
-67=BasicCombine
-14=primary.clsBasicCombine
-44=BasicBigIntGenerator
-22=primary.iHashMethodology
-30=primary.clsPasswordTuple
-2=primary.clsBasicHash
-36=primary.TestInBuiltFunctionality=
-54=BasicDifferenceMapper
-31=primary.clsSaltedHash
-7=primary.clsBasicBigIntGenerator
-37=primary.TesterQuoraHasher
-12=primary.clsBasicStringIntCalculator
-56=iStringBigIntCorrepsondence
-45=BasicStringBigIntCorrespondence
-49=SaltedHash
-51=PasswordApp1x1
-71=PasswordApp1x1.__init__
-85=BasicKey.__init__
-38=primary.TestBasicStringIntConverter
-6=primary.clsBasicSpreader
-43=primary.TestMapIntermediateToResult
-73=CustomPasswordApp1x1
-59=PasswordList
-63=iHashMethodology
-70=iCombiningMethodology
-75=TestHasher
-25=primary.iKeyGenerator
-41=primary.TestPasswordList
-100=PasswordTuple.__init__
-65=iKeyGenerator
-26=primary.iStringBigIntCorrespondence
-79=BasicStringJoiner.__init__
-66=BasicCombiner
-52=BasicLabelledKeyGenerator
-15=primary.clsBasicKeyGenerator
-94=TestBasicKeyGenerator
-61=MyClass
-93=BasicKeyTest
-32=primary.TestBasicDifferenceMapper
-99=TestBasicLabelledKeyGenerator
-90=TestMapFromInputToIntermediate
-96=TestHash
-23=primary.iIntermediateMapper
-3=primary.clsBasicStringJoiner
-53=PasswordTuple
-18=primary.clsBasicStringBigIntCorrespondence
-84=BasicKeyGenerator.__init__
-35=primary.TestHash
-95=TestPasswordList
-69=BasicStringIntConverter
-68=BasicKeyGenerator
-74=BasicStringJoinerAndCombiner.__init__
-19=primary.mdlGUI1
-34=primary.TestCombinedMap
+71=BasicCombine
+15=primary.clsBasicCombine
+46=BasicBigIntGenerator
+23=primary.iHashMethodology
+32=primary.clsPasswordTuple
+3=primary.clsBasicHash
+38=primary.TestInBuiltFunctionality=
+58=BasicDifferenceMapper
+33=primary.clsSaltedHash
+9=primary.clsBasicBigIntGenerator
+39=primary.TesterQuoraHasher
+90=BasicLabelledKeyGenerator.__init__
+13=primary.clsBasicStringIntCalculator
+60=iStringBigIntCorrepsondence
+47=BasicStringBigIntCorrespondence
+52=SaltedHash
+55=PasswordApp1x1
+75=PasswordApp1x1.__init__
+89=BasicKey.__init__
+40=primary.TestBasicStringIntConverter
+7=primary.clsBasicSpreader
+45=primary.TestMapIntermediateToResult
+77=CustomPasswordApp1x1
+54=BasicKeyParser
+63=PasswordList
+67=iHashMethodology
+74=iCombiningMethodology
+79=TestHasher
+26=primary.iKeyGenerator
+43=primary.TestPasswordList
+104=PasswordTuple.__init__
+69=iKeyGenerator
+27=primary.iStringBigIntCorrespondence
+83=BasicStringJoiner.__init__
+70=BasicCombiner
+57=BasicLabelledKeyGenerator
+16=primary.clsBasicKeyGenerator
+99=TestBasicKeyGenerator
+65=MyClass
+98=BasicKeyTest
+34=primary.TestBasicDifferenceMapper
+94=TestBasicLabelledKeyGenerator
+95=TestMapFromInputToIntermediate
+101=TestHash
+24=primary.iIntermediateMapper
+4=primary.clsBasicStringJoiner
+56=PasswordTuple
+19=primary.clsBasicStringBigIntCorrespondence
+88=BasicKeyGenerator.__init__
+37=primary.TestHash
+100=TestPasswordList
+73=BasicStringIntConverter
+72=BasicKeyGenerator
+78=BasicStringJoinerAndCombiner.__init__
+20=primary.mdlGUI1
+36=primary.TestCombinedMap
 8=primary.clsBasicDifferenceMapper
-81=BasicDifferenceMapper.__init__
-10=primary.TestBasicKey
-47=BasicMapInputToIntermediate
-4=primary.obseleteBasicMapToIntermediate
-89=BasicLabelledKeyGenerator.generateKey
-92=TestCombinedMap
-42=primary.TestBasicLabelledKeyGenerator
-20=primary.iBigIntGenerator
-39=primary.testBasicKeyGenerator
-78=BasicMapIntermediateToResult.__init__
-80=BasicMapInputToIntermediate.__init__
-48=BasicStringJoiner
-50=iBigIntGenerator
-88=BasicBigIntGenerator.__init__
-98=TestInBuiltFunctionality
-5=primary.clsBasicMapIntermediateToResult
-82=BasicDifferenceMapper.defineMap
-40=primary.clsTestPasswordList
-16=primary.clsBasicLabelledKeyGenerator
-21=primary.iCombiningMethodology
-46=BasicSpreader
-77=TestBasicStringIntConverter
-60=BasicStringJoinerAndCombiner
-28=primary.clsPasswordList
-1=primary.clsBasicStringJoinerAndCombiner
-76=BasicHash.__init__
-87=SaltedHash.__init__
-9=primary.clsBasicMapInputToIntermediate
-64=BasicMapIntermediateToResult
-72=BasicStringIntConverter.__init__
-27=primary.testerQuoraHash
-91=TestMapIntermediateToResult
-97=TestDifferenceMapper
+85=BasicDifferenceMapper.__init__
+11=primary.TestBasicKey
+49=BasicMapInputToIntermediate
+5=primary.obseleteBasicMapToIntermediate
+97=TestCombinedMap
+44=primary.TestBasicLabelledKeyGenerator
+21=primary.iBigIntGenerator
+41=primary.testBasicKeyGenerator
+82=BasicMapIntermediateToResult.__init__
+84=BasicMapInputToIntermediate.__init__
+50=BasicStringJoiner
+53=iBigIntGenerator
+93=BasicBigIntGenerator.__init__
+103=TestInBuiltFunctionality
+6=primary.clsBasicMapIntermediateToResult
+86=BasicDifferenceMapper.defineMap
+42=primary.clsTestPasswordList
+18=primary.clsBasicLabelledKeyGenerator
+22=primary.iCombiningMethodology
+28=primary.clsKeyParser
+48=BasicSpreader
+81=TestBasicStringIntConverter
+1=primary.clsBasicKeyParser
+64=BasicStringJoinerAndCombiner
+30=primary.clsPasswordList
+2=primary.clsBasicStringJoinerAndCombiner
+80=BasicHash.__init__
+92=SaltedHash.__init__
+10=primary.clsBasicMapInputToIntermediate
+68=BasicMapIntermediateToResult
+76=BasicStringIntConverter.__init__
+29=primary.testerQuoraHash
+51=KeyParser
+96=TestMapIntermediateToResult
+102=TestDifferenceMapper
 -- END DICTIONARY
 -- START TREE 1
-21
+22
 Ba|0|
-bas|18|BasicStringJoinerAndCombiner!9@BasicHash!17@BasicStringJoiner!25@BasicMapInputToIntermediate!33@BasicMapIntermediateToResult!41@BasicSpreader!49@BasicBigIntGenerator!57@BasicDifferenceMapper!65@BasicMapInputToIntermediate!73@BasicKeyTest!81@BasicStringIntConverter!89@BasicLabelledKeyGenerator!97@BasicCombiner!105@BasicCombine!113@BasicKeyGenerator!121@BasicLabelledKeyGenerator!129@BasicKey!137@BasicStringBigIntCorrespondence!145@
+bas|19|BasicKeyParser!9@BasicStringJoinerAndCombiner!17@BasicHash!25@BasicStringJoiner!33@BasicMapInputToIntermediate!41@BasicMapIntermediateToResult!49@BasicSpreader!57@BasicDifferenceMapper!65@BasicBigIntGenerator!73@BasicMapInputToIntermediate!81@BasicKeyTest!89@BasicStringIntConverter!97@BasicLabelledKeyGenerator!105@BasicCombiner!113@BasicCombine!121@BasicKeyGenerator!129@BasicKey!137@BasicLabelledKeyGenerator!145@BasicStringBigIntCorrespondence!153@
 big|0|
 cls|0|
 com|0|
-cus|1|CustomPasswordApp1x1!153@
+cus|1|CustomPasswordApp1x1!161@
 has|0|
-ibi|1|iBigIntGenerator!161@
-ico|1|iCombiningMethodology!169@
-iha|1|iHashMethodology!177@
-iin|1|iIntermediateMapper!185@
-ijo|1|iJoiningBehavior!193@
-ike|1|iKeyGenerator!201@
-ist|1|iStringBigIntCorrepsondence!209@
+ibi|1|iBigIntGenerator!169@
+ico|1|iCombiningMethodology!177@
+iha|1|iHashMethodology!185@
+iin|1|iIntermediateMapper!193@
+ijo|1|iJoiningBehavior!201@
+ike|1|iKeyGenerator!209@
+ist|1|iStringBigIntCorrepsondence!217@
+key|1|KeyParser!225@
 lcl|0|
-mai|1|main!154@
-myc|1|MyClass!217@
-pas|3|PasswordList!225@PasswordApp1x1!233@PasswordTuple!241@
-sal|1|SaltedHash!249@
+mai|1|main!162@
+myc|1|MyClass!233@
+pas|3|PasswordList!241@PasswordApp1x1!249@PasswordTuple!257@
+sal|1|SaltedHash!265@
 spr|0|
-tes|12|TestDifferenceMapper!257@TestMapFromInputToIntermediate!265@TestCombinedMap!273@TestHash!281@TestInBuiltFunctionality!289@TestHasher!297@TestBasicStringIntConverter!305@TestBasicKeyGenerator!313@TestPasswordList!321@TestPasswordList!329@TestBasicLabelledKeyGenerator!337@TestMapIntermediateToResult!345@
+tes|12|TestDifferenceMapper!273@TestMapFromInputToIntermediate!281@TestCombinedMap!289@TestHash!297@TestInBuiltFunctionality!305@TestHasher!313@TestBasicStringIntConverter!321@TestBasicKeyGenerator!329@TestPasswordList!337@TestPasswordList!345@TestBasicLabelledKeyGenerator!353@TestMapIntermediateToResult!361@
 -- END TREE
 -- START TREE 2
-56
+61
 !<m|0|
 Ba|0|
-__i|29|__init__!44&58@__init__!45&146@__init__!46&50@__init__!47&34@__init__!48&26@__init__!49&250@__init__!50&162@__init__!51&234@__init__!52&130@__init__!53&242@__init__!54&66@__init__!55&18@__init__!56&210@__init__!57&138@__init__!58&186@__init__!59&226@__init__!60&10@__init__!61&218@__init__!62&194@__init__!47&74@__init__!63&178@__init__!64&42@__init__!65&202@__init__!66&106@__init__!67&114@__init__!68&122@__init__!69&90@__init__!70&170@__init__!52&98@
-_fr|1|_frame_6!71&235@
-_im|1|_images!51&235@
+__i|31|__init__!46&74@__init__!47&154@__init__!48&58@__init__!49&42@__init__!50&34@__init__!51&226@__init__!52&266@__init__!53&170@__init__!54&10@__init__!55&250@__init__!56&258@__init__!57&146@__init__!58&66@__init__!59&26@__init__!60&218@__init__!61&138@__init__!62&194@__init__!63&242@__init__!64&18@__init__!65&234@__init__!66&202@__init__!49&82@__init__!67&186@__init__!68&50@__init__!69&210@__init__!70&114@__init__!71&122@__init__!72&130@__init__!73&98@__init__!74&178@__init__!57&106@
+_fr|1|_frame_6!75&251@
+_im|1|_images!55&251@
 add|0|
-app|1|append!59&226@
-bas|1|base!72&91@
-btn|6|btnEnterKeyCredentials!71&235@btnNewVault!71&235@btnModifyVault_command!73&154@btnModifyVault!71&235@btnNewVault_command!73&154@btnEnterKeyCredentials_command!73&154@
-com|12|combiner!74&11@compute!54&66@compute!55&18@compute!47&74@compute!57&138@combine!66&106@combine!70&170@compute!49&250@combine!67&114@compute!75&298@compute!64&42@compute!63&178@
-con|5|converter!76&19@convertStringThenInt!77&306@converter!78&43@convertIntThenString!77&306@converter!79&27@
+app|1|append!63&242@
+bas|1|base!76&99@
+btn|6|btnEnterKeyCredentials!75&251@btnNewVault!75&251@btnModifyVault_command!77&162@btnModifyVault!75&251@btnNewVault_command!77&162@btnEnterKeyCredentials_command!77&162@
+com|12|combiner!78&19@compute!58&66@compute!59&26@compute!49&82@compute!61&138@combine!70&114@combine!74&178@compute!52&266@combine!71&122@compute!79&314@compute!68&50@compute!67&186@
+con|5|converter!80&27@convertStringThenInt!81&322@converter!82&51@convertIntThenString!81&322@converter!83&35@
 cre|0|
-def|3|defineMap!64&42@defineMap!47&74@defineMap!54&66@
-dif|4|differenceMapper!80&75@differenceMapper!78&43@difference!81&67@difference!82&67@
+def|3|defineMap!68&50@defineMap!49&82@defineMap!58&66@
+dif|4|differenceMapper!84&83@differenceMapper!82&51@difference!85&67@difference!86&67@
 e|0|
-enc|4|encode!54&66@encode!57&138@encode!47&74@encode!64&42@
-ent|8|entPasswordSearch_validatecommand!73&154@entPasswordSearch!71&235@entVaultText_validatecommand!73&154@entVaultText_invalidcommand!73&154@entPasswordSearch_invalidcommand!73&154@entVaultText_xscrollcommand!73&154@entPasswordSearch_xscrollcommand!73&154@entVaultText!71&235@
+enc|4|encode!58&66@encode!61&138@encode!49&82@encode!68&50@
+ent|8|entPasswordSearch_validatecommand!77&162@entPasswordSearch!75&251@entVaultText_validatecommand!77&162@entVaultText_invalidcommand!77&162@entPasswordSearch_invalidcommand!77&162@entVaultText_xscrollcommand!77&162@entPasswordSearch_xscrollcommand!77&162@entVaultText!75&251@
 f|0|
 fir|0|
 ful|0|
-gen|6|generateKey!68&122@generateKey!52&130@generateKey!65&202@generate!44&58@generator!83&51@generator!84&123@
+gen|6|generateKey!72&130@generate!57&146@generateKey!69&210@generate!46&74@generator!87&59@generator!88&131@
+get|1|getIdentifierList!63&242@
 has|0|
-ide|1|identifier!53&242@
+ide|1|identifier!56&258@
 ind|0|
-inp|1|inputToIntermediate!85&139@
-int|1|intermediateToResult!85&139@
-joi|3|joinAndCombine!60&10@joinTwoStrings!48&26@joinTwoStrings!62&194@
+inp|1|inputToIntermediate!89&139@
+int|1|intermediateToResult!89&139@
+joi|3|joinAndCombine!64&18@joinTwoStrings!50&34@joinTwoStrings!66&202@
+key|1|keyGen!90&147@
 las|0|
-lbl|3|lblSelectAVault!71&235@lblSelectAVaultKey!71&235@lblPasswordSelection!71&235@
-lcl|1|lclHasher!75&299@
-lis|1|list!86&227@
-lst|6|lstPasswords_xscrollcommand!73&154@lstVaultKeySelector_yscrollcommand!73&154@lstVaultKeySelector!71&235@lstPasswords_yscrollcommand!73&154@lstVaultKeySelector_xscrollcommand!73&154@lstPasswords!71&235@
-m_s|1|m_salt!87&251@
-map|4|mapInputToIntermediate!84&123@mapToIntermediate!47&34@mapIntermediateToResult!84&123@map!58&186@
-num|1|numBits!88&59@
-one|1|oneWayHashFunction!78&43@
-pas|1|password!53&242@
+lbl|3|lblSelectAVault!75&251@lblSelectAVaultKey!75&251@lblPasswordSelection!75&251@
+lcl|1|lclHasher!79&315@
+lis|1|list!91&243@
+lst|6|lstPasswords_xscrollcommand!77&162@lstVaultKeySelector_yscrollcommand!77&162@lstVaultKeySelector!75&251@lstPasswords_yscrollcommand!77&162@lstVaultKeySelector_xscrollcommand!77&162@lstPasswords!75&251@
+m_s|1|m_salt!92&267@
+map|4|mapInputToIntermediate!88&131@mapToIntermediate!49&42@mapIntermediateToResult!88&131@map!62&194@
+met|0|
+num|1|numBits!93&75@
+one|1|oneWayHashFunction!82&51@
+par|0|
+pas|1|password!56&258@
 pma|0|
-pop|1|popByIdentifier!59&226@
-rad|2|radUsingText!71&235@radUsingText_command!73&154@
-res|1|resultIdentifier!89&131@
-sal|1|salt!76&19@
-sam|4|sample!90&266@sample!91&346@sample!92&274@sampleCase!93&82@
-set|1|setUp!94&314@
+pop|1|popByIdentifier!63&242@
+pri|1|printAnEncoding!94&354@
+rad|2|radUsingText!75&251@radUsingText_command!77&162@
+res|0|
+sal|1|salt!80&27@
+sam|4|sample!95&282@sample!96&362@sample!97&290@sampleCase!98&90@
+set|1|setUp!99&330@
 sp|0|
-spr|1|spread!46&50@
-str|3|stringJoinerAndCombiner!80&35@stringJoiner!74&11@stringJoinerAndCombiner!80&75@
-tea|1|tearDown!94&314@
-tes|14|test_FullFunctionality!92&274@test_FullFunctionality!95&330@test_BasicCase!96&282@test_ConversionFunctionality!77&306@test_FullFunctionality!95&322@test_FullFunctionality!93&82@testName!90&266@test_FullFunctionality!97&258@test_Doctorb!98&290@test_generatesValidKey!94&314@test_FullFunctionality!91&346@test_Functionality!99&338@test_createSampleKey!93&82@test_FullFunctionality!90&266@
+spr|1|spread!48&58@
+str|3|stringJoinerAndCombiner!84&43@stringJoiner!78&19@stringJoinerAndCombiner!84&83@
+tea|1|tearDown!99&330@
+tes|14|test_FullFunctionality!97&290@test_FullFunctionality!100&346@test_BasicCase!101&298@test_ConversionFunctionality!81&322@test_FullFunctionality!100&338@test_FullFunctionality!98&90@testName!95&282@test_FullFunctionality!102&274@test_Doctorb!103&306@test_FullFunctionality!94&354@test_generatesValidKey!99&330@test_FullFunctionality!96&362@test_createSampleKey!98&90@test_FullFunctionality!95&282@
 tex|0|
-tob|2|toBigInt!45&146@toBigInt!52&98@
+tob|2|toBigInt!47&154@toBigInt!57&106@
 toe|0|
-toi|3|toInt!75&298@toInt!56&210@toInt!69&90@
-tos|5|toString!69&90@toString!52&98@toString!45&146@toString!56&210@toString!75&298@
-tup|1|tuple!100&243@
+toi|3|toInt!79&314@toInt!60&218@toInt!73&98@
+tos|5|toString!73&98@toString!57&106@toString!47&154@toString!60&218@toString!79&314@
+tup|1|tuple!104&259@
 use|0|
 -- END TREE

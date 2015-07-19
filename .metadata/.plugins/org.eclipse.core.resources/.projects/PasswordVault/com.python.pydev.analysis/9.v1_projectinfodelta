@@ -1,10 +1,1 @@
-INSTUPprimary.clsBasicStringIntConverter
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\primary\clsBasicStringIntConverter.py
-INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&2|7|2|1
-toInt=7
-primary.clsBasicStringIntConverter=2
-BasicStringIntConverter.__init__=5
-BasicStringIntConverter=1
-toString=6
-__init__=3
-base=4
+DELSTRprimary.clsPasswordList

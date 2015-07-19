@@ -1,0 +1,21 @@
+'''
+Created on Jul 18, 2015
+
+@author: Daniel Bruce
+'''
+from primary.clsBasicKeyGenerator import BasicKeyGenerator
+
+class BasicLabelledKey(object):
+	# This class's data is a 4-tuple (identifier list, result identifier, methodology, method key)
+	'''
+	classdocs
+	'''
+	
+	
+	def __init__(self, pPasswordList, pResult, pMethod, pKey):
+		'''
+		Constructor
+		'''
+		self.keyGen = pKeyGen
+	
+	def 
