@@ -17,8 +17,8 @@ class DLPHash(iHashMethodology):
 		'''
 		Constructor
 		'''
-		self.modulus = 7
-		self.base = 2
+		self.modulus = pModulus
+		self.base = pBase
 		
 	def defineMap(self, pModulus, pBase = 2):
 		self.modulus = pModulus
@@ -26,3 +26,6 @@ class DLPHash(iHashMethodology):
 	
 	def compute(self, pArgument):
 		return pow(self.base, pArgument, self.modulus)
+	
+	def toString(self):
+		return "(" + str(self.modulus) + "," + str(self.base) + ")"

@@ -1,0 +1,50 @@
+'''
+Created on Jul 19, 2015
+
+@author: Daniel Bruce
+'''
+
+class SimpleKeyGenerator(object):
+	'''
+	classdocs
+	'''
+from methodology.clsBasicKey import BasicKey
+from methodology.iKeyGenerator import iKeyGenerator
+from methodology.clsBasicBigIntGenerator import BasicBigIntGenerator
+from methodology.clsBasicMapInputToIntermediate import BasicMapInputToIntermediate
+from methodology.clsBasicMapIntermediateToResult import BasicMapIntermediateToResult
+
+class BasicKeyGenerator(iKeyGenerator):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, pGenerator = BasicBigIntGenerator(), pMapInputToIntermediate = BasicMapInputToIntermediate(), pMapIntermediateToResult = BasicMapIntermediateToResult()):#pConverter, pStringJoiner, pCombiner):
+		'''
+		Constructor
+		'''
+		self.generator = pGenerator
+		
+		self.mapInputToIntermediate = pMapInputToIntermediate
+		self.mapIntermediateToResult = pMapIntermediateToResult
+		
+# 		self.converter
+# 		
+# 		self.stringJoiner = pStringJoiner
+# 		
+# 		self.combiner = pCombiner	
+		
+	def generateKey(self, pInputPasswordList, pResult):
+		# Generate a large BigInt.
+		lclIntermediate = self.generator.generate()
+		
+		self.mapInputToIntermediate.defineMap(pInputPasswordList, lclIntermediate)
+		self.mapIntermediateToResult.defineMap(lclIntermediate, pResult)
+		
+		return BasicKey(self.mapInputToIntermediate, self.mapIntermediateToResult)
+
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+		

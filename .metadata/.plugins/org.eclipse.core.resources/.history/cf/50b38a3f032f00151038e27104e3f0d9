@@ -1,0 +1,17 @@
+'''
+Created on Jul 20, 2015
+
+@author: Daniel Bruce
+'''
+import unittest
+
+class testSimpleLabelledKeyGenerator(unittest.TestCase):
+
+	def test_FullTest(self):
+		print("Running FullTest on testSimpleLabelledKeyGenerator.")
+		pass
+
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main()

@@ -1,0 +1,37 @@
+'''
+Created on Jul 19, 2015
+
+@author: Daniel Bruce
+'''
+from methodology.clsBasicStringJoinerAndCombiner import BasicStringJoinerAndCombiner
+from methodology.clsBasicDifferenceMapper import BasicDifferenceMapper
+from methodology.clsBasicStringIntConverter import BasicStringIntConverter
+from methodology.clsDLPHash import DLPHash
+
+class clsSimpleKey(object):
+	'''
+	classdocs
+	'''
+		
+	def __init__(self, pJoinerAndCombiner = BasicStringJoinerAndCombiner(), pHash = DLPHash(), pDifferenceMapper = BasicDifferenceMapper(), pConverter = BasicStringIntConverter()):#, pInputToIntermediate = BasicMapInputToIntermediate(), pIntermediateToResult = BasicMapIntermediateToResult()):
+		'''
+		Constructor
+		'''
+		self.hash = pHash
+		self.joinerAndCombiner = pJoinerAndCombiner
+		self.differenceMapper = pDifferenceMapper
+		self.converter = pConverter
+		
+		#self.inputToIntermediate = pInputToIntermediate
+		#self.intermediateToResult = pIntermediateToResult
+		
+	def compute(self, pPasswordList):
+		lclIntermediate = self.inputToIntermediate.compute(pPasswordList)
+		lclResult = self.intermediateToResult.compute(lclIntermediate)
+		return lclResult
+	
+	def encode(self):
+		return (self.inputToIntermediate.encode(), self.intermediateToResult.encode())
+	
+	def toString(self):
+		return "(" + self.inputToIntermediate.toString() + "," + self.intermediateToResult.toString() + ")"
