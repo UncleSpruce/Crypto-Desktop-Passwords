@@ -8,22 +8,27 @@ from methodology.clsPasswordList import PasswordList
 from methodology.clsPasswordTuple import PasswordTuple
 
 class BasicLabelledKey(object):
-	# This class's data is a 4-tuple (identifier list, result identifier, methodology, method key)
+	# This class's data is a 6-tuple (keyName, identifier list, result identifier, methodology, method key, validation code)
 	'''
 	classdocs
 	'''
 
-	def __init__(self, pPasswordIdentifierList, pResultIdentifier, pMethod, pKey):
+	def __init__(self, pKeyName, pPasswordIdentifierList, pResultIdentifier, pMethod, pKey, pValidationCode):
 		'''
 		Constructor
 		'''
+		self.keyName = str(pKeyName)
 		self.passwordIdentifierList = pPasswordIdentifierList
 		self.resultIdentifier = pResultIdentifier
 		self.method = pMethod
 		self.key = pKey
+		self.validationCode = pValidationCode
+	
+	def name(self):
+		return self.keyName
 	
 	def passwordIdentifierList(self):
-		return self.passwordList
+		return self.passwordIdentifierList
 	
 	def resultIdentifier(self):
 		return self.resultIdentifier
@@ -49,12 +54,15 @@ class BasicLabelledKey(object):
 		lclPasswordList = copy.copy(pPasswordList)
 		for i in lclPasswordList.list:
 			if not i.identifier() in self.passwordIdentifierList:
-				lclPasswordList.popByIdentifier(i)
+				lclPasswordList.getByIdentifier(i)
 		# The list should contain exactly the same items mentioned in self.passwordIdentifierList.
+		print(lclPasswordList.toString())
+		
 		return self.key.compute(lclPasswordList)
 	
 	def computeReturnTuple(self, pPasswordList):
 		return PasswordTuple(self.resultIdentifier, self.compute(pPasswordList))
 	
-	def encode(self):
-		return (self.passwordIdentifierList, self.resultIdentifier, self.method, self.key.encode())
+	def toString(self):
+		# print (self.passwordIdentifierList)
+		return "(" + self.keyName + "," + str(self.passwordIdentifierList) + "," + self.resultIdentifier + "," + self.method + "," + self.key.toString() + ")"

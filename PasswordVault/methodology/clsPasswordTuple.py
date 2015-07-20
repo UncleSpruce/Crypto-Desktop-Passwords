@@ -20,3 +20,6 @@ class PasswordTuple(object):
 	
 	def password(self):
 		return self.tuple[1]
+	
+	def toString(self):
+		return "(" + str(self.tuple[0]) + "," + str(self.tuple[1]) + ")"

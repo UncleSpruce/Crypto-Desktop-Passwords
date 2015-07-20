@@ -63,7 +63,7 @@ class BasicKeyGenerator(iKeyGenerator):
 		
 		return BasicKey(self.mapInputToIntermediate, self.mapIntermediateToResult)
 		#lclStringIntConverter = BasicStringIntConverter()
- 		#lclStringJoiner = BasicStringJoiner(lclStringIntConverter)
+		#lclStringJoiner = BasicStringJoiner(lclStringIntConverter)
 # 		lclCombiner = BasicCombiner()
 # 		lclJoinerAndCombiner = BasicStringJoinerAndCombiner(lclStringJoiner, lclCombiner)
 # 		

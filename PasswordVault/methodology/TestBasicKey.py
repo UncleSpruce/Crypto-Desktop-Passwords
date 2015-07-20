@@ -51,7 +51,7 @@ class BasicKeyTest(unittest.TestCase):
 		self.sampleCase(lclPasswordList, "%@%@%^#&")
 		self.sampleCase(lclPasswordList, "hg hg hg hg")
 
-	def test_createSampleKey(self, ):
+	def test_createSampleKey(self):
 		print("Running createSampleKey for BasicKeyTest.")
 		
 		lclpwd1 = PasswordTuple("Facebook", "q234")

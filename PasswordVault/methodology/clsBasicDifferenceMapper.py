@@ -24,3 +24,6 @@ class BasicDifferenceMapper(object):
 	
 	def encode(self):
 		return self.difference
+	
+	def toString(self):
+		return str(self.difference)

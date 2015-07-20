@@ -27,3 +27,6 @@ class BasicMapInputToIntermediate(object):
 	
 	def encode(self):
 		return self.differenceMapper.encode()
+	
+	def toString(self):
+		return self.differenceMapper.toString()

@@ -25,3 +25,6 @@ class BasicKey(object):
 	
 	def encode(self):
 		return (self.inputToIntermediate.encode(), self.intermediateToResult.encode())
+	
+	def toString(self):
+		return "(" + self.inputToIntermediate.toString() + "," + self.intermediateToResult.toString() + ")"

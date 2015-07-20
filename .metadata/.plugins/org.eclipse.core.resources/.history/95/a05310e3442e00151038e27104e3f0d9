@@ -1,0 +1,16 @@
+'''
+Created on Jul 19, 2015
+
+@author: Daniel Bruce
+'''
+import unittest
+
+class TestVault(unittest.TestCase):
+	def test_FullFunctionality(self):
+		print("Running FullFunctionality Test For TestVault.")
+		pass
+
+	def sample1(self):
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main()

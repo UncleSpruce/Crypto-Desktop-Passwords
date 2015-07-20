@@ -1,0 +1,36 @@
+'''
+Created on Jul 19, 2015
+
+@author: Owner
+'''
+import unittest
+
+
+class TestRecoveryList(unittest.TestCase):
+
+	def test_FullFunctionality(self):
+		pass
+
+	def sample1(self):
+		lclpwd1 = PasswordTuple("Facebook", "q234")
+		lclpwd2 = PasswordTuple("Google", "778")
+		lclpwd3 = PasswordTuple("LinkedIn", "P324")
+		lclPasswordList = PasswordList()
+		
+		lclPasswordList.append(lclpwd1)
+		lclPasswordList.append(lclpwd2)
+		
+		lclGen = BasicLabelledKeyGenerator()
+		lclKey = lclGen.generate(lclPasswordList, lclpwd3)
+		
+		lclpwd4 = PasswordTuple("Quora", "Pdd324")
+		lclPasswordList.append(lclpwd4)
+		
+		lclComputed = lclKey.computeReturnTuple(lclPasswordList)
+		print(lclComputed.password())
+		self.assertEqual(lclComputed.password(), lclpwd3.password())
+		pass
+	
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main()

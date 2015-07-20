@@ -1,0 +1,29 @@
+'''
+Created on Jul 19, 2015
+
+@author: Daniel Bruce
+'''
+import copy
+
+class BasicRecovery(object):
+	'''
+	classdocs
+	'''
+	def __init__(self):
+		'''
+		Constructor
+		'''
+	
+	def recover(self, pVault, pInputList):
+		lclResultList = copy.copy(pInputList)
+		flag = False
+		while not flag:
+			flag = True
+			for key in pVault.getList():
+				lclResult = key.computeReturnTuple(pInputList)
+				print(lclResultList.toString())
+				testVar = input("Ask user for something.")
+				if lclResult.identifier() not in lclResultList.getIdentifierList() and lclResult.password() != -1:
+					flag = False
+					lclResultList.append(lclResult)
+		return lclResultList

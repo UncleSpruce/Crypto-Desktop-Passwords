@@ -32,3 +32,6 @@ class BasicMapIntermediateToResult(object):
 	
 	def encode(self):
 		return self.differenceMapper.difference
+	
+	def toString(self):
+		return self.differenceMapper.toString()
