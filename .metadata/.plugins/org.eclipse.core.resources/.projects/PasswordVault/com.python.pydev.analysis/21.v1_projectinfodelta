@@ -1,7 +1,20 @@
-INSTUPmethodology.clsGenericRecovery
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericRecovery.py
-INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1
-recover=4
-GenericRecovery=1
-methodology.clsGenericRecovery=2
-__init__=3
+INSTUPGUI.CustomPasswordApp1x1
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\CustomPasswordApp1x1.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1&&2|6|2|1&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1&&2|13|2|1&&2|14|2|1&&2|15|2|1&&2|16|2|1&&2|17|2|0
+entPasswordSearch_invalidcommand=6
+entVaultText_invalidcommand=9
+btnNewVault_command=5
+lstPasswords_yscrollcommand=13
+lstPasswords_xscrollcommand=12
+lstVaultKeySelector_xscrollcommand=14
+CustomPasswordApp1x1=1
+main=17
+lstVaultKeySelector_yscrollcommand=15
+entVaultText_validatecommand=10
+btnModifyVault_command=4
+entPasswordSearch_validatecommand=7
+entVaultText_xscrollcommand=11
+entPasswordSearch_xscrollcommand=8
+btnEnterKeyCredentials_command=3
+radUsingText_command=16
+GUI.CustomPasswordApp1x1=2

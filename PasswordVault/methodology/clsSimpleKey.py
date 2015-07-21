@@ -31,6 +31,7 @@ class SimpleKey(object):
 		lclJoinedAndCombined = self.joinerAndCombiner.joinAndCombine(pPasswordList)
 		lclHashed = self.hash.compute(lclJoinedAndCombined)
 		if self.hash.compute(lclHashed) != self.validationCode:
+			print("Validation not passed.")
 			return -1
 		lclResultAsInt = self.differenceMapper.compute(lclHashed)
 		return self.converter.toString(lclResultAsInt)

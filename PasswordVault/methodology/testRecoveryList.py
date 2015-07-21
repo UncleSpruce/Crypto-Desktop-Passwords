@@ -26,7 +26,7 @@ class TestRecoveryList(unittest.TestCase):
 		lclpwd3 = PasswordTuple("LinkedIn", "P324")
 		lclpwd4 = PasswordTuple("Quora", "hjkhkg34")
 		
-		lclPasswordList1 = PasswordList()
+		lclPasswordList1 = PasswordList([])
 		lclPasswordList1.append(lclpwd1)
 		lclPasswordList1.append(lclpwd2)
 		

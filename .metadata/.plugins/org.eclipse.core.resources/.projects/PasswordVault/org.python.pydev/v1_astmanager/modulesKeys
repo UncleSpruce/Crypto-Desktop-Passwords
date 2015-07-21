@@ -41,6 +41,8 @@ methodology.clsDLPHash|D:\Google Drive\My Documents\Github\Python\PasswordStorag
 methodology.clsDLPValidation|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsDLPValidation.py
 methodology.clsFactoryBasicLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsFactoryBasicLabelledKey.py
 methodology.clsGenericLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericLabelledKey.py
+methodology.clsGenericRecovery|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericRecovery.py
+methodology.clsGenericVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericVault.py
 methodology.clsKeyParser|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsKeyParser.py
 methodology.clsPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsPasswordList.py
 methodology.clsPasswordTuple|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsPasswordTuple.py
@@ -49,8 +51,8 @@ methodology.clsSimpleKey|D:\Google Drive\My Documents\Github\Python\PasswordStor
 methodology.clsSimpleKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleKeyGenerator.py
 methodology.clsSimpleLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleLabelledKey.py
 methodology.clsSimpleLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleLabelledKeyGenerator.py
+methodology.clsSimpleVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleVault.py
 methodology.clsTestPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsTestPasswordList.py
-methodology.clsVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsVault.py
 methodology.iBigIntGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iBigIntGenerator.py
 methodology.iCombiningMethodology|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iCombiningMethodology.py
 methodology.iHashMethodology|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iHashMethodology.py
@@ -64,7 +66,9 @@ methodology.obseleteBasicMapToIntermediate|D:\Google Drive\My Documents\Github\P
 methodology.testBasicKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testBasicKeyGenerator.py
 methodology.testBasicLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testBasicLabelledKey.py
 methodology.testGenericLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testGenericLabelledKey.py
+methodology.testList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testList.py
 methodology.testRecoveryList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testRecoveryList.py
+methodology.testRecoveryUsingSimpleLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testRecoveryUsingSimpleLabelledKey.py
 methodology.testSimpleKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testSimpleKeyGenerator.py
 methodology.testSimpleLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testSimpleLabelledKeyGenerator.py
 methodology.testVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testVault.py

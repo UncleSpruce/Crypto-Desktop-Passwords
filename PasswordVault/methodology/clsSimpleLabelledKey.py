@@ -41,9 +41,11 @@ class SimpleLabelledKey(object):
 		return self.key
 	
 	def compute(self, pPasswordList):
-		# Returns -1 if insufficient data was provided.
 		lclIdList = []
-		for i in pPasswordList.list:
+		
+		# Returns -1 if insufficient data was provided.
+		
+		for i in pPasswordList.getList():
 			lclIdList.append(i.identifier())
 		# lclIdList is now a list of identifiers that match the pPasswordList
 		for i in self.passwordIdentifierList:
@@ -53,7 +55,7 @@ class SimpleLabelledKey(object):
 		
 		# We now trim the list.
 		lclPasswordList = copy.copy(pPasswordList)
-		for i in lclPasswordList.list:
+		for i in lclPasswordList.getList():
 			if not i.identifier() in self.passwordIdentifierList:
 				lclPasswordList.getByIdentifier(i)
 		# The list should contain exactly the same items mentioned in self.passwordIdentifierList.

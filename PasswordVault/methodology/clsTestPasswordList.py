@@ -15,7 +15,7 @@ class TestPasswordList(unittest.TestCase):
 		print("Running test Full Functionality in TestPasswordList")
 		pwd1 = PasswordTuple("Facebook", "224")
 		pwd2 = PasswordTuple("Google", "onion32")
-		plist = PasswordList()
+		plist = PasswordList([])
 		plist.append(pwd1)
 		plist.append(pwd2)
 		assert(plist.popByIdentifier("Google").password() == "onion32")

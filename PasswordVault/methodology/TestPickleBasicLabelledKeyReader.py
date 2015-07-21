@@ -16,7 +16,7 @@ class TestPickleBasicLabelledKeyReader(unittest.TestCase):
 
 		key1 = pickle.load(pkl_file)
 		print(key1.encode())
-		print(key1.compute(PasswordList()))
+		print(key1.compute(PasswordList([])))
 		#pprint.pprint(data1)
 		
 		

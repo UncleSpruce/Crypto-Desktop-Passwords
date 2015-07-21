@@ -20,7 +20,7 @@ class TestPickleWriter(unittest.TestCase):
 		print("Running FullFunctionality test for the TestPickleWriter.")
 		
 		x = BasicLabelledKeyGenerator()
-		y = x.generate(PasswordList(), PasswordTuple("RIdentifier", "RPassword"))		
+		y = x.generate(PasswordList([]), PasswordTuple("RIdentifier", "RPassword"))		
 		# sample usage
 		save_object(y, 'sampleKey.pkl')
 		

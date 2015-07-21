@@ -18,7 +18,7 @@ class BasicKeyGenerator(iKeyGenerator):
 # 		
 # 		lclpwd1 = PasswordTuple("Facebook", "q234")
 # 		lclpwd2 = PasswordTuple("Google", "778")
-# 		lclPasswordList = PasswordList()
+# 		lclPasswordList = PasswordList([])
 # 		lclPasswordList.append(lclpwd1)
 # 		lclPasswordList.append(lclpwd2)
 # 		

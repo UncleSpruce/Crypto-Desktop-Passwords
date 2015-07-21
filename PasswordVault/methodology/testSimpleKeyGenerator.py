@@ -18,10 +18,10 @@ class testSimpleKeyGenerator(unittest.TestCase):
 		lclpwd1 = PasswordTuple("Facebook", "q234")
 		lclpwd2 = PasswordTuple("Google", "778")
 		
-		lclPasswordList1 = PasswordList()
+		lclPasswordList1 = PasswordList([])
 		lclPasswordList1.append(lclpwd1)
 		lclPasswordList1.append(lclpwd2)
-				
+		
 		#self.tryCombo(lclPasswordList1, PasswordTuple("LinkedIn", "Stormy"))
 		#self.tryCombo(lclPasswordList1, PasswordTuple("Dutch Oven", "Stsssormy"))
 		#self.tryCombo(lclPasswordList1, PasswordTuple("", "Sdsdsdtormy"))
@@ -31,7 +31,6 @@ class testSimpleKeyGenerator(unittest.TestCase):
 		self.tryCombo(lclPasswordList1, "Dutch Oven")
 		self.tryCombo(lclPasswordList1, "Sdsdsdtormy")
 		self.tryCombo(lclPasswordList1, "")
-		
 		
 	def tryCombo(self, pInputList, pResult):
 		lclKey = self.gen.generate(pInputList, pResult)

@@ -24,14 +24,14 @@ class TestVault(unittest.TestCase):
 		lclpwd3 = PasswordTuple("LinkedIn", "P324")
 		lclpwd4 = PasswordTuple("Quora", "hjkhkg34")
 		
-		lclPasswordList1 = PasswordList()
+		lclPasswordList1 = PasswordList([])
 		lclPasswordList1.append(lclpwd1)
 		lclPasswordList1.append(lclpwd2)
 
-		lclPasswordList2 = PasswordList()
+		lclPasswordList2 = PasswordList([])
 		lclPasswordList2.append(lclpwd1)
 
-		lclPasswordList3 = PasswordList()
+		lclPasswordList3 = PasswordList([])
 		lclPasswordList3.append(lclpwd4)
 		
 		lclKey1 = lclGen.generate(lclPasswordList1, lclpwd3)

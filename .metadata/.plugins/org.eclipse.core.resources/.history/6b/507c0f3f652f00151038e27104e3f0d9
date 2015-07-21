@@ -1,0 +1,19 @@
+'''
+Created on Jul 21, 2015
+
+@author: Owner
+'''
+import unittest
+
+
+class TestList(unittest.TestCase):
+
+
+	def test_FullFunctionality(self):
+		print("List Test.")
+		pass
+
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main()

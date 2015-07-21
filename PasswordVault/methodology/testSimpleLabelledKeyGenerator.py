@@ -23,7 +23,7 @@ class testSimpleLabelledKeyGenerator(unittest.TestCase):
 		lclpwd5 = PasswordTuple("", "Sdsdsdtormy")
 		lclpwd6 = PasswordTuple("Lawrence's Password", "Sdsdsdtormy")
 		
-		lclPasswordList1 = PasswordList()
+		lclPasswordList1 = PasswordList([])
 		lclPasswordList1.append(lclpwd1)
 		lclPasswordList1.append(lclpwd2)
 				
@@ -39,7 +39,6 @@ class testSimpleLabelledKeyGenerator(unittest.TestCase):
 		#self.tryCombo(lclPasswordList1, "")
 		
 	def tryBasicMapping(self, pInputList, pResult):
-		
 		lclKey = self.gen.generate(pInputList, pResult)
 		print(lclKey.toString())
 		self.assertEqual(pResult.password(), lclKey.compute(pInputList))		
@@ -50,7 +49,7 @@ class testSimpleLabelledKeyGenerator(unittest.TestCase):
 		lclpwd3 = PasswordTuple("LinkedIn", "Stormy")
 		lclpwd4 = PasswordTuple("Dutch Oven", "Stsssormy")
 		
-		lclPasswordList1 = PasswordList()
+		lclPasswordList1 = PasswordList([])
 		lclPasswordList1.append(lclpwd1)
 		lclPasswordList1.append(lclpwd2)
 		

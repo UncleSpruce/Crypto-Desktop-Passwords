@@ -19,7 +19,7 @@ class BasicRecovery(object):
 		flag = False
 		while not flag:
 			flag = True
-			#print("Rubenstein"+lclResultList.toString())
+			print("Rubenstein"+lclResultList.toString())
 			#testVar = input("Ask user for something outer loop.")
 			for key in pVault.getList():
 				lclResult = key.computeReturnTuple(pInputList)

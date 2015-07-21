@@ -21,7 +21,7 @@ class TestBasicLabelledKey(unittest.TestCase):
 		lclpwd1 = PasswordTuple("Facebook", "q234")
 		lclpwd2 = PasswordTuple("Google", "778")
 		lclpwd3 = PasswordTuple("LinkedIn", "P324")
-		lclPasswordList = PasswordList()
+		lclPasswordList = PasswordList([])
 		
 		lclPasswordList.append(lclpwd1)
 		lclPasswordList.append(lclpwd2)
@@ -44,7 +44,7 @@ class TestBasicLabelledKey(unittest.TestCase):
 		lclpwd1 = PasswordTuple("Facebook", "q234")
 		lclpwd2 = PasswordTuple("Google", "778")
 		lclpwd3 = PasswordTuple("LinkedIn", "P324")
-		lclPasswordList = PasswordList()
+		lclPasswordList = PasswordList([])
 		
 		lclPasswordList.append(lclpwd1)
 		lclPasswordList.append(lclpwd2)
