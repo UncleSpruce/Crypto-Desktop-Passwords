@@ -1,0 +1,65 @@
+'''
+Created on Jul 19, 2015
+
+@author: Daniel Bruce
+'''
+from methodology.clsBasicLabelledKey import BasicLabelledKey
+from methodology.clsBasicRecovery import BasicRecovery
+from methodology.clsGenericRecovery import GenericRecovery
+from methodology.clsGenericLabelledKey import GenericLabelledKey
+
+class SimpleVault(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, pList = [], pRecoveryMethod = GenericRecovery()):
+		'''
+		Constructor
+		'''
+		self.recoveryMethod = pRecoveryMethod
+		self.list = pList
+		
+	def append(self, pItem):
+		if not isinstance(pItem, GenericLabelledKey):
+			raise TypeError("Argument passed into append function is not a SimpleLabelledKey.")
+		self.list.append(pItem)
+		return
+		
+	def getList(self):
+		return self.list
+	
+	def popByName(self, pKeyName):
+		for i in self.list:
+			if i.name() == pKeyName:
+				return self.list.pop(i)
+		return -1
+	
+	def popByInputList(self, pInputList):
+		for i in self.list:
+			if i.passwordIdentifierList() == pInputList:
+				print(str(i))
+				return self.list.pop(i)
+		return -1
+	
+	def popByResult(self, pResult):
+		for i in self.list:
+			if i.resultIdentifier() == pResult:
+				return self.list.pop(i)
+		return -1
+	
+# 	def passwordIdentifierList(self):
+# 		return self.__passwordIdentifierList
+# 	
+# 	def resultIdentifier(self):
+# 		return self.__resultIdentifier	
+	def pop(self, pItem):
+		return self.list.pop(pItem)
+			
+	def recover(self, pInputPasswordList):
+		return self.recoveryMethod.recover(self, pInputPasswordList)
+	
+	def toString(self):
+		returnString = ""
+		for i in self.list:
+			returnString += i.toString() + "\n"
+		return returnString

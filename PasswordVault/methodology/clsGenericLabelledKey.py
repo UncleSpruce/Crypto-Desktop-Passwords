@@ -20,29 +20,35 @@ class GenericLabelledKey(object):
 		'''
 		Constructor
 		'''
-		self.keyName = str(pKeyName)
-		self.passwordIdentifierList = pPasswordIdentifierList
-		self.resultIdentifier = pResultIdentifier
-		self.key = pKey
+		self.__keyName = str(pKeyName)
+		self.__passwordIdentifierList = pPasswordIdentifierList
+		self.__resultIdentifier = pResultIdentifier
+		self.__key = pKey
+	
+	def __str__(self):
+		return str(self.__dict__)
+
+	def __eq__(self, other): 
+		return self.__dict__ == other.__dict__	
 	
 	def name(self):
-		return self.keyName
+		return self.__keyName
 	
 	def passwordIdentifierList(self):
-		return self.passwordIdentifierList
+		return self.__passwordIdentifierList
 	
 	def resultIdentifier(self):
-		return self.resultIdentifier
+		return self.__resultIdentifier
 	
 	def key(self):
-		return self.key
+		return self.__key
 	
 	def inputIsSufficient(self, pPasswordList):
 		# Returns false if insufficient data was provided and true otherwise
 		lclPasswordIds = pPasswordList.getIdentifierList()
 # 		print("List comparision:")
-# 		print(str(lclPasswordIds), " versus ", str(self.passwordIdentifierList))
-		for i in self.passwordIdentifierList:
+# 		print(str(lclPasswordIds), " versus ", str(self.__passwordIdentifierList))
+		for i in self.__passwordIdentifierList:
 			flag = False
 			for j in lclPasswordIds:
 				if i == j:
@@ -60,17 +66,17 @@ class GenericLabelledKey(object):
 			return -1
 		
 		for i in lclPasswordIds:
-			if i not in self.passwordIdentifierList:
+			if i not in self.__passwordIdentifierList:
 				lclPasswordList.popByIdentifier(i)
 		
-		assert(str(lclPasswordList.getIdentifierList()) == str(self.passwordIdentifierList))
+		assert(str(lclPasswordList.getIdentifierList()) == str(self.__passwordIdentifierList))
 		
 # 		lclIdList = []
 # 		for i in pPasswordList.getList():
 # 			lclIdList.append(i.identifier())
 # 		
 # 		# lclIdList is now a list of identifiers that match the pPasswordList
-# 		for i in self.passwordIdentifierList:
+# 		for i in self.__passwordIdentifierList:
 # 			if not i in lclIdList:
 # 				print("Not enough passwords.")
 # 				return -1
@@ -79,23 +85,23 @@ class GenericLabelledKey(object):
 # 		# We now trim the list.
 # 		lclPasswordList = pPasswordList.getCopy()
 # 		for i in lclPasswordList.getList():
-# 			if not i.identifier() in self.passwordIdentifierList:
+# 			if not i.identifier() in self.__passwordIdentifierList:
 # 				lclPasswordList.popByIdentifier(i)
-# 		# The list should contain exactly the same items mentioned in self.passwordIdentifierList.
-# 		if str(lclPasswordList.getIdentifierList()) != str(self.passwordIdentifierList):
+# 		# The list should contain exactly the same items mentioned in self.__passwordIdentifierList.
+# 		if str(lclPasswordList.getIdentifierList()) != str(self.__passwordIdentifierList):
 # 			print("GenericLabelledKey compute error")
 # 			print(str(lclPasswordList.getIdentifierList()))
-# 			print(str(self.passwordIdentifierList))
-# 			print(self.key.compute(lclPasswordList))
-# 		assert(str(lclPasswordList.getIdentifierList()) == str(self.passwordIdentifierList))
+# 			print(str(self.__passwordIdentifierList))
+# 			print(self.__key.compute(lclPasswordList))
+# 		assert(str(lclPasswordList.getIdentifierList()) == str(self.__passwordIdentifierList))
 # 		#print(lclPasswordList.toString())
 		
-		lclReturnPassword = self.key.compute(lclPasswordList)
+		lclReturnPassword = self.__key.compute(lclPasswordList)
 		return lclReturnPassword
 	
 	def computeReturnTuple(self, pPasswordList):
-		return PasswordTuple(self.resultIdentifier, self.compute(pPasswordList))
+		return PasswordTuple(self.__resultIdentifier, self.compute(pPasswordList))
 	
 	def toString(self):
-		# print (self.passwordIdentifierList)
-		return "(" + self.keyName + "," + str(self.passwordIdentifierList) + "," + self.resultIdentifier + "," + self.key.toString() + ")"
+		# print (self.__passwordIdentifierList)
+		return "(" + self.__keyName + "," + str(self.__passwordIdentifierList) + "," + str(self.__resultIdentifier) + "," + self.__key.toString() + ")"

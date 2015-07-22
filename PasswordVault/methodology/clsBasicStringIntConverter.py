@@ -38,7 +38,7 @@ class BasicStringIntConverter(object):
 		
 	def toInt(self, pString):
 		total = 0
-		lclStringList = list(pString)
+		lclStringList = list(str(pString))
 		#print(lclStringList)
 		for index, value in enumerate(lclStringList):
 			#print((128**index), ord(value))			

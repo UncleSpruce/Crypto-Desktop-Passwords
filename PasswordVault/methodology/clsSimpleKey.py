@@ -20,7 +20,6 @@ class SimpleKey(object):
 		self.validationCode = pValidationCode
 		self.differenceMapper = pDifferenceMapper
 		self.hash = pHash
-		
 		self.converter = pConverter
 		self.joinerAndCombiner = pJoinerAndCombiner
 		

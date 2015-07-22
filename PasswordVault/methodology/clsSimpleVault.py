@@ -23,17 +23,38 @@ class SimpleVault(object):
 		if not isinstance(pItem, GenericLabelledKey):
 			raise TypeError("Argument passed into append function is not a SimpleLabelledKey.")
 		self.list.append(pItem)
+		return
 		
 	def getList(self):
 		return self.list
 	
-	def popByName(self, pKeyName):
+	def removeByName(self, pKeyName):
 		for i in self.list:
 			if i.name() == pKeyName:
-				return self.list.pop(i)
+				self.list.remove(i)
+		return
 	
-	def pop(self):
-		return self.list.pop()
+	def removeByInputList(self, pInputList):
+		for i in self.list:
+			if i.passwordIdentifierList() == pInputList:
+				print(i.toString(), str(pInputList.toString()))
+				self.list.remove(i)
+		return
+	
+	def removeByResult(self, pResult):
+		for i in self.list:
+			if i.resultIdentifier() == pResult:
+				print(str(i))
+				self.list.remove(i)
+		return
+	
+# 	def passwordIdentifierList(self):
+# 		return self.__passwordIdentifierList
+# 	
+# 	def resultIdentifier(self):
+# 		return self.__resultIdentifier	
+	def remove(self, pItem):
+		return self.list.remove(pItem)
 			
 	def recover(self, pInputPasswordList):
 		return self.recoveryMethod.recover(self, pInputPasswordList)

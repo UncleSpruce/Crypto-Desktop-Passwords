@@ -18,6 +18,17 @@ class PasswordList(object):
 		#print("Parameter list contents: ", pNewList)
 		self.__list = pNewList
 		#Given a vault string, this function will create a list
+
+	def __str__(self):
+		return str(self.__list)
+
+	def __eq__(self, other): 
+		return set(self.__list) == set(self.__list)
+
+# 	def __eq__(self, other):
+# 		set1 = set(self.__list)
+# 		set2 = set(other.__list)
+# 		return set1 == set2
 	
 	def append(self, pPasswordTuple):
 		if not isinstance(pPasswordTuple, PasswordTuple):

@@ -136,6 +136,7 @@ def main():
     try: run()
     except NameError: pass
     root.protocol('WM_DELETE_WINDOW', root.quit)
+    print("Breadcrumbs")
     root.mainloop()
 
 if __name__ == '__main__': main()

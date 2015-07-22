@@ -1,0 +1,18 @@
+'''
+Created on Jul 21, 2015
+
+@author: Daniel Bruce
+'''
+from functionality.clsIntermediateVault import IntermediateVault
+
+class ControlledIntermediateVault(IntermediateVault):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+		IntermediateVault.__init__(self)
+	

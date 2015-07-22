@@ -1,20 +1,17 @@
-INSTUPGUI.mdlPasswordAppGUISetup1
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\mdlPasswordAppGUISetup1.py
-INFOS:&&1|1|2|0&&3|3|2|1&&2|4|2|1&&3|5|2|6&&3|7|2|6&&3|8|2|6&&3|9|2|6&&3|10|2|6&&3|11|2|6&&3|12|2|6&&3|13|2|6&&3|14|2|6&&3|15|2|6&&3|16|2|6&&3|17|2|6
-GUI.mdlPasswordAppGUISetup1=2
-lblPasswordSelection=12
-lstVaultKeySelector=17
-btnNewVault=7
-lblSelectAVault=8
-entPasswordSearch=13
-PasswordApp1x1=1
-PasswordApp1x1.__init__=6
-btnModifyVault=15
-entVaultText=10
-radUsingText=9
-_frame_6=5
-lblSelectAVaultKey=11
-__init__=4
-_images=3
-lstPasswords=14
-btnEnterKeyCredentials=16
+INSTUPmethodology.clsSimpleVault
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleVault.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1&&2|13|2|1&&2|14|2|1
+recover=13
+SimpleVault.__init__=5
+list=6
+remove=12
+SimpleVault=1
+removeByInputList=10
+removeByName=9
+getList=8
+removeByResult=11
+recoveryMethod=4
+toString=14
+__init__=3
+methodology.clsSimpleVault=2
+append=7

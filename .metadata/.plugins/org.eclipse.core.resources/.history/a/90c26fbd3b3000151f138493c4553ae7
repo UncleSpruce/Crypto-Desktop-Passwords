@@ -1,0 +1,56 @@
+'''
+Created on Jul 22, 2015
+@author: Daniel Bruce
+'''
+
+from functionality.clsIntermediateVault import IntermediateVault
+from methodology.clsBasicBigIntGenerator import BasicBigIntGenerator
+from methodology.clsSimpleVault import SimpleVault
+from methodology.clsSimpleKeyGenerator import SimpleKeyGenerator
+from methodology.clsPasswordTuple import PasswordTuple
+
+class PivotedVault(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, pPasswordList = [], pVault = SimpleVault([]), pIntermediate = BasicBigIntGenerator().generate(), pGenerator = SimpleKeyGenerator()):
+		'''
+		Constructor
+		'''
+		self.pivot = pIntermediate
+		self.vault = pVault
+		self.keygen = pGenerator
+	
+	def getVault(self):
+		return self.vault
+	
+	def addInputList(self, pInputList):
+		#super(ControlledIntermediateVault, self).methodName(arguments)
+		#super(ControlledIntermediateVault, self)
+		
+		#Check for duplicates? Or allow them?
+		lclKey = self.keygen.generate(pInputList, self.pivot)
+		return self.vault.append(lclKey)
+	
+	def popInputList(self, pInputList):
+		lclList = self.vault.getList()
+		for i in lclList:
+			if i.passwordIdentifierList() == pInputList:
+				return self.vault.pop(i)
+		return -1
+	
+	def addOutput(self, pPasswordTuple):
+		lclKey = self.keygen.generate(PasswordTuple(-1, self.pivot), pPasswordTuple)
+		return self.vault.append(lclKey)
+	
+	def removeOutput(self, pPasswordTuple):
+		lclList = self.vault.getList()
+		for i in lclList:
+			if i.resultIdentifier() == pPasswordTuple.identifer():
+				return self.vault.popByName(pPasswordTuple.identifer())		
+		return -1
+	
+	def toString(self):
+		returnString = "Pivot: " + str(self.pivot) + "\n"
+		returnString += self.vault.toString()
+		return returnString

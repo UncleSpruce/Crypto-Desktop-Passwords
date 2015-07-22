@@ -1,0 +1,35 @@
+'''
+Created on Jul 21, 2015
+
+@author: Daniel Bruce
+
+'''
+from methodology.clsSimpleVault import SimpleVault
+from methodology.clsPasswordTuple import PasswordTuple
+from methodology.clsPasswordList import PasswordList
+
+class IntermediateVault(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, ,pRandomNumberGenerator = BigIntGenerator()):
+		'''
+		Constructor
+		'''
+		self.intermediate = pRandomNumberGenerator.generate()
+		self.vault = SimpleVault([])
+		self.passwordList = Password([])
+	def addPassword(self, pPasswordTuple):
+		if not isinstance(pPasswordTuple, PasswordTuple):
+			raise TypeError("Argument passed into append function for PasswordList is not a PasswordTuple.")
+		if not		
+		return
+	
+	def addKey(self, pKey):
+		pass
+	
+	def removeKey(self, pKey):
+		pass
+	
+	def removeKeyByName(self, pKeyName):
+		pass

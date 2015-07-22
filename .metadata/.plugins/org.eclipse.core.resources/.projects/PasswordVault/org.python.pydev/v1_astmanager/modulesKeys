@@ -1,7 +1,20 @@
 MODULES_MANAGER_V2
+GUI.Beginning_Screen|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\Beginning_Screen.py
+GUI.Beginning_Screen_ui|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\Beginning_Screen_ui.py
+GUI.CustomPasswordApp1x1|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\CustomPasswordApp1x1.py
+GUI.PasswordApp1x1|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\PasswordApp1x1.py
+GUI.__init__|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\__init__.py
+GUI.clsMainProgramState|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\clsMainProgramState.py
 functionality.__init__|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\__init__.py
+functionality.clsControlledIntermediateVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsControlledIntermediateVault.py
 functionality.clsCurrentPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsCurrentPasswordList.py
+functionality.clsFactoryIntermediateVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryIntermediateVault.py
+functionality.clsIntermediateVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsIntermediateVault.py
+functionality.clsPivotedVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsPivotedVault.py
+functionality.clsRecoveryState|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsRecoveryState.py
+functionality.testPivotedVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testPivotedVault.py
 methodology.BasicDifferenceMapperMethodology|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\BasicDifferenceMapperMethodology.py
+methodology.IntermediateVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\IntermediateVault.py
 methodology.TestBasicDifferenceMapper|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicDifferenceMapper.py
 methodology.TestBasicKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicKey.py
 methodology.TestBasicLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicLabelledKeyGenerator.py
@@ -60,8 +73,6 @@ methodology.iIntermediateMapper|D:\Google Drive\My Documents\Github\Python\Passw
 methodology.iJoiningBehavior|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iJoiningBehavior.py
 methodology.iKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iKeyGenerator.py
 methodology.iStringBigIntCorrespondence|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iStringBigIntCorrespondence.py
-methodology.mdlGUI1|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\mdlGUI1.py
-methodology.mdlPasswordAppGUISetup1|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\mdlPasswordAppGUISetup1.py
 methodology.obseleteBasicMapToIntermediate|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\obseleteBasicMapToIntermediate.py
 methodology.testBasicKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testBasicKeyGenerator.py
 methodology.testBasicLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testBasicLabelledKey.py
