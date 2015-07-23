@@ -12,10 +12,13 @@ class SimpleVault(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pList = [], pRecoveryMethod = GenericRecovery()):
+	def __init__(self, pList = None, pRecoveryMethod = GenericRecovery()):
 		'''
 		Constructor
 		'''
+		if pList is None:
+			pList = []
+		
 		self.recoveryMethod = pRecoveryMethod
 		self.list = pList
 		

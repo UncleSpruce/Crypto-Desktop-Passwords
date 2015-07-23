@@ -11,10 +11,13 @@ class PasswordList(object):
 	classdocs
 	'''
 
-	def __init__(self, pNewList = []):
+	def __init__(self, pNewList = None):
 		'''
 		Constructor
 		'''
+		if pNewList is None:
+			pNewList = []
+		# modify value here
 		#print("Parameter list contents: ", pNewList)
 		self.__list = pNewList
 		#Given a vault string, this function will create a list
@@ -35,12 +38,15 @@ class PasswordList(object):
 			raise TypeError("Argument passed into append function for PasswordList is not a PasswordTuple.")
 		self.__list.append(pPasswordTuple)
 		sorted(self.__list, key=lambda pair: pair.getTuple()[0])
+	
+	def pop(self, pIndex):
+		return self.__list.pop(pIndex)
 		
 	def popByIdentifier(self, pIdentifier):
 		for i, v in enumerate(self.__list):
-			if (v.identifier == pIdentifier):
-				break
-		return self.__list.pop(i)
+			if (v.identifier() == pIdentifier):
+				return self.pop(i)
+		return -1
 # 		next(obj for obj in self.__list if obj.identifier==pIdentifier)
 # 		x = [1, 2, 3, 4, 2, 2, 3]
 # 		x[:] = (value for value in self.__list if value.identifier() != pIdentifier)
@@ -51,8 +57,8 @@ class PasswordList(object):
 	def getByIdentifier(self, pIdentifier):
 		for i, v in enumerate(self.__list):
 			if (v.identifier == pIdentifier):
-				break
-		return self.__list[i]
+				return self.__list[i]
+		return -1
 	
 	def hasIdentifier(self, pIdentifier):
 		for i in self.__list:

@@ -14,10 +14,10 @@ class TestPasswordList(unittest.TestCase):
 		print("Running test Full Functionality in TestPasswordList")
 		pwd1 = PasswordTuple("Facebook", "224")
 		pwd2 = PasswordTuple("Google", "onion32")
-		plist = PasswordList([])
-		plist.append(pwd1)
-		plist.append(pwd2)
-		self.assertEqual(plist.size(), 2)
+		thelist = PasswordList()
+		thelist.append(pwd1)
+		thelist.append(pwd2)
+		self.assertEqual(thelist.size(), 2)
 		#self.assertEqual(plist.popByIdentifier("Google").password(), "onion32")
 		#self.assertEqual(plist.popByIdentifier("Facebook").password(), "224")
 		
@@ -31,13 +31,19 @@ class TestPasswordList(unittest.TestCase):
 		print(pwd1.toString())
 		print(pwd2.toString())
 		
-		qlist = PasswordList([])
+		qlist = PasswordList()
 		print(qlist.toString())
 		qlist.append(pwd1)
 		print(qlist.toString())
 		qlist.append(pwd2)
 		print(qlist.toString())
 		print(qlist.getCopy().toString())
+		qlist.popByIdentifier("Facebook")
+		print(qlist.toString())
+		qlist.popByIdentifier("Google")
+		print(qlist.toString())
+		
+		
 		
 		
 if __name__ == "__main__":

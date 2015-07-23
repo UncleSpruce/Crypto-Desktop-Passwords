@@ -10,12 +10,13 @@ from methodology.clsSimpleKeyGenerator import SimpleKeyGenerator
 from methodology.clsPasswordTuple import PasswordTuple
 from methodology.clsPasswordList import PasswordList
 from methodology.clsSimpleLabelledKeyGenerator import SimpleLabelledKeyGenerator
+import pickle
 
 class PivotedVault(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pPasswordList = [], pVault = SimpleVault([]), pIntermediate = BasicBigIntGenerator().generate(), pGenerator = SimpleLabelledKeyGenerator()):
+	def __init__(self, pVault = SimpleVault([]), pIntermediate = BasicBigIntGenerator().generate(), pGenerator = SimpleLabelledKeyGenerator()):
 		'''
 		Constructor
 		'''
@@ -66,3 +67,7 @@ class PivotedVault(object):
 		returnString = "Pivot: " + str(self.pivot) + "\n"
 		returnString += self.vault.toString()
 		return returnString
+	
+	def createPickledVault(self):
+		return pickle.dumps(self.vault)
+		

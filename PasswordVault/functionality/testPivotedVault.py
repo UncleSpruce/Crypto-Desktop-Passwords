@@ -2,6 +2,7 @@
 Created on Jul 22, 2015
 @author: Daniel Bruce 
 '''
+
 import unittest
 from methodology.clsSimpleVault import SimpleVault
 from methodology.clsPasswordTuple import PasswordTuple
