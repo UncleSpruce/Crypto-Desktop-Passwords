@@ -1,1 +1,19 @@
-DELSTRfunctionality.clsProgramPasswordData
+INSTUPmethodology.clsSimpleVault
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleVault.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1&&2|13|2|1&&2|14|2|1&&2|15|2|1&&2|16|2|1
+createPickledVault=15
+recover=14
+removeByInputListIdentifiersAndResultIdentifier=12
+SimpleVault.__init__=5
+list=6
+remove=13
+SimpleVault=1
+removeByInputList=10
+removeByName=9
+getList=8
+recoveryMethod=4
+removeByResultIdentifier=11
+toString=16
+__init__=3
+methodology.clsSimpleVault=2
+append=7

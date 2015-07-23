@@ -16,7 +16,7 @@ class PivotedVault(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pVault = SimpleVault([]), pIntermediate = BasicBigIntGenerator().generate(), pGenerator = SimpleLabelledKeyGenerator()):
+	def __init__(self, pVault = SwappingVault(), pIntermediate = BasicBigIntGenerator().generate(), pGenerator = SimpleLabelledKeyGenerator()):
 		'''
 		Constructor
 		'''

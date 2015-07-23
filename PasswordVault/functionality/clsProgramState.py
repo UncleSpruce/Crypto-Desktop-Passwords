@@ -1,24 +1,22 @@
 '''
 Created on Jul 22, 2015
-
 @author: Daniel Bruce
 '''
 from functionality.clsPivotedVault import PivotedVault
 from methodology.clsPasswordList import PasswordList
+from functionality.clsProgramPasswordData import ProgramPasswordData
 import pickle
 
 class ProgramState(object):
 	'''
 	classdocs
 	'''
-
 	def __init__(self):
 		'''
 		Constructor
 		'''
 		self.vaultFileName = ""
-		self.vault = PivotedVault()
-		self.list = PasswordList()
+		self.passwordData = ProgramPasswordData()
 	
 	def isOpen(self):
 		if -1 in self.list.identifier():
@@ -30,19 +28,27 @@ class ProgramState(object):
 		# An opened vault
 		if self.isOpen():
 			print("Warning: You tried to open an open vault.")
-		
 	
 	def addPassword(self, pPasswordTuple):
-		self.vault.addOutput(pPasswordTuple)
+		self.passwordData.addOutput(pPasswordTuple)
 	
 	def removePassword(self, pPasswordTuple):
-		self.vault.removeOutput(pPasswordTuple)
+		self.passwordData.removeOutput(pPasswordTuple)
+		# Remove keys associated with password pair?
+	
+	def changePassword(self, pPasswordTuple):
+		return
 	
 	def addInput(self, pInputList):
-		self.vault.addInputList(pInputList)
+		self.passwordData.addInputList(pInputList)
+		
+	def addInputPlusPasswords(self, pInputList):
+		self.addInput(pInputList)
+		for i in pInputList.getList():
+			self.addPassword(i)
 		
 	def removeInput(self, pInputList):
-		self.vault.removeInputList(pInputList)
+		self.passwordData.removeInputList(pInputList)
 	
 	def openPickledVault(self, pFileName):
 		with open (pFileName, "r") as myfile:

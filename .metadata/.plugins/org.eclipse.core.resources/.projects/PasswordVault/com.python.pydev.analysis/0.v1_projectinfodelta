@@ -1,17 +1,1 @@
-INSTUPfunctionality.clsPivotedVault
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsPivotedVault.py
-INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&3|7|2|5&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1&&2|13|2|1&&2|14|2|1
-createPickledVault=14
-addInputList=9
-functionality.clsPivotedVault=2
-PivotedVault.__init__=5
-addOutput=11
-keygen=7
-PivotedVault=1
-removeInputList=10
-getVault=8
-removeOutput=12
-pivot=4
-toString=13
-__init__=3
-vault=6
+DELSTRmethodology.clsSwappingVault

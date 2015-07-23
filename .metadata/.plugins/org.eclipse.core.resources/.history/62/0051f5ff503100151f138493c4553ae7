@@ -1,0 +1,18 @@
+'''
+Created on Jul 23, 2015
+
+@author: Daniel Bruce
+'''
+
+class FactoryProgramPasswordData(object):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+	
+	def buildFromSimpleVault(self, pVault):
+		

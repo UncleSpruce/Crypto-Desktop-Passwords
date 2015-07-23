@@ -1,0 +1,17 @@
+'''
+Created on Jul 23, 2015
+
+@author: Daniel Bruce
+'''
+from methodology.clsSimpleVault import SimpleVault
+
+class SwappingVault(SimpleVault):
+	'''
+	classdocs
+	'''
+
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+		

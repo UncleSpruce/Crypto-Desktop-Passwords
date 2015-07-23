@@ -1,8 +1,8 @@
 '''
 Created on Jul 23, 2015
-
 @author: Daniel Bruce
 '''
+
 from methodology.clsSimpleVault import SimpleVault
 from methodology.clsPasswordList import PasswordList
 from methodology.clsPasswordTuple import PasswordTuple
@@ -16,8 +16,10 @@ class OpenableVault(object):
 		'''
 		Constructor
 		'''
+		# The vault is closed if pVault is a SimpleVault
+		
 		if pVault is None:
-			pVault = SimpleVault()
+			pVault = PivotedVault()
 # 		if pPasswordList is None:
 # 			pPasswordList = PasswordList()
 		self.vault = pVault
@@ -30,6 +32,7 @@ class OpenableVault(object):
 	def open(self, pPasswordList):
 		if self.isOpen():
 			print("Warning: Open attempted on an open vault.")
+			return -1
 		pRecoveredList = self.vault.recover(pPasswordList)
 		lclPivot = pRecoveredList.getByIdentifier(-1)
 		if lclPivot == -1:

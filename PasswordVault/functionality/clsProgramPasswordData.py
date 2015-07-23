@@ -5,6 +5,7 @@ Created on Jul 23, 2015
 '''
 from methodology.clsSimpleVault import SimpleVault
 from methodology.clsPasswordList import PasswordList
+from functionality.clsOpenableVault import OpenableVault
 
 class ProgramPasswordData(object):
 	'''
@@ -15,7 +16,7 @@ class ProgramPasswordData(object):
 		Constructor
 		'''
 		if pVault is None:
-			pVault = SimpleVault()
+			pVault = OpenableVault()
 		if pPasswordList is None:
 			pPasswordList = PasswordList()
 		self.vault = pVault
@@ -30,6 +31,7 @@ class ProgramPasswordData(object):
 	def addPassword(self, pPasswordTuple):
 		self.vault.addPassword(pPasswordTuple)
 		self.passwordList.append(pPasswordTuple)
+		self.vault.open(self.passwordList)
 	
 	def removePassword(self, pPasswordTuple):
 		self.vault.removePassword(pPasswordTuple)
@@ -43,9 +45,10 @@ class ProgramPasswordData(object):
 		
 	def toString(self):
 		returnString = ""
-		returnString = self.vault.toString()
-		returnString = "\n"
-		returnString = self.passwordList.toString()
+		returnString += "Vault:\n" + self.vault.toString()
+		returnString += ""
+		returnString += "Password List: "
+		returnString += self.passwordList.toString() + "\n"
 		return returnString
 	
 	def createPickledVault(self):

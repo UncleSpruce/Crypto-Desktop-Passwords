@@ -7,6 +7,7 @@ from methodology.clsBasicLabelledKey import BasicLabelledKey
 from methodology.clsBasicRecovery import BasicRecovery
 from methodology.clsGenericRecovery import GenericRecovery
 from methodology.clsGenericLabelledKey import GenericLabelledKey
+import pickle
 
 class SimpleVault(object):
 	'''
@@ -34,6 +35,7 @@ class SimpleVault(object):
 	def removeByName(self, pKeyName):
 		for i in self.list:
 			if i.name() == pKeyName:
+				print("Removing key: ", str(i))
 				self.list.remove(i)
 		return
 	
@@ -41,16 +43,25 @@ class SimpleVault(object):
 		lclIdentifiers = pInputList.getIdentifierList()
 		for i in self.list:
 			if set(i.passwordIdentifierList()) == set(lclIdentifiers):
-				print(i.toString(), str(pInputList.toString()))
+				print("Removing key: ", str(i))
 				self.list.remove(i)
 		return
 	
-	def removeByResult(self, pResult):
+	def removeByResultIdentifier(self, pResultIdentifier):
+		#pResultIdentifier should be a string. 
 		for i in self.list:
-			if i.resultIdentifier() == pResult:
-				print(str(i))
+			if i.resultIdentifier() == pResultIdentifier:
+				print("Removing key: ", str(i))
 				self.list.remove(i)
 		return
+	
+	def removeByInputListIdentifiersAndResultIdentifier(self, pInputListIdentifiers, pResultIdentifier):
+		lclIdentifiers = pInputListIdentifiers
+		for i in self.list:
+			if set(i.passwordIdentifierList()) == set(lclIdentifiers) and pResultIdentifier == i.resultIdentifier():
+				print("Removing key: ", str(i))
+				self.list.remove(i)
+		return		
 	
 # 	def passwordIdentifierList(self):
 # 		return self.__passwordIdentifierList
