@@ -69,5 +69,4 @@ class PivotedVault(object):
 		return returnString
 	
 	def createPickledVault(self):
-		return pickle.dumps(self.vault)
-		
+		return self.vault.createPickledVault()

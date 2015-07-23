@@ -21,9 +21,16 @@ class ProgramState(object):
 		self.list = PasswordList()
 	
 	def isOpen(self):
-		if -1 in self.list:
+		if -1 in self.list.identifier():
 			return True
 		return False
+	
+	def openVault(self):
+		#returns -1 if vault can't be opened. 0 otherwise.
+		# An opened vault
+		if self.isOpen():
+			print("Warning: You tried to open an open vault.")
+		
 	
 	def addPassword(self, pPasswordTuple):
 		self.vault.addOutput(pPasswordTuple)

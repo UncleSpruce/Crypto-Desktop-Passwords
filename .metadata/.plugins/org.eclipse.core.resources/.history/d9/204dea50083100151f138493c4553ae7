@@ -1,0 +1,34 @@
+'''
+Created on Jul 23, 2015
+
+@author: Daniel Bruce
+'''
+from methodology.clsSimpleVault import SimpleVault
+from methodology.clsPasswordList import PasswordList
+
+class ProgramPasswordData(object):
+	'''
+	classdocs
+	'''
+	def __init__(self, pVault = None, pPasswordList = None):
+		'''
+		Constructor
+		'''
+		if pVault is None:
+			pVault = SimpleVault()
+		if pPasswordList is None:
+			pPasswordList = PasswordList()
+		self.vault = pVault
+		self.passwordList = pPasswordList
+				
+	def addPassword(self, pPasswordTuple):
+		self.vault.addOutput(pPasswordTuple)
+	
+	def removePassword(self, pPasswordTuple):
+		self.vault.removeOutput(pPasswordTuple)
+	
+	def addInput(self, pInputList):
+		self.vault.addInputList(pInputList)
+		
+	def removeInput(self, pInputList):
+		self.vault.removeInputList(pInputList)	

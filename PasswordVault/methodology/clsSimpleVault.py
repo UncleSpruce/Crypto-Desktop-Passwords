@@ -62,6 +62,9 @@ class SimpleVault(object):
 			
 	def recover(self, pInputPasswordList):
 		return self.recoveryMethod.recover(self, pInputPasswordList)
+
+	def createPickledVault(self):
+		return pickle.dumps(self.vault)
 	
 	def toString(self):
 		returnString = ""
