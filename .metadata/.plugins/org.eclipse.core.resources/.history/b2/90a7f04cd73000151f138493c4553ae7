@@ -35,9 +35,8 @@ class SimpleVault(object):
 		return
 	
 	def removeByInputList(self, pInputList):
-		lclIdentifiers = pInputList.getIdentifierList()
 		for i in self.list:
-			if set(i.passwordIdentifierList()) == set(lclIdentifiers):
+			if i.passwordIdentifierList() == pInputList:
 				print(i.toString(), str(pInputList.toString()))
 				self.list.remove(i)
 		return

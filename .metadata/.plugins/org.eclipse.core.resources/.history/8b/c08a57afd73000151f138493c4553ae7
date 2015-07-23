@@ -35,7 +35,7 @@ class TestPivotedVault(unittest.TestCase):
 		vault.removeInputList(self.passwordListA1)
 		print("10:" + vault.toString())
 		vault.removeInputList(self.passwordListA1)
-		print("11:" + vault.toString())
+		print("10:" + vault.toString())
 	
 	def define(self):
 		self.lclpwd1 = PasswordTuple("Facebook", "q234")

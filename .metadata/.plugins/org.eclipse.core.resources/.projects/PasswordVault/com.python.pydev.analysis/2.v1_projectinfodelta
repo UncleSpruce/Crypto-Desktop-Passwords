@@ -1,13 +1,1 @@
-INSTUPmethodology.clsSimpleVault
-D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleVault.py
-INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1
-SimpleVault=1
-removeByInputList=10
-removeByName=9
-getList=8
-recoveryMethod=4
-SimpleVault.__init__=5
-__init__=3
-list=6
-methodology.clsSimpleVault=2
-append=7
+DELSTRmethodology.clsSimpleVault
