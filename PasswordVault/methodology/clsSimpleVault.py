@@ -22,6 +22,9 @@ class SimpleVault(object):
 		
 		self.recoveryMethod = pRecoveryMethod
 		self.list = pList
+	
+	def getVaultForSaving(self):
+		return self
 		
 	def append(self, pItem):
 		if not isinstance(pItem, GenericLabelledKey):
@@ -75,7 +78,7 @@ class SimpleVault(object):
 		return self.recoveryMethod.recover(self, pInputPasswordList)
 
 	def createPickledVault(self):
-		return pickle.dumps(self.vault)
+		return pickle.dump(self.list)
 	
 	def toString(self):
 		returnString = ""

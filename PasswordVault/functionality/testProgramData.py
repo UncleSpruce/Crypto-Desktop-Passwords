@@ -13,15 +13,19 @@ from functionality.clsOpenableVault import OpenableVault
 from functionality.clsProgramPasswordData import ProgramPasswordData
 from methodology.clsGenericLabelledKey import GenericLabelledKey
 from methodology.clsSimpleLabelledKeyGenerator import SimpleLabelledKeyGenerator
+from functionality.clsFactoryProgramPasswordData import FactoryProgramPasswordData
+from functionality.clsPicklingMethodology import PicklingMethodology
 
 class TestProgramData(unittest.TestCase):
 	def test_FullFunctionality(self):
-		self.gen = SimpleLabelledKeyGenerator()
-		
 		print("Running the FullFunctionality test for the TestProgramData.")
+		
+		self.gen = SimpleLabelledKeyGenerator()
+		self.pickler = PicklingMethodology()
 		self.define()
 		
-		self.data = ProgramPasswordData()
+		lclFactory = FactoryProgramPasswordData()
+		self.data = lclFactory.build()		
 		
 		#self.data.addPassword(self.lclpwd1)
 		#self.data.addPassword(self.lclpwd2)
@@ -33,6 +37,14 @@ class TestProgramData(unittest.TestCase):
 		
 		self.data.addPassword(self.lclpwd4)
 		print("Status: " + self.data.toString())
+		
+		self.data.addPassword(self.lclpwd4d)
+		print("Status: " + self.data.toString())
+
+		self.data.addInputWithPasswords(self.passwordListB4)
+		print("Status: " + self.data.toString())
+		
+
 		
 # 		print("Variables defined.")
 # 		vault = OpenableVault()
@@ -65,6 +77,13 @@ class TestProgramData(unittest.TestCase):
 		self.lclpwd4 = PasswordTuple("Quora", "hjkhkg34")
 		self.lclpwd5 = PasswordTuple("Foursquare", "hjkhksssssg34")
 		self.lclpwd6 = PasswordTuple("Dutch Oven", "hjkhsddkg34")
+
+		self.lclpwd1d = PasswordTuple("Facebook", "q234 Duplicated")
+		self.lclpwd2d = PasswordTuple("Google", "778 Duplicated")
+		self.lclpwd3d = PasswordTuple("LinkedIn", "P324 Duplicated")
+		self.lclpwd4d = PasswordTuple("Quora", "hjkhkg34 Duplicated")
+		self.lclpwd5d = PasswordTuple("Foursquare", "hjkhksssssg34 Duplicated")
+		self.lclpwd6d = PasswordTuple("Dutch Oven", "hjkhsddkg34 Duplicated")
 		
 		self.passwordListA0 = PasswordList([])
 		

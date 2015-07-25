@@ -1,7 +1,7 @@
 '''
 Created on Jul 22, 2015
 
-@author: Owner
+@author: Daniel Bruce
 '''
 import unittest
 from functionality.clsProgramState import ProgramState

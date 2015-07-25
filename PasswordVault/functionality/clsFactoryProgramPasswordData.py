@@ -4,15 +4,16 @@ Created on Jul 23, 2015
 @author: Daniel Bruce
 '''
 from functionality.clsOpenableVault import OpenableVault
+from functionality.clsProgramPasswordData import ProgramPasswordData
 
 class FactoryProgramPasswordData(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, params):
+	def __init__(self):
 		'''
 		Constructor
 		'''
 	
-	def buildFromSimpleVault(self, pVault):
-		return OpenableVault(pVault)
+	def build(self, pVault = None, pPasswordList = None):
+		return ProgramPasswordData(pVault, pPasswordList)

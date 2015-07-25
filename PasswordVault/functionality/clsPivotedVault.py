@@ -10,6 +10,7 @@ from methodology.clsSimpleKeyGenerator import SimpleKeyGenerator
 from methodology.clsPasswordTuple import PasswordTuple
 from methodology.clsPasswordList import PasswordList
 from methodology.clsSimpleLabelledKeyGenerator import SimpleLabelledKeyGenerator
+from methodology.clsSwappingVault import SwappingVault
 import pickle
 
 class PivotedVault(object):
@@ -26,7 +27,10 @@ class PivotedVault(object):
 	
 	def getVault(self):
 		return self.vault
-	
+
+	def getVaultForSaving(self):
+		return self.vault.getVaultForSaving()
+
 	def addInputList(self, pInputList):
 		#super(ControlledIntermediateVault, self).methodName(arguments)
 		#super(ControlledIntermediateVault, self)
@@ -34,6 +38,7 @@ class PivotedVault(object):
 		#Check for duplicates? Or allow them?
 		lclKey = self.keygen.generate(pInputList, PasswordTuple(-1, self.pivot))
 		return self.vault.append(lclKey)
+
 	
 	def removeInputList(self, pInputList):
 		lclList = self.vault.getList()
@@ -46,6 +51,12 @@ class PivotedVault(object):
 		print("Cannot pop input list.")
 		return -1
 	
+	def addInputListAndPasswords(self, pInputList):
+		self.addInputList(pInputList)
+		for i in pInputList.getList():
+			self.addOutput(i)
+		return	
+		
 	def addOutput(self, pPasswordTuple):
 		lclPwdList = PasswordList([])
 		lclPwdList.append(PasswordTuple(-1, self.pivot))

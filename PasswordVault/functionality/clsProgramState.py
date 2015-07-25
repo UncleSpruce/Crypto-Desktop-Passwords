@@ -50,15 +50,7 @@ class ProgramState(object):
 	def removeInput(self, pInputList):
 		self.passwordData.removeInputList(pInputList)
 	
-	def openPickledVault(self, pFileName):
-		with open (pFileName, "r") as myfile:
-			lclVault = myfile.readlines()
-		self.vault = pickle.loads(lclVault)
-	
-	def savePickledVault(self, pFileName):
-		text_file = open(pFileName, "wb")
-		text_file.write(self.vault.createPickledVault())
-		text_file.close()
+
 		
 	def toString(self):
 		print("Vault file name: ", self.vaultFileName)

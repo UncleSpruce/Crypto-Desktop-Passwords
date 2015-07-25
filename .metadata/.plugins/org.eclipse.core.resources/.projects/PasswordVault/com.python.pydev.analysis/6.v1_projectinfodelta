@@ -1,1 +1,20 @@
-DELSTRmethodology.clsSwappingVault
+INSTUPmethodology.clsPasswordList
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsPasswordList.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1&&2|13|2|1&&2|14|2|1&&2|15|2|1&&2|16|2|1&&2|17|2|1
+getIdentifierList=13
+hasIdentifier=12
+__str__=6
+__eq__=7
+popByIdentifier=10
+PasswordList=1
+pop=9
+getByIdentifier=11
+methodology.clsPasswordList=2
+size=16
+getCopy=15
+getList=14
+__list=4
+PasswordList.__init__=5
+toString=17
+__init__=3
+append=8

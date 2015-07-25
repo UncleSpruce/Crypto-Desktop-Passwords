@@ -23,6 +23,9 @@ class OpenableVault(object):
 # 		if pPasswordList is None:
 # 			pPasswordList = PasswordList()
 		self.vault = pVault
+
+	def getVaultForSaving(self):
+		return self.vault.getVaultForSaving()
 	
 	def isOpen(self):
 		if isinstance(self.vault, PivotedVault):
@@ -65,6 +68,12 @@ class OpenableVault(object):
 			return -1
 		self.vault.addInputList(pInputList)
 		return 0
+
+	def addInputListAndPasswords(self, pInputList):
+		self.addInput(pInputList)
+		for i in pInputList.getList():
+			self.addPassword(i)
+		return
 	
 	def removeInput(self, pInputList):
 		if not isinstance(pInputList, PasswordList):

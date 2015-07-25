@@ -6,6 +6,7 @@ Created on Jul 23, 2015
 from methodology.clsSimpleVault import SimpleVault
 from methodology.clsPasswordList import PasswordList
 from functionality.clsOpenableVault import OpenableVault
+from methodology.clsChangablePasswordList import ChangablePasswordList
 
 class ProgramPasswordData(object):
 	'''
@@ -18,9 +19,12 @@ class ProgramPasswordData(object):
 		if pVault is None:
 			pVault = OpenableVault()
 		if pPasswordList is None:
-			pPasswordList = PasswordList()
+			pPasswordList = ChangablePasswordList()
 		self.vault = pVault
 		self.passwordList = pPasswordList
+	
+	def getVaultForSaving(self):
+		return self.vault.getVaultForSaving()
 	
 	def getPasswordList(self):
 		return self.passwordList
@@ -40,6 +44,12 @@ class ProgramPasswordData(object):
 	def addInput(self, pInputList):
 		self.vault.addInput(pInputList)
 		
+	def addInputWithPasswords(self, pInputList):
+		self.addInput(pInputList)
+		for i in pInputList.getList():
+			self.addPassword(i)
+		return		
+	
 	def removeInput(self, pInputList):
 		self.vault.removeInput(pInputList)
 		

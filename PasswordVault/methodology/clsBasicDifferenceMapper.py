@@ -13,7 +13,7 @@ class BasicDifferenceMapper(object):
 		'''
 		Constructor
 		'''
-		self.difference = 0
+		self.difference = pDifference
 	
 	def defineMap(self, pSource, pTarget):
 		self.difference = pTarget - pSource

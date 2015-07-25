@@ -1,0 +1,19 @@
+'''
+Created on Jul 23, 2015
+
+@author: Daniel Bruce
+'''
+import unittest
+
+class TestSavingPasswordData(unittest.TestCase):
+	def test_FullFunctionality(self):
+		self.pickler.saveVault(self.data, "ExampleVault.vlt")
+
+lclVaultXX = self.pickler.getVaultFromFile("ExampleVault.vlt")
+		
+		print(lclVaultXX.toString())
+
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main()

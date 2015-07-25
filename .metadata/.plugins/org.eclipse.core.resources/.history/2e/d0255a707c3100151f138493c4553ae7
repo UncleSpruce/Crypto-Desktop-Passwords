@@ -1,0 +1,17 @@
+'''
+Created on Jul 23, 2015
+
+@author: Daniel Bruce
+'''
+
+class ChangablePasswordList(PasswordList):
+	'''
+	classdocs
+	'''
+
+
+	def __init__(self, params):
+		'''
+		Constructor
+		'''
+		

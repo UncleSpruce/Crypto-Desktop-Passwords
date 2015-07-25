@@ -22,7 +22,10 @@ class SwappingVault(SimpleVault):
 		
 	def append(self, pItem):
 		# Replace an existing key that has the item.
-		super(SwappingVault, self).removeByInputListIdentifiersAndResultIdentifier(pItem.identifierList(), pItem.resultIdentifier())
+		super(SwappingVault, self).removeByInputListIdentifiersAndResultIdentifier(pItem.passwordIdentifierList(), pItem.resultIdentifier())
 		# Do this is the vault has no matching mapping signature.
 		super(SwappingVault, self).append(pItem)
 		return
+	
+	def getVault(self):
+		return super(SwappingVault, self).getList()

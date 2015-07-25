@@ -13,7 +13,7 @@ class ControlledIntermediateVault(IntermediateVault):
 	classdocs
 	'''
 
-	def __init__(self, pIntermediate = BasicBigIntGenerator().generate(), pVault = SimpleVault([]), pPasswordList = [], pGenerator = SimpleKeyGenerator()):
+	def __init__(self, pIntermediate = BasicBigIntGenerator().generate(), pVault = SimpleVault(), pPasswordList = [], pGenerator = SimpleKeyGenerator()):
 		'''
 		Constructor
 		'''

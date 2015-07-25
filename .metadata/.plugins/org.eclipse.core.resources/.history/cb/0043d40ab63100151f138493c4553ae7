@@ -1,0 +1,29 @@
+'''
+Created on Jul 23, 2015
+@author: Daniel Bruce
+'''
+import pickle
+import json
+
+obj = json.loads(encoded)
+
+class PicklingMethodology(object):
+	'''
+	classdocs
+	'''
+
+	def __init__(self):
+		'''
+		Constructor
+		'''
+	def SaveVaultAsJson(self, pPasswordData, pFilename):
+		encoded = json.dumps(obj)
+	def saveVault(self, pPasswordData, pFilename):
+		text_file = open(pFilename, "wb")
+		text_file.write(pPasswordData.createPickledVault())
+		text_file.close()
+
+	def getVaultFromFile(self, pFileName):
+		with open(pFileName,'rb') as f:
+     		pickle.load(f)
+		return pickle.load(open(pFileName, 'rb'))
