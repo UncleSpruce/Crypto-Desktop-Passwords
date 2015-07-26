@@ -48,7 +48,7 @@ class ProgramPasswordData(object):
 	def addInputWithPasswords(self, pInputList):
 		self.addInput(pInputList)
 		for i in pInputList:
-			self.addPassword((i, pInputList[i]))
+			self.addPassword(i)
 		return		
 	
 	def removeInput(self, pInputList):
