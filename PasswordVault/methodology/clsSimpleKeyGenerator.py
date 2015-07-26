@@ -43,5 +43,6 @@ class SimpleKeyGenerator(object):
 		
 		lclHashedValue = lclHashMap.compute(lclStringJoinerAndCombiner.joinAndCombine(pInputPasswordList))
 		lclDifferenceMapper.defineMap(lclHashedValue, lclConverter.toInt(pResult))
-		return SimpleKey(lclHashMap.compute(lclHashedValue), lclDifferenceMapper, lclHashMap)
+		lclValidationCode = lclHashMap.compute(lclHashedValue) 
+		return SimpleKey(lclValidationCode, lclDifferenceMapper, lclHashMap)
 	

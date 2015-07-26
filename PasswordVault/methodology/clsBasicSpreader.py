@@ -4,6 +4,8 @@ Created on Jul 17, 2015
 @author: Daniel Bruce
 '''
 
+# Obselete class
+
 class BasicSpreader(object):
 	'''
 	classdocs

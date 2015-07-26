@@ -13,14 +13,17 @@ class DLPHash(iHashMethodology):
 	'''
 	classdocs
 	'''
-	def __init__(self, pModulus = BasicBigIntGenerator().generate(), pBase = 2):
+	def __init__(self, pModulus = None, pBase = None):
 		'''
 		Constructor
 		'''
-		self.modulus = pModulus
-		self.base = pBase
+		if pModulus is None:
+			pModulus = BasicBigIntGenerator().generate()
+		if pBase is None:
+			pBase = 2
+		self.defineMap(pModulus, pBase)
 		
-	def defineMap(self, pModulus, pBase = 2):
+	def defineMap(self, pModulus, pBase):
 		self.modulus = pModulus
 		self.base = pBase
 	

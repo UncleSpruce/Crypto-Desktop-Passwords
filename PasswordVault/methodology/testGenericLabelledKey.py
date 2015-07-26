@@ -27,22 +27,38 @@ class TestGenericLabelledKey(unittest.TestCase):
 		#self.basicGenerate(self.data = lclPasswordListA1, lclpwd3)
 		#self.basicGenerate(lclPasswordList1, lclpwd4)
 		
-		print(self.data.passwordListA3.toString())
-		print(self.data.passwordListA4.toString())
-		print(self.data.passwordListA5.toString())
+		print(self.data.passwordListA3)
+		print(self.data.passwordListA4)
+		print(self.data.passwordListA5)
 		
-		self.case_computetest(self.data.key123t4, self.data.passwordListA3, self.data.passwordListA4)
-		self.case_computetest(self.data.key1234t5, self.data.passwordListA4, self.data.passwordListA5)
-		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.passwordListA6)
-	
+		self.case_computetest(self.data.key123t4, self.data.passwordListA3, self.data.lclpwd4)
+		self.case_computetest(self.data.key123t4, self.data.passwordListA3, self.data.lclpwd4)
+		#self.case_computetest(self.data.key1234t5, self.data.passwordListA2, -1)
+		self.case_computetest(self.data.key1234t5, self.data.passwordListA6, self.data.lclpwd5)
+		self.case_computetest(self.data.key1234t5, self.data.passwordListA4, self.data.lclpwd5)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		
+		
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+		self.case_computetest(self.data.key12345t6, self.data.passwordListA5, self.data.lclpwd6)
+				
 	def case_computetest(self, pKey, pInput, pExpected):
 		print("Testing case:")
 		print(pKey.toString())
-		print(pInput.toString())
-		print(pKey.compute(pInput))
+		print(pInput)
+		print(pKey.computeReturnTuple(pInput))
 		print(pExpected)
 		print()
-		self.assertEqual(pKey.compute(pInput), pExpected)
+		self.assertEqual(pKey.computeReturnTuple(pInput), pExpected)
 	
 # 	def basicGenerate(self, pInputList, pResult):
 # 		lclGen = SimpleLabelledKeyGenerator()

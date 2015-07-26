@@ -13,12 +13,14 @@ class SimpleVault(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pList = None, pRecoveryMethod = GenericRecovery()):
+	def __init__(self, pList = None, pRecoveryMethod = None):
 		'''
 		Constructor
 		'''
 		if pList is None:
 			pList = []
+		if pRecoveryMethod is None:
+			pRecoveryMethod = GenericRecovery()
 		
 		self.recoveryMethod = pRecoveryMethod
 		self.list = pList
@@ -29,6 +31,8 @@ class SimpleVault(object):
 	def append(self, pItem):
 		if not isinstance(pItem, GenericLabelledKey):
 			raise TypeError("Argument passed into append function is not a SimpleLabelledKey.")
+		self.removeByInputListIdentifiersAndResultIdentifier(pItem.passwordIdentifierList(), pItem.resultIdentifier())
+		# Do this is the vault has no matching mapping signature.
 		self.list.append(pItem)
 		return
 		
@@ -43,9 +47,9 @@ class SimpleVault(object):
 		return
 	
 	def removeByInputList(self, pInputList):
-		lclIdentifiers = pInputList.getIdentifierList()
+		lclIdentifiers = set(pInputList.keys())#pInputList.getIdentifierList()
 		for i in self.list:
-			if set(i.passwordIdentifierList()) == set(lclIdentifiers):
+			if set(i.passwordIdentifierList()) == lclIdentifiers:
 				print("Removing key: ", str(i))
 				self.list.remove(i)
 		return

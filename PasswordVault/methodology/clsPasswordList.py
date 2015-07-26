@@ -6,6 +6,8 @@ Created on Jul 14, 2015
 from methodology.clsPasswordTuple import PasswordTuple
 import copy
 
+#obselete class
+
 class PasswordList(object):
 	'''
 	classdocs

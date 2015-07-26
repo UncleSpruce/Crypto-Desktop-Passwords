@@ -5,6 +5,8 @@ Created on Jul 19, 2015
 '''
 import copy
 
+# Obselete class.
+
 class BasicRecovery(object):
 	'''
 	classdocs

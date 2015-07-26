@@ -5,6 +5,8 @@ Created on Jul 23, 2015
 from methodology.clsPasswordList import PasswordList
 from methodology.clsGenericRecovery import GenericRecovery
 
+# Obselete Class
+
 class ChangablePasswordList(PasswordList):
 	'''
 	classdocs

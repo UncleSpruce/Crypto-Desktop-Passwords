@@ -7,6 +7,8 @@ Created on Jul 15, 2015
 if __name__ == '__main__':
 	pass
 
+#Obselete class
+
 class BasicLabelledKeyGenerator(object):
 	'''
 	classdocs

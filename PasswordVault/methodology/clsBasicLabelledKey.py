@@ -7,6 +7,8 @@ import copy
 from methodology.clsPasswordList import PasswordList
 from methodology.clsPasswordTuple import PasswordTuple
 
+#Obselete Class
+
 class BasicLabelledKey(object):
 	# This class's data is a 6-tuple (keyName, identifier list, result identifier, methodology, method key, validation code)
 	'''

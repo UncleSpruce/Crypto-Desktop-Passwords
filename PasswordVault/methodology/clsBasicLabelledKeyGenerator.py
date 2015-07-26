@@ -8,6 +8,8 @@ from methodology.clsBasicKeyGenerator import BasicKeyGenerator
 from methodology.clsBasicLabelledKey import BasicLabelledKey
 from methodology.clsBasicBigIntGenerator import BasicBigIntGenerator
 
+#Obselete class
+
 class BasicLabelledKeyGenerator(object):
 	'''
 	classdocs

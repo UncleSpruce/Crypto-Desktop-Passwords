@@ -8,6 +8,8 @@ from methodology.clsBasicStringIntConverter import BasicStringIntConverter
 from methodology.clsBasicHash import BasicHash
 from methodology.clsDLPHash import DLPHash
 
+# Obselete class.
+
 class BasicMapIntermediateToResult(object):
 	'''
 	classdocs

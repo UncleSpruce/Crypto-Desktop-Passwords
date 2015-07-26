@@ -9,6 +9,8 @@ from methodology.clsBasicBigIntGenerator import BasicBigIntGenerator
 from methodology.clsBasicMapInputToIntermediate import BasicMapInputToIntermediate
 from methodology.clsBasicMapIntermediateToResult import BasicMapIntermediateToResult
 
+# Obselete Class
+
 class BasicKeyGenerator(iKeyGenerator):
 	'''
 	classdocs

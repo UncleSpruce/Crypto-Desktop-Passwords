@@ -1,6 +1,5 @@
 '''
 Created on Jul 19, 2015
-
 @author: Daniel Bruce
 '''
 
@@ -45,7 +44,7 @@ class GenericLabelledKey(object):
 	
 	def inputIsSufficient(self, pPasswordList):
 		# Returns false if insufficient data was provided and true otherwise
-		lclPasswordIds = pPasswordList.getIdentifierList()
+		lclPasswordIds = list(pPasswordList.keys()) #pPasswordList.getIdentifierList()
 # 		print("List comparision:")
 # 		print(str(lclPasswordIds), " versus ", str(self.__passwordIdentifierList))
 		for i in self.__passwordIdentifierList:
@@ -58,18 +57,37 @@ class GenericLabelledKey(object):
 		return True
 	
 	def compute(self, pPasswordList):
-		lclPasswordList = pPasswordList.getCopy()
-		lclPasswordIds = lclPasswordList.getIdentifierList()
+		lclPasswordList = {}
 		
-		if not self.inputIsSufficient(lclPasswordList):
+		#print(self.__passwordIdentifierList)
+		#print(set(pPasswordList.keys()))
+		for i in set(self.__passwordIdentifierList).intersection(set(pPasswordList.keys())):
+			lclPasswordList[i] = pPasswordList[i]
+		
+		if len(lclPasswordList) < len(self.__passwordIdentifierList):
 			#print("Insufficient input.")
 			return -1
 		
-		for i in lclPasswordIds:
-			if i not in self.__passwordIdentifierList:
-				lclPasswordList.popByIdentifier(i)
+		assert(len(lclPasswordList) == len(self.__passwordIdentifierList))
 		
-		assert(str(lclPasswordList.getIdentifierList()) == str(self.__passwordIdentifierList))
+		lclReturnPassword = self.__key.compute(lclPasswordList)
+		return lclReturnPassword
+		
+		# if set(list(pPasswordList.keys())).intersection(b2)
+# 		self.__passwordIdentifierList
+# 		
+# 		lclPasswordIds = lclPasswordList.getIdentifierList()
+# 		
+# 		if not self.inputIsSufficient(lclPasswordList):
+# 			#print("Insufficient input.")
+# 			return -1
+# 		
+# 		for i in lclPasswordIds:
+# 			if i not in self.__passwordIdentifierList:
+# 				lclPasswordList.popByIdentifier(i)
+# 		
+# 		assert(str(lclPasswordList.getIdentifierList()) == str(self.__passwordIdentifierList))
+		
 		
 # 		lclIdList = []
 # 		for i in pPasswordList.getList():
@@ -95,12 +113,13 @@ class GenericLabelledKey(object):
 # 			print(self.__key.compute(lclPasswordList))
 # 		assert(str(lclPasswordList.getIdentifierList()) == str(self.__passwordIdentifierList))
 # 		#print(lclPasswordList.toString())
-		
-		lclReturnPassword = self.__key.compute(lclPasswordList)
-		return lclReturnPassword
+
 	
 	def computeReturnTuple(self, pPasswordList):
-		return PasswordTuple(self.__resultIdentifier, self.compute(pPasswordList))
+		lclComputed = self.compute(pPasswordList)
+		if lclComputed == -1:
+			return -1
+		return (self.__resultIdentifier, lclComputed)
 	
 	def toString(self):
 		# print (self.__passwordIdentifierList)

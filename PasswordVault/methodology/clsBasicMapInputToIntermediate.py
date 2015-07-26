@@ -6,6 +6,8 @@ Created on Jul 15, 2015
 from methodology.clsBasicStringJoinerAndCombiner import BasicStringJoinerAndCombiner
 from methodology.clsBasicDifferenceMapper import BasicDifferenceMapper
 
+# Obselete Class
+
 class BasicMapInputToIntermediate(object):
 	'''
 	classdocs

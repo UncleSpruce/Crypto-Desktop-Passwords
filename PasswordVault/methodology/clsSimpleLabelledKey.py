@@ -10,6 +10,8 @@ from methodology.clsDLPHash import DLPHash
 from methodology.clsPasswordTuple import PasswordTuple
 import copy
 
+# Obselete Class
+
 class SimpleLabelledKey(object):
 	'''
 	classdocs

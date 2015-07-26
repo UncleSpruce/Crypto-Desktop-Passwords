@@ -6,6 +6,8 @@ Created on Jul 15, 2015
 from methodology.clsBasicMapIntermediateToResult import BasicMapIntermediateToResult
 from methodology.clsBasicMapInputToIntermediate import BasicMapInputToIntermediate
 
+#Obselete class.
+
 class BasicKey(object):
 	'''
 	classdocs

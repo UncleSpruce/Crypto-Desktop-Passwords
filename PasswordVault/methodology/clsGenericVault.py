@@ -8,6 +8,8 @@ from methodology.clsBasicRecovery import BasicRecovery
 from methodology.clsGenericRecovery import GenericRecovery
 from methodology.clsGenericLabelledKey import GenericLabelledKey
 
+#Obselete Class
+
 class GenericVault(object):
 	'''
 	classdocs

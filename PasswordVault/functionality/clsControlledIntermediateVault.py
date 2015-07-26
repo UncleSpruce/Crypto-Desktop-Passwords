@@ -13,14 +13,13 @@ class ControlledIntermediateVault(IntermediateVault):
 	classdocs
 	'''
 
-	def __init__(self, pIntermediate = BasicBigIntGenerator().generate(), pVault = SimpleVault(), pPasswordList = [], pGenerator = SimpleKeyGenerator()):
+	def __init__(self, pIntermediate = BasicBigIntGenerator().generate(), pVault = SimpleVault(), pPasswordList = {}, pGenerator = SimpleKeyGenerator()):
 		'''
 		Constructor
 		'''
 		self.intermediate = pIntermediate
 		IntermediateVault.__init__(self, BasicBigIntGenerator().generate(), pVault, pPasswordList)
 		
-
 	def addInputList(self, pInputList):
 		#super(ControlledIntermediateVault, self).methodName(arguments)
 		#super(ControlledIntermediateVault, self)

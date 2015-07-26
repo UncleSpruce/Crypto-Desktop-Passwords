@@ -3,7 +3,7 @@ Created on Jul 24, 2015
 
 @author: Daniel Bruce
 '''
-from methodology.clsPasswordTuple import PasswordTuple
+
 from methodology.clsPasswordList import PasswordList
 from methodology.clsSimpleLabelledKeyGenerator import SimpleLabelledKeyGenerator
 
@@ -20,85 +20,85 @@ class Definitions(object):
 	def define1(self):
 		self.gen = SimpleLabelledKeyGenerator()
 		
-		self.lclpwd1 = PasswordTuple("Facebook", "q234")
-		self.lclpwd2 = PasswordTuple("Google", "778")
-		self.lclpwd3 = PasswordTuple("LinkedIn", "P324")
-		self.lclpwd4 = PasswordTuple("Quora", "hjkhkg34")
-		self.lclpwd5 = PasswordTuple("Foursquare", "hjkhksssssg34")
-		self.lclpwd6 = PasswordTuple("Dutch Oven", "hjkhsddkg34")
+		self.lclpwd1 = ("Facebook", "q234")
+		self.lclpwd2 = ("Google", "778")
+		self.lclpwd3 = ("LinkedIn", "P324")
+		self.lclpwd4 = ("Quora", "hjkhkg34")
+		self.lclpwd5 = ("Foursquare", "hjkhksssssg34")
+		self.lclpwd6 = ("Dutch Oven", "hjkhsddkg34")
 
-		self.lclpwd1d = PasswordTuple("Facebook", "q234 Duplicated")
-		self.lclpwd2d = PasswordTuple("Google", "778 Duplicated")
-		self.lclpwd3d = PasswordTuple("LinkedIn", "P324 Duplicated")
-		self.lclpwd4d = PasswordTuple("Quora", "hjkhkg34 Duplicated")
-		self.lclpwd5d = PasswordTuple("Foursquare", "hjkhksssssg34 Duplicated")
-		self.lclpwd6d = PasswordTuple("Dutch Oven", "hjkhsddkg34 Duplicated")
+		self.lclpwd1d = ("Facebook", "q234 Duplicated")
+		self.lclpwd2d = ("Google", "778 Duplicated")
+		self.lclpwd3d = ("LinkedIn", "P324 Duplicated")
+		self.lclpwd4d = ("Quora", "hjkhkg34 Duplicated")
+		self.lclpwd5d = ("Foursquare", "hjkhksssssg34 Duplicated")
+		self.lclpwd6d = ("Dutch Oven", "hjkhsddkg34 Duplicated")
 		
-		self.passwordListA0 = PasswordList()
+		self.passwordListA0 = {}
 		
-		self.passwordListA1 = PasswordList()
-		self.passwordListA1.append(self.lclpwd1)
+		self.passwordListA1 = {}
+		self.passwordListA1[self.lclpwd1[0]] = self.lclpwd1[1] 
 		
-		self.passwordListA2 = PasswordList()
-		self.passwordListA2.append(self.lclpwd1)
-		self.passwordListA2.append(self.lclpwd2)
+		self.passwordListA2 = {}
+		self.passwordListA2[self.lclpwd1[0]] = self.lclpwd1[1]
+		self.passwordListA2[self.lclpwd2[0]] = self.lclpwd2[1]
 		
-		self.passwordListA3 = PasswordList()
-		self.passwordListA3.append(self.lclpwd1)
-		self.passwordListA3.append(self.lclpwd2)
-		self.passwordListA3.append(self.lclpwd3)
+		self.passwordListA3 = {}
+		self.passwordListA3[self.lclpwd1[0]] = self.lclpwd1[1]
+		self.passwordListA3[self.lclpwd2[0]] = self.lclpwd2[1]
+		self.passwordListA3[self.lclpwd3[0]] = self.lclpwd3[1]
 		
-		self.passwordListA4 = PasswordList()
-		self.passwordListA4.append(self.lclpwd1)
-		self.passwordListA4.append(self.lclpwd2)
-		self.passwordListA4.append(self.lclpwd3)
-		self.passwordListA4.append(self.lclpwd4)
+		self.passwordListA4 = {}
+		self.passwordListA4[self.lclpwd1[0]] = self.lclpwd1[1]
+		self.passwordListA4[self.lclpwd2[0]] = self.lclpwd2[1]
+		self.passwordListA4[self.lclpwd3[0]] = self.lclpwd3[1]
+		self.passwordListA4[self.lclpwd4[0]] = self.lclpwd4[1]
 
-		self.passwordListA5 = PasswordList()
-		self.passwordListA5.append(self.lclpwd1)
-		self.passwordListA5.append(self.lclpwd2)
-		self.passwordListA5.append(self.lclpwd3)
-		self.passwordListA5.append(self.lclpwd4)
-		self.passwordListA5.append(self.lclpwd5)
+		self.passwordListA5 = {}
+		self.passwordListA5[self.lclpwd1[0]] = self.lclpwd1[1]
+		self.passwordListA5[self.lclpwd2[0]] = self.lclpwd2[1]
+		self.passwordListA5[self.lclpwd3[0]] = self.lclpwd3[1]
+		self.passwordListA5[self.lclpwd4[0]] = self.lclpwd4[1]
+		self.passwordListA5[self.lclpwd5[0]] = self.lclpwd5[1]
 		
-		self.passwordListA6 = PasswordList()
-		self.passwordListA6.append(self.lclpwd1)
-		self.passwordListA6.append(self.lclpwd2)
-		self.passwordListA6.append(self.lclpwd3)
-		self.passwordListA6.append(self.lclpwd4)
-		self.passwordListA6.append(self.lclpwd5)
-		self.passwordListA6.append(self.lclpwd6)
+		self.passwordListA6 = {}
+		self.passwordListA6[self.lclpwd1[0]] = self.lclpwd1[1]
+		self.passwordListA6[self.lclpwd2[0]] = self.lclpwd2[1]
+		self.passwordListA6[self.lclpwd3[0]] = self.lclpwd3[1]
+		self.passwordListA6[self.lclpwd4[0]] = self.lclpwd4[1]
+		self.passwordListA6[self.lclpwd5[0]] = self.lclpwd5[1]
+		self.passwordListA6[self.lclpwd6[0]] = self.lclpwd6[1]
 
-		self.passwordListB6 = PasswordList()
-		self.passwordListB6.append(self.lclpwd6)
+		self.passwordListB6 = {}
+		self.passwordListB6[self.lclpwd6[0]] = self.lclpwd6[1]
 		
-		self.passwordListB5 = PasswordList()
-		self.passwordListB5.append(self.lclpwd5)
-		self.passwordListB5.append(self.lclpwd6)
+		self.passwordListB5 = {}
+		self.passwordListB5[self.lclpwd5[0]] = self.lclpwd5[1]
+		self.passwordListB5[self.lclpwd6[0]] = self.lclpwd6[1]
 
-		self.passwordListB4 = PasswordList()
-		self.passwordListB4.append(self.lclpwd4)
-		self.passwordListB4.append(self.lclpwd5)
-		self.passwordListB4.append(self.lclpwd6)
+		self.passwordListB4 = {}
+		self.passwordListB4[self.lclpwd4[0]] = self.lclpwd4[1]
+		self.passwordListB4[self.lclpwd5[0]] = self.lclpwd5[1]
+		self.passwordListB4[self.lclpwd6[0]] = self.lclpwd6[1]
 
-		self.passwordListB3 = PasswordList()
-		self.passwordListB3.append(self.lclpwd3)
-		self.passwordListB3.append(self.lclpwd4)
-		self.passwordListB3.append(self.lclpwd5)
-		self.passwordListB3.append(self.lclpwd6)
+		self.passwordListB3 = {}
+		self.passwordListB3[self.lclpwd3[0]] = self.lclpwd3[1]
+		self.passwordListB3[self.lclpwd4[0]] = self.lclpwd4[1]
+		self.passwordListB3[self.lclpwd5[0]] = self.lclpwd5[1]
+		self.passwordListB3[self.lclpwd6[0]] = self.lclpwd6[1]
 		
-		self.passwordListB2 = PasswordList()
-		self.passwordListB2.append(self.lclpwd2)
-		self.passwordListB2.append(self.lclpwd3)
-		self.passwordListB2.append(self.lclpwd4)
-		self.passwordListB2.append(self.lclpwd5)
-		self.passwordListB2.append(self.lclpwd6)
+		self.passwordListB2 = {}
+		self.passwordListB2[self.lclpwd2[0]] = self.lclpwd2[1]
+		self.passwordListB2[self.lclpwd3[0]] = self.lclpwd3[1]
+		self.passwordListB2[self.lclpwd4[0]] = self.lclpwd4[1]
+		self.passwordListB2[self.lclpwd5[0]] = self.lclpwd5[1]
+		self.passwordListB2[self.lclpwd6[0]] = self.lclpwd6[1]
 		
-		self.passwordListX = PasswordList()
-		self.passwordListX.append(self.lclpwd1)
-		self.passwordListX.append(self.lclpwd2)
-		self.passwordListX.append(self.lclpwd3)
-		self.passwordListX.append(self.lclpwd5)
+		self.passwordListX = {}
+		self.passwordListX[self.lclpwd1[0]] = self.lclpwd1[1]
+		self.passwordListX[self.lclpwd2[0]] = self.lclpwd2[1]
+		self.passwordListX[self.lclpwd3[0]] = self.lclpwd3[1]
+		self.passwordListX[self.lclpwd5[0]] = self.lclpwd5[1]
 		
 		self.key1t1 = self.gen.generate(self.passwordListA1, self.lclpwd1)
 		self.key1t2 = self.gen.generate(self.passwordListA1, self.lclpwd2)

@@ -20,7 +20,7 @@ class GenericRecovery(object):
 		return self.__dict__ == other.__dict__
 	
 	def recover(self, pVault, pInputList):
-		lclResultList = pInputList.getCopy()
+		lclResultList = copy.copy(pInputList)
 		flag = False
 # 		print("Vault contents:")
 # 		print(pVault.toString())
@@ -30,19 +30,18 @@ class GenericRecovery(object):
 			#testVar = input("Ask user for something outer loop.")
 			for key in pVault.getList():
 				lclResult = key.computeReturnTuple(lclResultList)
-				lclIdList = lclResultList.getIdentifierList()
+				lclIdList = list(lclResultList.keys())# lclResultList.getIdentifierList() # get keys or whatever
 # 				print("Key case:")
 # 				print(key.toString())
 				#print(lclResultList.toString(), lclIdList, lclResult.toString())
-				condition1 = lclResult.password() != -1
-				condition2 = not lclResult.identifier() in lclIdList
-# 				print(lclResultList.toString(), lclIdList, lclResult.toString(), condition1, condition2)
-				#testVar = input("Ask user for something.")
-				if condition1 and condition2:
-					flag = False
-					lclResultList.append(lclResult)
-					#print(lclResultList.toString())
-					break
+				if not lclResult == -1:
+					if not (lclResult[0] in lclIdList):
+	# 				print(lclResultList.toString(), lclIdList, lclResult.toString(), condition1, condition2)
+					#testVar = input("Ask user for something.")
+						flag = False
+						lclResultList[lclResult[0]] = lclResult[1]
+						#print(lclResultList.toString())
+						break
 			print()
 # 		print("finish")			
-		return lclResultList		
+		return lclResultList

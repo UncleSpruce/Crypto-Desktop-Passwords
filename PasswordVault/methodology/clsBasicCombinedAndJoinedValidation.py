@@ -8,14 +8,19 @@ class BasicCombinedAndJoinedValidation(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pModulus = 7, pBase = 2):
+	def __init__(self, pModulus = None, pBase = None):
 		'''
 		Constructor
 		'''
-		self.modulus = 7
-		self.base = 2
+		if pBase is None:
+			pBase = 2
+		if pModulus is None:
+			pModulus = 7
+			#Throw exception?
+		self.modulus = pModulus
+		self.base = pBase
 		
-	def defineMap(self, pModulus, pBase = 2):
+	def defineMap(self, pModulus, pBase):
 		self.modulus = pModulus
 		self.base = pBase
 	
