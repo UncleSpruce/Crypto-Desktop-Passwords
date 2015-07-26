@@ -34,12 +34,10 @@ class testRecoveryUsingSimpleLabelledKey(unittest.TestCase):
 	
 	def sample1(self):
 		vault = SimpleVault()
-		
 		print(vault.toString())
 		vault.append(self.data.key12t3)
-		
 		vault.append(self.data.key123t4)
-		
+		vault.append(self.data.key123t4)
 		#print(vault.toString())
 		self.sampleOutcome(vault, self.data.passwordListA2, self.data.passwordListA4)	
 		return

@@ -17,7 +17,6 @@ class OpenableVault(object):
 		Constructor
 		'''
 		# The vault is closed if pVault is a SimpleVault
-		
 		if pVault is None:
 			pVault = PivotedVault()
 # 		if pPasswordList is None:
@@ -37,10 +36,12 @@ class OpenableVault(object):
 			print("Warning: Open attempted on an open vault.")
 			return -1
 		pRecoveredList = self.vault.recover(pPasswordList)
-		lclPivot = pRecoveredList.getByIdentifier(-1)
-		if lclPivot == -1:
+		if -1 not in pRecoveredList:
 			return -1
-		lclPivotPassword = lclPivot.password()
+# 		lclPivot = pRecoveredList.getByIdentifier(-1)
+# 		if lclPivot == -1:
+# 			return -1
+		lclPivotPassword = pRecoveredList[-1]
 		self.vault = PivotedVault(self.vault, lclPivotPassword)
 		return 0
 	
@@ -48,22 +49,22 @@ class OpenableVault(object):
 		return self.vault
 		
 	def addPassword(self, pPasswordTuple):
-		if not isinstance(pPasswordTuple, PasswordTuple):
-			raise TypeError("Argument passed into append function for PasswordList is not a PasswordTuple.")
+# 		if not isinstance(pPasswordTuple, PasswordTuple):
+# 			raise TypeError("Argument passed into append function for PasswordList is not a PasswordTuple.")
 		if not self.isOpen():
 			return -1
 		self.vault.addOutput(pPasswordTuple)
 
 	def removePassword(self, pPasswordTuple):
-		if not isinstance(pPasswordTuple, PasswordTuple):
-			raise TypeError("Argument passed into append function for PasswordList is not a PasswordTuple.")
+# 		if not isinstance(pPasswordTuple, PasswordTuple):
+# 			raise TypeError("Argument passed into append function for PasswordList is not a PasswordTuple.")
 		if not self.isOpen():
 			return -1
 		self.vault.removeOutput(pPasswordTuple)
 	
 	def addInput(self, pInputList):
-		if not isinstance(pInputList, PasswordList):
-			raise TypeError("Argument passed into append function for PasswordList is not a PasswordList.")
+# 		if not isinstance(pInputList, PasswordList):
+# 			raise TypeError("Argument passed into append function for PasswordList is not a PasswordList.")
 		if not self.isOpen():
 			return -1
 		self.vault.addInputList(pInputList)
@@ -76,8 +77,8 @@ class OpenableVault(object):
 		return
 	
 	def removeInput(self, pInputList):
-		if not isinstance(pInputList, PasswordList):
-			raise TypeError("Argument passed into append function for PasswordList is not a PasswordList.")		
+# 		if not isinstance(pInputList, PasswordList):
+# 			raise TypeError("Argument passed into append function for PasswordList is not a PasswordList.")		
 		if not self.isOpen():
 			return -1
 		self.vault.removeInputList(pInputList)

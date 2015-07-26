@@ -4,7 +4,7 @@ D:\Google Drive\My Documents\Github\Python\PasswordStorage\.metadata\.plugins\or
 methodology.clsSimpleKeyGenerator|1437861638869|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleKeyGenerator.py
 functionality.clsFactoryIntermediateVault|1437535004479|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryIntermediateVault.py
 methodology.clsBasicMapIntermediateToResult|1437857969471|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicMapIntermediateToResult.py
-functionality.clsProgramPasswordData|1437709062919|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsProgramPasswordData.py
+functionality.clsProgramPasswordData|1437889237262|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsProgramPasswordData.py
 methodology.TestPasswordList|1437628245783|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestPasswordList.py
 methodology.clsDLPValidation|1437352628993|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsDLPValidation.py
 methodology.clsBasicSpreader|1437857969381|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicSpreader.py
@@ -26,7 +26,7 @@ methodology.clsBasicMapInputToIntermediate|1437857969558|D:\Google Drive\My Docu
 methodology.BasicDifferenceMapperMethodology|1437358799728|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\BasicDifferenceMapperMethodology.py
 methodology.TestMapIntermediateToResult|1437314175020|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestMapIntermediateToResult.py
 methodology.TestPickleWriter|1437457459941|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestPickleWriter.py
-functionality.testPivotedVault|1437614809988|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testPivotedVault.py
+functionality.testPivotedVault|1437887928454|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testPivotedVault.py
 methodology.clsSimpleLabelledKeyGenerator|1437872173413|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleLabelledKeyGenerator.py
 methodology.clsBasicStringJoiner|1437314176586|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringJoiner.py
 methodology.clsBasicDifferenceMapper|1437872173238|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicDifferenceMapper.py
@@ -38,7 +38,7 @@ methodology.clsBasicKeyParser|1437857775063|D:\Google Drive\My Documents\Github\
 methodology.iStringBigIntCorrespondence|1436971453581|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iStringBigIntCorrespondence.py
 methodology.clsBasicStringBigIntCorrespondence|1437858148070|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringBigIntCorrespondence.py
 methodology.clsGenericVault|1437861043037|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericVault.py
-methodology.testRecoveryUsingSimpleLabelledKey|1437886623626|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testRecoveryUsingSimpleLabelledKey.py
+methodology.testRecoveryUsingSimpleLabelledKey|1437887191120|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testRecoveryUsingSimpleLabelledKey.py
 methodology.TestBasicKey|1437457457437|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicKey.py
 functionality.testProgramStateLoading|1437623775104|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramStateLoading.py
 methodology.TestInBuiltFunctionality=|1437234276662|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestInBuiltFunctionality=.py
@@ -54,8 +54,7 @@ methodology.clsBasicCombinedAndJoinedValidation|1437872173156|D:\Google Drive\My
 GUI.clsMainProgramState|1437502164810|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\clsMainProgramState.py
 methodology.clsSimpleVault|1437886223241|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleVault.py
 methodology.clsBasicStringIntCalculator|1437858147885|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringIntCalculator.py
-functionality.testProgramData|1437703822778|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramData.py
-methodology.clsGenericRecovery|1437886750662|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericRecovery.py
+methodology.clsGenericRecovery|1437886811025|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericRecovery.py
 methodology.clsSimpleKey|1437861209090|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleKey.py
 functionality.clsFactoryProgramPasswordData|1437703143166|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryProgramPasswordData.py
 functionality.clsCurrentPasswordList|1437339992719|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsCurrentPasswordList.py
@@ -64,7 +63,7 @@ methodology.clsBasicStringJoinerAndCombiner|1437861439542|D:\Google Drive\My Doc
 functionality.testProgramStateSaving|1437707115947|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramStateSaving.py
 methodology.iIntermediateMapper|1436973562990|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iIntermediateMapper.py
 methodology.TestFullProcess|1437049533213|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestFullProcess.py
-functionality.clsPivotedVault|1437709062688|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsPivotedVault.py
+functionality.clsPivotedVault|1437888012565|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsPivotedVault.py
 GUI.Beginning_Screen_ui|1437506086310|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\Beginning_Screen_ui.py
 testcommons.clsDefinitions|1437873418101|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\testcommons\clsDefinitions.py
 methodology.testVault|1437457461029|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testVault.py
@@ -81,8 +80,8 @@ methodology.TestBasicDifferenceMapper|1437314176131|D:\Google Drive\My Documents
 methodology.obseleteBasicMapToIntermediate|1437012033583|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\obseleteBasicMapToIntermediate.py
 functionality.clsRecoveryState|1437545249798|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsRecoveryState.py
 functionality.clsPicklingMethodology|1437709926699|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsPicklingMethodology.py
-functionality.clsOpenableVault|1437709062884|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsOpenableVault.py
 methodology.clsBasicCombiner|1437314177421|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicCombiner.py
+functionality.clsOpenableVault|1437888916170|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsOpenableVault.py
 methodology.clsBasicLabelledKeyGenerator|1437857864812|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicLabelledKeyGenerator.py
 methodology.clsTestPasswordList|1437457456867|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsTestPasswordList.py
 functionality.__init__|1437314240102|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\__init__.py
@@ -104,248 +103,244 @@ GUI.CustomPasswordApp1x1|1437502275500|D:\Google Drive\My Documents\Github\Pytho
 methodology.clsSwappingVault|1437703541701|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSwappingVault.py
 -- END DISKCACHE
 -- START DICTIONARY
-241
-207=TestProgramStateSaving.define
-101=GenericRecovery
+237
+202=TestProgramStateSaving.define
+100=GenericRecovery
 58=functionality.clsProgramPasswordData
 82=methodology.TestPasswordList
-156=BasicKey
+155=BasicKey
 31=methodology.clsDLPValidation
-164=DLPHash.defineMap
+163=DLPHash.defineMap
 12=methodology.clsBasicRecovery
 50=methodology.testerQuoraHash
-158=PasswordList.__init__
-125=BasicHash
+157=PasswordList.__init__
+124=BasicHash
 52=GUI.PasswordApp1x1
-206=TestProgramStateLoading.define
+201=TestProgramStateLoading.define
 78=methodology.testRecoveryList
-238=TestOpenPickledVault
-137=BasicCombine
+234=TestOpenPickledVault
+136=BasicCombine
 79=methodology.TestHash
 83=methodology.testSimpleKeyGenerator
 63=methodology.clsSimpleLabelledKey
 21=methodology.clsBasicHash
-193=TestUseSavedVault.define
+190=TestUseSavedVault.define
 71=methodology.TestMapIntermediateToResult
-106=BasicBigIntGenerator
-108=SwappingVault
-225=TestVault
-143=FactoryProgramPasswordData
+105=BasicBigIntGenerator
+107=SwappingVault
+220=TestVault
+142=FactoryProgramPasswordData
 64=methodology.clsSimpleLabelledKeyGenerator
-218=ProgramPasswordData.__init__
+213=ProgramPasswordData.__init__
 19=methodology.clsBasicStringJoiner
 10=methodology.clsBasicBigIntGenerator
-110=BasicDifferenceMapper
+109=BasicDifferenceMapper
 17=methodology.clsBasicKeyParser
-182=TestProgramStateSaving
+180=TestProgramStateSaving
 47=methodology.iStringBigIntCorrespondence
 37=methodology.clsGenericVault
 81=methodology.testRecoveryUsingSimpleLabelledKey
 69=methodology.TestMapFromInputToIntermediate
 85=methodology.TestInBuiltFunctionality=
-179=TestProgramState
+178=TestProgramState
 8=methodology.clsBasicKey
-132=iStringBigIntCorrepsondence
+131=iStringBigIntCorrepsondence
 44=methodology.iJoiningBehavior
-135=PasswordApp1x1
-161=PasswordApp1x1.__init__
-117=DLPValidation
-109=BasicRecovery
-122=Definitions
-166=CustomPasswordApp1x1
-139=BasicKeyParser
-98=PasswordList
-150=iCombiningMethodology
+134=PasswordApp1x1
+160=PasswordApp1x1.__init__
+116=DLPValidation
+108=BasicRecovery
+120=Definitions
+165=CustomPasswordApp1x1
+138=BasicKeyParser
+97=PasswordList
+149=iCombiningMethodology
 65=methodology.clsSimpleKey
-168=TestHasher
-128=IntermediateVault
+167=TestHasher
+127=IntermediateVault
 36=functionality.clsFactoryProgramPasswordData
-159=Beginning_Screen.__init__
-116=iKeyGenerator
+158=Beginning_Screen.__init__
+115=iKeyGenerator
 14=methodology.clsBasicStringJoinerAndCombiner
 74=functionality.testProgramStateSaving
-196=ControlledIntermediateVault.__init__
-170=BasicStringJoiner.__init__
-124=BasicLabelledKeyGenerator
-208=SwappingVault.__init__
-163=BasicCombinedAndJoinedValidation.defineMap
+193=ControlledIntermediateVault.__init__
+169=BasicStringJoiner.__init__
+123=BasicLabelledKeyGenerator
+203=SwappingVault.__init__
+162=BasicCombinedAndJoinedValidation.defineMap
 48=methodology.clsKeyParser
 75=methodology.testVault
-229=TestBasicKeyGenerator
-210=GenericVault.__init__
+224=TestBasicKeyGenerator
+205=GenericVault.__init__
 42=methodology.iHashMethodology
-88=methodology.testBasicKeyGenerator
-140=MyClass
-185=TestPivotedVault
-146=DLPHash
-219=TestBasicLabelledKeyGenerator
+87=methodology.testBasicKeyGenerator
+139=MyClass
+228=TestPivotedVault
+145=DLPHash
+214=TestBasicLabelledKeyGenerator
 177=TestSavingPasswordData.test_FullFunctionality
-222=TestMapFromInputToIntermediate
-230=TestBasicLabelledKey
-99=PasswordTuple
-194=BasicKeyGenerator.__init__
-184=TestProgramStateLoading
+217=TestMapFromInputToIntermediate
+225=TestBasicLabelledKey
+98=PasswordTuple
+191=BasicKeyGenerator.__init__
+182=TestProgramStateLoading
 11=methodology.obseleteBasicMapToIntermediate
-231=TestPasswordList
-138=BasicKeyGenerator
-169=BasicStringJoinerAndCombiner.__init__
+226=TestPasswordList
+137=BasicKeyGenerator
+168=BasicStringJoinerAndCombiner.__init__
 55=functionality.clsPicklingMethodology
-241=OpenableVault.open
-152=BasicDifferenceMapperMethodology
+237=OpenableVault.open
+151=BasicDifferenceMapperMethodology
 2=methodology.clsBasicCombiner
 6=methodology.clsBasicLabelledKeyGenerator
-186=BasicDifferenceMapper.__init__
-235=TestPickleWriter
-113=BasicMapInputToIntermediate
-223=TestCombinedMap
-174=BasicMapIntermediateToResult.__init__
-188=BasicMapInputToIntermediate.__init__
-100=GenericLabelledKey
-203=SimpleLabelledKeyGenerator.__init__
-211=SimpleVault.__init__
+183=BasicDifferenceMapper.__init__
+231=TestPickleWriter
+112=BasicMapInputToIntermediate
+218=TestCombinedMap
+173=BasicMapIntermediateToResult.__init__
+185=BasicMapInputToIntermediate.__init__
+99=GenericLabelledKey
+199=SimpleLabelledKeyGenerator.__init__
+206=SimpleVault.__init__
 121=ProgramPasswordData
-107=BasicStringJoiner
-148=iBigIntGenerator
-233=TestInBuiltFunctionality
-216=RecoveryState.__init__
-221=testRecoveryUsingSimpleLabelledKey
-172=TestBasicStringIntConverter
-104=BasicStringJoinerAndCombiner
+106=BasicStringJoiner
+147=iBigIntGenerator
+229=TestInBuiltFunctionality
+211=RecoveryState.__init__
+216=testRecoveryUsingSimpleLabelledKey
+171=TestBasicStringIntConverter
+103=BasicStringJoinerAndCombiner
 38=methodology.clsGenericLabelledKey
 77=methodology.TestPickleBasicLabelledKeyReader
-147=ChangablePasswordList
+146=ChangablePasswordList
 94=functionality.testOpenPickledVault
-236=TestPickleBasicLabelledKeyReader
-90=methodology.testGenericLabelledKey
-200=SimpleLabelledKey.__init__
-212=SaltedHash.__init__
+232=TestPickleBasicLabelledKeyReader
+89=methodology.testGenericLabelledKey
+196=SimpleLabelledKey.__init__
+207=SaltedHash.__init__
 32=methodology.clsDLPHash
-165=BasicStringIntConverter.__init__
-227=testSimpleLabelledKeyGenerator
+164=BasicStringIntConverter.__init__
+222=testSimpleLabelledKeyGenerator
 62=methodology.clsSimpleKeyGenerator
-175=TestGenericLabelledKey.testSimpleFunctionality
+174=TestGenericLabelledKey.testSimpleFunctionality
 20=methodology.clsBasicMapIntermediateToResult
 33=functionality.clsFactoryIntermediateVault
-190=BasicSpreader.__init__
-123=iJoiningBehavior
-234=TestList
+187=BasicSpreader.__init__
+122=iJoiningBehavior
+230=TestList
 15=methodology.clsBasicSpreader
 35=methodology.clsFactoryBasicLabelledKey
-114=iIntermediateMapper
+113=iIntermediateMapper
 3=methodology.clsBasicCombine
-93=methodology.testSimpleLabelledKeyGenerator
+92=methodology.testSimpleLabelledKeyGenerator
 46=functionality.clsIntermediateVault
-155=GenericVault
-160=CustomBeginning_Screen
-118=BasicCombinedAndJoinedValidation
-95=methodology.testList
+154=GenericVault
+159=CustomBeginning_Screen
+117=BasicCombinedAndJoinedValidation
+93=methodology.testList
 80=methodology.TestBasicStringIntConverter
 5=methodology.clsBasicMapInputToIntermediate
 9=methodology.BasicDifferenceMapperMethodology
 61=methodology.TestPickleWriter
-134=PivotedVault
+133=PivotedVault
 84=functionality.testPivotedVault
-197=TestProgramData.define
 4=methodology.clsBasicDifferenceMapper
-192=testSimpleLabelledKeyGenerator.test_FullTest
-226=TestRecoveryList
+189=testSimpleLabelledKeyGenerator.test_FullTest
+221=TestRecoveryList
 7=methodology.clsBasicKeyGenerator
-92=methodology.TesterQuoraHasher
-142=PicklingMethodology
+91=methodology.TesterQuoraHasher
+141=PicklingMethodology
 27=functionality.clsControlledIntermediateVault
-214=IntermediateVault.__init__
-126=ControlledIntermediateVault
-180=TestProgramData
+209=IntermediateVault.__init__
+125=ControlledIntermediateVault
 1=methodology.clsBasicStringBigIntCorrespondence
-202=BasicLabelledKeyGenerator.__init__
+198=BasicLabelledKeyGenerator.__init__
 22=methodology.TestBasicKey
 68=functionality.testProgramStateLoading
-103=SaltedHash
-133=BasicStringBigIntCorrespondence
+102=SaltedHash
+132=BasicStringBigIntCorrespondence
 73=methodology.TestBasicLabelledKeyGenerator
-96=functionality.testProgramState
+95=functionality.testProgramState
 18=methodology.clsBasicLabelledKey
 26=methodology.clsChangablePasswordList
 57=functionality.clsProgramState
-195=BasicKey.__init__
+192=BasicKey.__init__
 16=methodology.clsBasicCombinedAndJoinedValidation
 49=GUI.clsMainProgramState
 66=methodology.clsSimpleVault
-120=RecoveryState
+119=RecoveryState
 23=methodology.clsBasicStringIntCalculator
-87=functionality.testProgramData
+176=TestPivotedVault.test_FullFunctionality
 39=methodology.clsGenericRecovery
-115=SimpleLabelledKeyGenerator
-151=iHashMethodology
-171=SimpleKey.__init__
+114=SimpleLabelledKeyGenerator
+150=iHashMethodology
+170=SimpleKey.__init__
 28=functionality.clsCurrentPasswordList
-239=PasswordTuple.__init__
-105=CurrentPasswordList
+235=PasswordTuple.__init__
+104=CurrentPasswordList
 43=methodology.iIntermediateMapper
-136=BasicCombiner
+135=BasicCombiner
 56=functionality.clsPivotedVault
-162=BasicCombinedAndJoinedValidation.__init__
+161=BasicCombinedAndJoinedValidation.__init__
 24=GUI.Beginning_Screen_ui
-209=ChangablePasswordList.__init__
+204=ChangablePasswordList.__init__
 30=testcommons.clsDefinitions
-240=OpenableVault.__init__
-119=ProgramState
-89=methodology.testBasicLabelledKey
-183=TestUseSavedVault
+236=OpenableVault.__init__
+118=ProgramState
+88=methodology.testBasicLabelledKey
+181=TestUseSavedVault
 70=methodology.TestCombinedMap
-220=testSimpleKeyGenerator
+215=testSimpleKeyGenerator
 54=methodology.clsPasswordList
-215=IntermediateVault.recover
-228=BasicKeyTest
-205=TestProgramState.define
-189=Definitions.define1
-232=TestHash
-176=testRecoveryUsingSimpleLabelledKey.test_FullFunctionality
-191=testSimpleKeyGenerator.test_FullFunctionality
+210=IntermediateVault.recover
+223=BasicKeyTest
+200=TestProgramState.define
+186=Definitions.define1
+227=TestHash
+175=testRecoveryUsingSimpleLabelledKey.test_FullFunctionality
+188=testSimpleKeyGenerator.test_FullFunctionality
 60=methodology.clsSaltedHash
-91=functionality.testUseSavedVault
+90=functionality.testUseSavedVault
 72=methodology.TestBasicDifferenceMapper
-217=ProgramState.__init__
-157=GenericLabelledKey.__init__
-201=PivotedVault.__init__
+212=ProgramState.__init__
+156=GenericLabelledKey.__init__
+197=PivotedVault.__init__
 59=functionality.clsRecoveryState
-127=BasicStringIntConverter
-178=TestProgramData.test_FullFunctionality
-198=BasicLabelledKey.__init__
-102=SimpleLabelledKey
-199=TestSavingPasswordData.define
+126=BasicStringIntConverter
+194=BasicLabelledKey.__init__
+101=SimpleLabelledKey
+195=TestSavingPasswordData.define
 51=functionality.clsOpenableVault
-167=TestGenericLabelledKey
-204=TestPivotedVault.define
+166=TestGenericLabelledKey
 86=methodology.clsTestPasswordList
-141=OpenableVault
-144=FactoryIntermediateVault
-181=TestSavingPasswordData
-213=BasicBigIntGenerator.__init__
-111=SimpleVault
-97=FactoryBasicLabelledKey
-131=Beginning_Screen
+140=OpenableVault
+143=FactoryIntermediateVault
+179=TestSavingPasswordData
+208=BasicBigIntGenerator.__init__
+110=SimpleVault
+96=FactoryBasicLabelledKey
+130=Beginning_Screen
 34=functionality.clsFactoryPivotedVault
-187=BasicDifferenceMapper.defineMap
-112=FactoryPivotedVault
-154=BasicSpreader
-145=BasicLabelledKey
+184=BasicDifferenceMapper.defineMap
+111=FactoryPivotedVault
+153=BasicSpreader
+144=BasicLabelledKey
 41=methodology.iCombiningMethodology
 40=methodology.iBigIntGenerator
 53=methodology.clsPasswordTuple
 13=methodology.clsBasicStringIntConverter
 45=methodology.iKeyGenerator
 25=GUI.Beginning_Screen
-173=BasicHash.__init__
+172=BasicHash.__init__
 76=functionality.testSavingPasswordData
-129=SimpleKeyGenerator
-130=BasicMapIntermediateToResult
-149=KeyParser
-224=TestMapIntermediateToResult
-237=TestDifferenceMapper
+128=SimpleKeyGenerator
+129=BasicMapIntermediateToResult
+148=KeyParser
+219=TestMapIntermediateToResult
+233=TestDifferenceMapper
 29=GUI.CustomPasswordApp1x1
 67=methodology.clsSwappingVault
-153=SimpleKey
+152=SimpleKey
 -- END DICTIONARY
 -- START TREE 1
 33
@@ -381,83 +376,83 @@ sal|1|SaltedHash!481@
 sav|1|save_object!490@
 sim|5|SimpleKeyGenerator!497@SimpleLabelledKey!505@SimpleLabelledKeyGenerator!513@SimpleKey!521@SimpleVault!529@
 swa|1|SwappingVault!537@
-tes|30|TestProgramStateLoading!545@TestMapFromInputToIntermediate!553@TestPickleWriter!489@TestCombinedMap!561@TestMapIntermediateToResult!569@TestDifferenceMapper!577@TestBasicLabelledKeyGenerator!585@TestProgramStateSaving!593@TestVault!601@TestSavingPasswordData!609@TestPickleBasicLabelledKeyReader!617@TestRecoveryList!625@TestHash!633@TestBasicStringIntConverter!641@testRecoveryUsingSimpleLabelledKey!649@TestPasswordList!657@testSimpleKeyGenerator!665@TestPivotedVault!673@TestInBuiltFunctionality!681@TestPasswordList!689@TestProgramData!697@TestBasicKeyGenerator!705@TestBasicLabelledKey!713@TestGenericLabelledKey!721@TestUseSavedVault!729@TestHasher!737@testSimpleLabelledKeyGenerator!745@TestOpenPickledVault!753@TestList!761@TestProgramState!769@
+tes|29|TestProgramStateLoading!545@TestMapFromInputToIntermediate!553@TestPickleWriter!489@TestCombinedMap!561@TestMapIntermediateToResult!569@TestDifferenceMapper!577@TestBasicLabelledKeyGenerator!585@TestProgramStateSaving!593@TestVault!601@TestSavingPasswordData!609@TestPickleBasicLabelledKeyReader!617@TestRecoveryList!625@TestHash!633@TestBasicStringIntConverter!641@testRecoveryUsingSimpleLabelledKey!649@TestPasswordList!657@testSimpleKeyGenerator!665@TestPivotedVault!673@TestInBuiltFunctionality!681@TestPasswordList!689@TestBasicKeyGenerator!697@TestBasicLabelledKey!705@TestGenericLabelledKey!713@TestUseSavedVault!721@TestHasher!729@testSimpleLabelledKeyGenerator!737@TestList!745@TestOpenPickledVault!753@TestProgramState!761@
 -- END TREE
 -- START TREE 2
 75
-__e|5|__eq__!97&282@__eq__!98&434@__eq__!99&426@__eq__!100&306@__eq__!101&314@
-__h|1|__hash__!99&426@
-__i|63|__init__!102&506@__init__!103&482@__init__!104&114@__init__!105&226@__init__!106&82@__init__!107&154@__init__!108&538@__init__!109&98@__init__!97&282@__init__!110&34@__init__!111&530@__init__!112&274@__init__!113&42@__init__!114&346@__init__!115&514@__init__!116&362@__init__!117&250@__init__!118&130@__init__!119&458@__init__!120&474@__init__!121&466@__init__!122&242@__init__!123&354@__init__!113&90@__init__!124&50@__init__!125&170@__init__!126&218@__init__!127&106@__init__!124&186@__init__!128&370@__init__!129&498@__init__!130&162@__init__!131&194@__init__!132&378@__init__!133&10@__init__!134&450@__init__!135&418@__init__!136&18@__init__!137&26@__init__!138&58@__init__!139&138@__init__!140&402@__init__!141&410@__init__!142&442@__init__!100&306@__init__!143&290@__init__!140&394@__init__!144&266@__init__!145&146@__init__!146&258@__init__!98&434@__init__!147&210@__init__!148&322@__init__!149&386@__init__!150&330@__init__!99&426@__init__!101&314@__init__!151&338@__init__!152&74@__init__!153&522@__init__!154&122@__init__!155&298@__init__!156&66@
-__k|3|__keyName!157&307@__key!99&426@__key!157&307@
-__l|1|__list!158&435@
-__p|1|__passwordIdentifierList!157&307@
-__r|1|__resultIdentifier!157&307@
-__s|5|__str__!97&282@__str__!100&306@__str__!99&426@__str__!98&434@__str__!101&314@
-_bu|4|_button_1!159&195@_button_2_command!160&202@_button_2!159&195@_button_1_command!160&202@
-_fr|1|_frame_6!161&419@
-_im|2|_images!135&419@_images!131&195@
-_la|1|_label_1!159&195@
-add|18|addKey!128&370@addInputList!126&218@addInputPlusPasswords!119&458@addInputListAndPasswords!141&410@addOutput!120&474@addOutput!134&450@addInput!121&466@addPassword!119&458@addInputList!120&474@addInputList!134&450@addInput!119&458@addInputWithPasswords!121&466@addInput!141&410@addPassword!128&370@addPassword!141&410@addPassword!121&466@addOutput!126&218@addInputListAndPasswords!134&450@
-app|5|append!111&530@append!147&210@append!108&538@append!155&298@append!98&434@
-bas|4|base!162&131@base!163&131@base!164&259@base!165&107@
-btn|6|btnEnterKeyCredentials!161&419@btnEnterKeyCredentials_command!166&234@btnNewVault_command!166&234@btnModifyVault!161&419@btnModifyVault_command!166&234@btnNewVault!161&419@
-bui|1|build!143&290@
-cas|1|case_computetest!167&722@
-cha|1|changePassword!119&458@
-com|21|combine!137&26@combine!150&330@compute!125&170@computeReturnTuple!100&306@compute!151&338@compute!153&522@computeReturnTuple!145&146@combine!136&18@compute!156&66@compute!110&34@compute!102&506@compute!113&42@compute!103&482@compute!100&306@compute!168&738@compute!118&130@compute!146&258@compute!145&146@compute!130&162@combiner!169&115@computeReturnTuple!102&506@
-con|6|converter!170&155@converter!171&523@convertStringThenInt!172&642@converter!173&171@converter!174&163@convertIntThenString!172&642@
-cre|4|createPickledVault!134&450@createPickledVault!121&466@createPickledVault!141&410@createPickledVault!111&530@
-dat|4|data!175&723@data!176&651@data!177&611@data!178&699@
-def|13|define!179&770@define!180&698@define!181&610@defineMap!110&34@defineMap!113&42@define!182&594@define!183&730@define!184&546@define!185&674@defineMap!130&162@define1!122&242@defineMap!118&130@defineMap!146&258@
-dif|5|differenceMapper!171&523@difference!186&35@difference!187&35@differenceMapper!174&163@differenceMapper!188&43@
-enc|4|encode!110&34@encode!113&42@encode!156&66@encode!130&162@
-ent|8|entPasswordSearch_validatecommand!166&234@entPasswordSearch_xscrollcommand!166&234@entVaultText_xscrollcommand!166&234@entVaultText_invalidcommand!166&234@entVaultText_validatecommand!166&234@entVaultText!161&419@entPasswordSearch!161&419@entPasswordSearch_invalidcommand!166&234@
-gen|16|gen!189&243@generator!190&123@gen!191&667@gen!192&747@gen!193&731@gen!178&699@generate!124&50@generate!106&82@gen!175&723@generate!115&514@generateKey!138&58@generate!129&498@gen!177&611@generateKey!116&362@generator!194&59@generateKeyFromEncoding!97&282@
-get|22|getVault!141&410@getVaultForSaving!111&530@getVault!120&474@getIdentifierList!98&434@getVaultFromFile!142&442@getList!111&530@getVault!128&370@getVault!108&538@getByIdentifier!98&434@getPasswordList!128&370@getVault!134&450@getVault!121&466@getPasswordList!120&474@getList!155&298@GetVaultFromJson!142&442@getCopy!98&434@getVaultForSaving!134&450@getList!98&434@getVaultForSaving!121&466@getVaultForSaving!141&410@getTuple!99&426@getPasswordList!121&466@
-has|2|hash!171&523@hasIdentifier!98&434@
-ide|1|identifier!99&426@
-inp|2|inputIsSufficient!100&306@inputToIntermediate!195&67@
-int|2|intermediateToResult!195&67@intermediate!196&219@
-iso|2|isOpen!141&410@isOpen!119&458@
-joi|4|joinTwoStrings!107&154@joinAndCombine!104&114@joinTwoStrings!123&354@joinerAndCombiner!171&523@
-key|36|key12t3!193&731@key6t2!189&243@key123t4!197&699@keyName!198&147@key12t3!199&611@key1234t5!189&243@keyName!200&507@key!198&147@key1t6!189&243@key6t1!189&243@key123t4!199&611@key12t5!193&731@keygen!201&451@key1t5!189&243@key1t4!189&243@key1t3!189&243@key123t4!189&243@key12345t6!189&243@key6t6!189&243@key1t2!189&243@key12t5!197&699@key!145&146@key12t5!189&243@key1t1!189&243@key6t5!189&243@key!102&506@key12t5!199&611@key!100&306@key!200&507@key6t4!189&243@key6t3!189&243@key123t4!193&731@keyGen!202&51@key12t3!197&699@keyGen!203&515@key12t3!189&243@
-lbl|3|lblSelectAVault!161&419@lblSelectAVaultKey!161&419@lblPasswordSelection!161&419@
-lcl|73|lclpwd6!204&675@lclpwd2!197&699@lclpwd5d!199&611@lclpwd2!189&243@lclpwd3!189&243@lclpwd4!205&771@lclpwd3!197&699@lclpwd5d!193&731@lclpwd3!205&771@lclpwd2d!199&611@lclpwd4!197&699@lclpwd4!189&243@lclpwd2!205&771@lclpwd4!204&675@lclpwd1!205&771@lclpwd2d!193&731@lclpwd1!189&243@lclpwd3d!189&243@lclpwd5!204&675@lclpwd1!197&699@lclpwd3d!197&699@lclHasher!168&739@lclpwd1d!193&731@lclpwd6d!197&699@lclpwd6d!189&243@lclpwd6d!199&611@lclpwd4d!193&731@lclpwd5!189&243@lclpwd6!205&771@lclpwd5!197&699@lclpwd1!199&611@lclpwd3d!199&611@lclpwd5!205&771@lclpwd6!197&699@lclpwd6!189&243@lclpwd2d!197&699@lclpwd3!193&731@lclpwd2d!189&243@lclpwd2!206&547@lclpwd3!199&611@lclpwd5d!189&243@lclpwd5d!197&699@lclpwd3!206&547@lclpwd2!199&611@lclpwd4!193&731@lclpwd2!207&595@lclpwd6!199&611@lclpwd5!193&731@lclpwd4d!199&611@lclpwd1!207&595@lclpwd1!206&547@lclpwd5!199&611@lclpwd4!199&611@lclpwd6!193&731@lclpwd4!207&595@lclpwd6d!193&731@lclpwd1!204&675@lclpwd5!207&595@lclpwd1d!199&611@lclpwd1d!189&243@lclpwd6!206&547@lclpwd1d!197&699@lclpwd3!204&675@lclpwd3!207&595@lclpwd2!204&675@lclpwd4d!197&699@lclpwd1!193&731@lclpwd3d!193&731@lclpwd4d!189&243@lclpwd4!206&547@lclpwd2!193&731@lclpwd6!207&595@lclpwd5!206&547@
-lis|4|list!208&539@list!209&211@list!210&299@list!211&531@
-lst|6|lstPasswords_yscrollcommand!166&234@lstVaultKeySelector_xscrollcommand!166&234@lstPasswords!161&419@lstPasswords_xscrollcommand!166&234@lstVaultKeySelector_yscrollcommand!166&234@lstVaultKeySelector!161&419@
-m_s|1|m_salt!212&483@
-map|4|mapToIntermediate!113&90@mapIntermediateToResult!194&59@mapInputToIntermediate!194&59@map!114&346@
-met|4|method!102&506@method!145&146@method!200&507@method!198&147@
-mod|3|modulus!164&259@modulus!162&131@modulus!163&131@
-nam|3|name!145&146@name!100&306@name!102&506@
-new|1|newPivotedVault!112&274@
-num|1|numBits!213&83@
-one|1|oneWayHashFunction!174&163@
-ope|2|open!141&410@openVault!119&458@
-pas|74|passwordListB5!193&731@passwordListB4!199&611@passwordListX!197&699@passwordListA0!193&731@passwordListX!189&243@passwordList!214&371@passwordList!215&371@passwordListB4!193&731@passwordListA1!199&611@passwordListA5!197&699@passwordListA2!193&731@passwordListA5!189&243@passwordListA0!199&611@passwordListA6!197&699@passwordListA1!193&731@passwordListB5!199&611@passwordListA6!189&243@passwordListA2!197&699@passwordListA4!193&731@passwordListA2!189&243@passwordListA3!189&243@passwordListA3!197&699@passwordIdentifierList!100&306@passwordListA4!197&699@passwordListA3!193&731@passwordListA4!189&243@passwordListA4!204&675@passwordListA0!197&699@passwordListA6!193&731@passwordIdentifierList!200&507@passwordListA0!189&243@passwordListB6!189&243@passwordListA1!197&699@passwordListA5!193&731@passwordListA1!189&243@passwordIdentifierList!198&147@passwordListA0!205&771@passwordListB3!189&243@passwordListA4!207&595@passwordListB4!189&243@passwordListA1!205&771@passwordListA1!204&675@passwordListX!193&731@passwordListA3!204&675@passwordListX!199&611@passwordListB4!197&699@passwordListB5!197&699@passwordListA2!205&771@passwordListA3!207&595@passwordListB5!189&243@passwordListA2!204&675@password!99&426@passwordList!216&475@passwordIdentifierList!102&506@passwordListA3!205&771@passwordData!217&459@passwordListA4!206&547@passwordListA4!205&771@passwordIdentifierList!145&146@passwordListB2!189&243@passwordListA0!204&675@passwordListA0!207&595@passwordListA3!206&547@passwordListA3!199&611@passwordList!218&467@passwordListA2!199&611@passwordListA2!206&547@passwordListA6!199&611@passwordListA2!207&595@passwordListA1!206&547@passwordListA5!199&611@passwordListA0!206&547@passwordListA1!207&595@passwordListA4!199&611@
-pic|3|pickler!178&699@pickler!177&611@pickler!193&731@
-piv|2|pivot!201&451@pivotedVault!216&475@
-pop|9|popByIdentifier!98&434@popKey!128&370@popPassword!120&474@pop!98&434@popByName!155&298@popInputListByName!120&474@pop!155&298@popKeyByName!128&370@popPasswordByIdentifier!120&474@
-pri|2|printAnEncoding!219&586@printAnEncoding!220&666@
-rad|2|radUsingText_command!166&234@radUsingText!161&419@
-rec|9|recover!111&530@recoveryMethod!210&299@recoveryMethod!211&531@recover!155&298@recoverPivotedVault!112&274@recover!109&98@recover!101&314@recover!128&370@recoveryMethod!208&539@
-rem|13|removeByName!111&530@removeInput!121&466@removePassword!119&458@removeInput!119&458@removeByInputListIdentifiersAndResultIdentifier!111&530@removePassword!141&410@removeByResultIdentifier!111&530@removePassword!121&466@removeInputList!134&450@removeOutput!134&450@removeInput!141&410@remove!111&530@removeByInputList!111&530@
-res|5|resultIdentifier!200&507@resultIdentifier!100&306@resultIdentifier!198&147@resultIdentifier!145&146@resultIdentifier!102&506@
-sal|1|salt!173&171@
-sam|13|sample4!221&650@sample!222&554@sample!223&562@sample3!221&650@sample2!221&650@sampleOutcome!221&650@sample!224&570@sample1!225&602@sample1!221&650@sample1!226&626@sampleWrongInput1!227&746@sample5!221&650@sampleCase!228&178@
-sav|2|saveVault!142&442@SaveVaultAsJson!142&442@
-set|1|setUp!229&706@
-siz|1|size!98&434@
-spr|1|spread!154&122@
-str|3|stringJoinerAndCombiner!188&43@stringJoinerAndCombiner!188&91@stringJoiner!169&115@
-sub|2|subtest1!230&714@subtest2!230&714@
-tea|1|tearDown!229&706@
-tes|33|test_FullFunctionality!231&690@test_BasicCase!232&634@test_FullFunctionality!231&658@test_FullFunctionality!185&674@test_FullFunctionality!221&650@test_FullFunctionality!222&554@test_FullFunctionality!225&602@test_FullFunctionality!220&666@test_FullFunctionality!180&698@test_FullFunctionality!224&570@test_FullFunctionality!219&586@test_FullFunctionality!223&562@test_FullTest!227&746@testSimpleFunctionality!167&722@test_createSampleKey!228&178@test_Doctorb!233&682@test_FullFunctionality!234&762@test_FullFunctionality!184&546@test_FullFunctionality!228&178@testProgramState!179&770@test_ComputeFunction!230&714@test_generatesValidKey!229&706@test_FullFunctionality!235&490@test_FullFunctionality!181&610@test_FullFunctionality!236&618@test_getCopy!231&658@testName!222&554@test_MainFunctionality!182&594@test_ConversionFunctionality!172&642@test_FullFunctionality!226&626@test_FullFunctionality!183&730@test_FullFunctionality!237&578@test_FullFunctionality!238&754@
-tob|2|toBigInt!133&10@toBigInt!124&186@
-toi|3|toInt!168&738@toInt!132&378@toInt!127&106@
-tos|23|toString!119&458@toString!156&66@toString!127&106@toString!111&530@toString!141&410@toString!102&506@toString!100&306@toString!155&298@toString!168&738@toString!113&42@toString!128&370@toString!124&186@toString!153&522@toString!99&426@toString!132&378@toString!133&10@toString!110&34@toString!145&146@toString!121&466@toString!98&434@toString!134&450@toString!130&162@toString!146&258@
-try|2|tryBasicMapping!227&746@tryCombo!220&666@
-tup|1|tuple!239&427@
-val|3|validationCode!200&507@validationCode!198&147@validationCode!171&523@
-vau|6|vaultFileName!217&459@vault!201&451@vault!214&371@vault!218&467@vault!240&411@vault!241&411@
+__e|5|__eq__!96&282@__eq__!97&434@__eq__!98&426@__eq__!99&306@__eq__!100&314@
+__h|1|__hash__!98&426@
+__i|63|__init__!101&506@__init__!102&482@__init__!103&114@__init__!104&226@__init__!105&82@__init__!106&154@__init__!107&538@__init__!108&98@__init__!96&282@__init__!109&34@__init__!110&530@__init__!111&274@__init__!112&42@__init__!113&346@__init__!114&514@__init__!115&362@__init__!116&250@__init__!117&130@__init__!118&458@__init__!119&474@__init__!120&242@__init__!121&466@__init__!122&354@__init__!112&90@__init__!123&50@__init__!124&170@__init__!125&218@__init__!126&106@__init__!123&186@__init__!127&370@__init__!128&498@__init__!129&162@__init__!130&194@__init__!131&378@__init__!132&10@__init__!133&450@__init__!134&418@__init__!135&18@__init__!136&26@__init__!137&58@__init__!138&138@__init__!139&402@__init__!140&410@__init__!141&442@__init__!99&306@__init__!142&290@__init__!139&394@__init__!143&266@__init__!144&146@__init__!145&258@__init__!97&434@__init__!146&210@__init__!147&322@__init__!148&386@__init__!149&330@__init__!98&426@__init__!100&314@__init__!150&338@__init__!151&74@__init__!152&522@__init__!153&122@__init__!154&298@__init__!155&66@
+__k|3|__keyName!156&307@__key!98&426@__key!156&307@
+__l|1|__list!157&435@
+__p|1|__passwordIdentifierList!156&307@
+__r|1|__resultIdentifier!156&307@
+__s|5|__str__!96&282@__str__!99&306@__str__!98&426@__str__!97&434@__str__!100&314@
+_bu|4|_button_1!158&195@_button_2_command!159&202@_button_2!158&195@_button_1_command!159&202@
+_fr|1|_frame_6!160&419@
+_im|2|_images!134&419@_images!130&195@
+_la|1|_label_1!158&195@
+add|18|addKey!127&370@addInputList!125&218@addInputPlusPasswords!118&458@addInputListAndPasswords!140&410@addOutput!119&474@addOutput!133&450@addInput!121&466@addPassword!118&458@addInputList!119&474@addInputList!133&450@addInput!118&458@addInputWithPasswords!121&466@addInput!140&410@addPassword!127&370@addPassword!140&410@addPassword!121&466@addOutput!125&218@addInputListAndPasswords!133&450@
+app|5|append!110&530@append!146&210@append!107&538@append!154&298@append!97&434@
+bas|4|base!161&131@base!162&131@base!163&259@base!164&107@
+btn|6|btnEnterKeyCredentials!160&419@btnEnterKeyCredentials_command!165&234@btnNewVault_command!165&234@btnModifyVault!160&419@btnModifyVault_command!165&234@btnNewVault!160&419@
+bui|1|build!142&290@
+cas|1|case_computetest!166&714@
+cha|1|changePassword!118&458@
+com|21|combine!136&26@combine!149&330@compute!124&170@computeReturnTuple!99&306@compute!150&338@compute!152&522@computeReturnTuple!144&146@combine!135&18@compute!155&66@compute!109&34@compute!101&506@compute!112&42@compute!102&482@compute!99&306@compute!167&730@compute!117&130@compute!145&258@compute!144&146@compute!129&162@combiner!168&115@computeReturnTuple!101&506@
+con|6|converter!169&155@converter!170&523@convertStringThenInt!171&642@converter!172&171@converter!173&163@convertIntThenString!171&642@
+cre|4|createPickledVault!133&450@createPickledVault!140&410@createPickledVault!121&466@createPickledVault!110&530@
+dat|4|data!174&715@data!175&651@data!176&675@data!177&611@
+def|11|define!178&762@define!179&610@defineMap!109&34@defineMap!112&42@define!180&594@define!181&722@define!182&546@defineMap!129&162@define1!120&242@defineMap!117&130@defineMap!145&258@
+dif|5|differenceMapper!170&523@difference!183&35@difference!184&35@differenceMapper!173&163@differenceMapper!185&43@
+enc|4|encode!109&34@encode!112&42@encode!155&66@encode!129&162@
+ent|8|entPasswordSearch_validatecommand!165&234@entPasswordSearch_xscrollcommand!165&234@entVaultText_xscrollcommand!165&234@entVaultText_invalidcommand!165&234@entVaultText_validatecommand!165&234@entVaultText!160&419@entPasswordSearch!160&419@entPasswordSearch_invalidcommand!165&234@
+gen|15|gen!186&243@generator!187&123@gen!188&667@gen!189&739@gen!190&723@generate!123&50@generate!105&82@gen!174&715@generate!114&514@generateKey!137&58@generate!128&498@gen!177&611@generateKey!115&362@generator!191&59@generateKeyFromEncoding!96&282@
+get|22|getVault!140&410@getVaultForSaving!110&530@getVault!119&474@getIdentifierList!97&434@getVaultFromFile!141&442@getList!110&530@getVault!127&370@getVault!107&538@getByIdentifier!97&434@getPasswordList!127&370@getVault!133&450@getVault!121&466@getPasswordList!119&474@getList!154&298@GetVaultFromJson!141&442@getCopy!97&434@getVaultForSaving!133&450@getList!97&434@getVaultForSaving!140&410@getVaultForSaving!121&466@getTuple!98&426@getPasswordList!121&466@
+has|2|hash!170&523@hasIdentifier!97&434@
+ide|1|identifier!98&426@
+inp|2|inputIsSufficient!99&306@inputToIntermediate!192&67@
+int|2|intermediateToResult!192&67@intermediate!193&219@
+iso|2|isOpen!140&410@isOpen!118&458@
+joi|4|joinTwoStrings!106&154@joinAndCombine!103&114@joinTwoStrings!122&354@joinerAndCombiner!170&523@
+key|33|key12t3!190&723@key6t2!186&243@keyName!194&147@key12t3!195&611@key1234t5!186&243@keyName!196&507@key!194&147@key1t6!186&243@key6t1!186&243@key123t4!195&611@key12t5!190&723@keygen!197&451@key1t5!186&243@key1t4!186&243@key1t3!186&243@key123t4!186&243@key12345t6!186&243@key6t6!186&243@key1t2!186&243@key!144&146@key12t5!186&243@key1t1!186&243@key6t5!186&243@key!101&506@key12t5!195&611@key!99&306@key!196&507@key6t4!186&243@key6t3!186&243@key123t4!190&723@keyGen!198&51@keyGen!199&515@key12t3!186&243@
+lbl|3|lblSelectAVault!160&419@lblSelectAVaultKey!160&419@lblPasswordSelection!160&419@
+lcl|55|lclpwd5d!195&611@lclpwd2!186&243@lclpwd3!186&243@lclpwd4!200&763@lclpwd5d!190&723@lclpwd3!200&763@lclpwd2d!195&611@lclpwd4!186&243@lclpwd2!200&763@lclpwd1!200&763@lclpwd2d!190&723@lclpwd1!186&243@lclpwd3d!186&243@lclHasher!167&731@lclpwd1d!190&723@lclpwd6d!186&243@lclpwd6d!195&611@lclpwd4d!190&723@lclpwd5!186&243@lclpwd6!200&763@lclpwd1!195&611@lclpwd3d!195&611@lclpwd5!200&763@lclpwd6!186&243@lclpwd3!190&723@lclpwd2d!186&243@lclpwd2!201&547@lclpwd3!195&611@lclpwd5d!186&243@lclpwd3!201&547@lclpwd2!195&611@lclpwd4!190&723@lclpwd2!202&595@lclpwd6!195&611@lclpwd5!190&723@lclpwd4d!195&611@lclpwd1!202&595@lclpwd1!201&547@lclpwd5!195&611@lclpwd4!195&611@lclpwd6!190&723@lclpwd4!202&595@lclpwd6d!190&723@lclpwd5!202&595@lclpwd1d!195&611@lclpwd1d!186&243@lclpwd6!201&547@lclpwd3!202&595@lclpwd1!190&723@lclpwd3d!190&723@lclpwd4d!186&243@lclpwd4!201&547@lclpwd2!190&723@lclpwd6!202&595@lclpwd5!201&547@
+lis|4|list!203&539@list!204&211@list!205&299@list!206&531@
+lst|6|lstPasswords_yscrollcommand!165&234@lstVaultKeySelector_xscrollcommand!165&234@lstPasswords!160&419@lstPasswords_xscrollcommand!165&234@lstVaultKeySelector_yscrollcommand!165&234@lstVaultKeySelector!160&419@
+m_s|1|m_salt!207&483@
+map|4|mapToIntermediate!112&90@mapIntermediateToResult!191&59@mapInputToIntermediate!191&59@map!113&346@
+met|4|method!101&506@method!144&146@method!196&507@method!194&147@
+mod|3|modulus!163&259@modulus!161&131@modulus!162&131@
+nam|3|name!144&146@name!99&306@name!101&506@
+new|1|newPivotedVault!111&274@
+num|1|numBits!208&83@
+one|1|oneWayHashFunction!173&163@
+ope|2|open!140&410@openVault!118&458@
+pas|59|passwordListB5!190&723@passwordListB4!195&611@passwordListA0!190&723@passwordListX!186&243@passwordList!209&371@passwordList!210&371@passwordListB4!190&723@passwordListA1!195&611@passwordListA2!190&723@passwordListA5!186&243@passwordListA0!195&611@passwordListA1!190&723@passwordListB5!195&611@passwordListA6!186&243@passwordListA4!190&723@passwordListA2!186&243@passwordListA3!186&243@passwordIdentifierList!99&306@passwordListA3!190&723@passwordListA4!186&243@passwordListA6!190&723@passwordIdentifierList!196&507@passwordListA0!186&243@passwordListB6!186&243@passwordListA5!190&723@passwordListA1!186&243@passwordIdentifierList!194&147@passwordListA0!200&763@passwordListB3!186&243@passwordListA4!202&595@passwordListB4!186&243@passwordListA1!200&763@passwordListX!190&723@passwordListX!195&611@passwordListA2!200&763@passwordListA3!202&595@passwordListB5!186&243@password!98&426@passwordList!211&475@passwordIdentifierList!101&506@passwordListA3!200&763@passwordData!212&459@passwordListA4!201&547@passwordListA4!200&763@passwordIdentifierList!144&146@passwordListB2!186&243@passwordListA0!202&595@passwordListA3!201&547@passwordListA3!195&611@passwordList!213&467@passwordListA2!195&611@passwordListA2!201&547@passwordListA6!195&611@passwordListA2!202&595@passwordListA1!201&547@passwordListA5!195&611@passwordListA0!201&547@passwordListA1!202&595@passwordListA4!195&611@
+pic|2|pickler!177&611@pickler!190&723@
+piv|2|pivot!197&451@pivotedVault!211&475@
+pop|9|popByIdentifier!97&434@popKey!127&370@popPassword!119&474@pop!97&434@popByName!154&298@popInputListByName!119&474@pop!154&298@popKeyByName!127&370@popPasswordByIdentifier!119&474@
+pri|2|printAnEncoding!214&586@printAnEncoding!215&666@
+rad|2|radUsingText_command!165&234@radUsingText!160&419@
+rec|9|recover!110&530@recoveryMethod!205&299@recoveryMethod!206&531@recover!154&298@recoverPivotedVault!111&274@recover!108&98@recover!100&314@recover!127&370@recoveryMethod!203&539@
+rem|13|removeByName!110&530@removeInput!121&466@removePassword!118&458@removeInput!118&458@removeByInputListIdentifiersAndResultIdentifier!110&530@removeByResultIdentifier!110&530@removePassword!140&410@removePassword!121&466@removeInputList!133&450@removeOutput!133&450@removeInput!140&410@remove!110&530@removeByInputList!110&530@
+res|5|resultIdentifier!196&507@resultIdentifier!99&306@resultIdentifier!194&147@resultIdentifier!144&146@resultIdentifier!101&506@
+sal|1|salt!172&171@
+sam|13|sample4!216&650@sample!217&554@sample!218&562@sample3!216&650@sample2!216&650@sampleOutcome!216&650@sample!219&570@sample1!220&602@sample1!216&650@sample1!221&626@sampleWrongInput1!222&738@sample5!216&650@sampleCase!223&178@
+sav|2|saveVault!141&442@SaveVaultAsJson!141&442@
+set|1|setUp!224&698@
+siz|1|size!97&434@
+spr|1|spread!153&122@
+str|3|stringJoinerAndCombiner!185&43@stringJoinerAndCombiner!185&91@stringJoiner!168&115@
+sub|2|subtest1!225&706@subtest2!225&706@
+tea|1|tearDown!224&698@
+tes|32|test_FullFunctionality!226&690@test_BasicCase!227&634@test_FullFunctionality!226&658@test_FullFunctionality!216&650@test_FullFunctionality!228&674@test_FullFunctionality!217&554@test_FullFunctionality!220&602@test_FullFunctionality!215&666@test_FullFunctionality!219&570@test_FullFunctionality!214&586@test_FullFunctionality!218&562@test_FullTest!222&738@testSimpleFunctionality!166&714@test_createSampleKey!223&178@test_Doctorb!229&682@test_FullFunctionality!230&746@test_FullFunctionality!182&546@test_FullFunctionality!223&178@testProgramState!178&762@test_ComputeFunction!225&706@test_generatesValidKey!224&698@test_FullFunctionality!231&490@test_FullFunctionality!179&610@test_FullFunctionality!232&618@test_getCopy!226&658@testName!217&554@test_MainFunctionality!180&594@test_ConversionFunctionality!171&642@test_FullFunctionality!221&626@test_FullFunctionality!181&722@test_FullFunctionality!233&578@test_FullFunctionality!234&754@
+tob|2|toBigInt!132&10@toBigInt!123&186@
+toi|3|toInt!167&730@toInt!131&378@toInt!126&106@
+tos|23|toString!118&458@toString!155&66@toString!126&106@toString!110&530@toString!140&410@toString!101&506@toString!99&306@toString!154&298@toString!167&730@toString!112&42@toString!127&370@toString!123&186@toString!152&522@toString!98&426@toString!131&378@toString!132&10@toString!109&34@toString!144&146@toString!121&466@toString!97&434@toString!129&162@toString!133&450@toString!145&258@
+try|2|tryBasicMapping!222&738@tryCombo!215&666@
+tup|1|tuple!235&427@
+val|3|validationCode!196&507@validationCode!194&147@validationCode!170&523@
+vau|6|vaultFileName!212&459@vault!197&451@vault!209&371@vault!213&467@vault!236&411@vault!237&411@
 -- END TREE

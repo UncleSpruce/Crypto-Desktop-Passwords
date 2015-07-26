@@ -1,1 +1,19 @@
-DELSTRmethodology.clsGenericRecovery
+INSTUPfunctionality.clsPivotedVault
+D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsPivotedVault.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&3|7|2|5&&2|8|2|1&&2|9|2|1&&2|10|2|1&&2|11|2|1&&2|12|2|1&&2|13|2|1&&2|14|2|1&&2|15|2|1&&2|16|2|1
+addInputListAndPasswords=12
+createPickledVault=16
+addInputList=10
+functionality.clsPivotedVault=2
+PivotedVault.__init__=5
+addOutput=13
+keygen=7
+PivotedVault=1
+removeInputList=11
+getVault=8
+removeOutput=14
+pivot=4
+toString=15
+__init__=3
+getVaultForSaving=9
+vault=6

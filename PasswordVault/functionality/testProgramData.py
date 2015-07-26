@@ -15,6 +15,7 @@ from methodology.clsGenericLabelledKey import GenericLabelledKey
 from methodology.clsSimpleLabelledKeyGenerator import SimpleLabelledKeyGenerator
 from functionality.clsFactoryProgramPasswordData import FactoryProgramPasswordData
 from functionality.clsPicklingMethodology import PicklingMethodology
+from testcommons.clsDefinitions import Definitions
 
 class TestProgramData(unittest.TestCase):
 	def test_FullFunctionality(self):
@@ -22,29 +23,38 @@ class TestProgramData(unittest.TestCase):
 		
 		self.gen = SimpleLabelledKeyGenerator()
 		self.pickler = PicklingMethodology()
-		self.define()
+		self.data = Definitions()
 		
 		lclFactory = FactoryProgramPasswordData()
-		self.data = lclFactory.build()		
+		self.passwordData = lclFactory.build()		
 		
 		#self.data.addPassword(self.lclpwd1)
 		#self.data.addPassword(self.lclpwd2)
-		self.data.addPassword(self.lclpwd3)
-		print("Status: " + self.data.toString())
+		#self.data.addPassword(self.data.lclpwd3)
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addInput(self.data.passwordListA2)
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addPassword(self.data.lclpwd4)
+		print("Status: " + self.passwordData.toString())	
+		self.passwordData.addPassword(self.data.lclpwd4d)
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addInputWithPasswords(self.data.passwordListB4)
+		print("Status: " + self.passwordData.toString())
 		
-		self.data.addInput(self.passwordListA2)
-		print("Status: " + self.data.toString())
-		
-		self.data.addPassword(self.lclpwd4)
-		print("Status: " + self.data.toString())
-		
-		self.data.addPassword(self.lclpwd4d)
-		print("Status: " + self.data.toString())
-
-		self.data.addInputWithPasswords(self.passwordListB4)
-		print("Status: " + self.data.toString())
-		
-
+		self.passwordData2 = lclFactory.build()
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addInput(self.data.passwordListA2)
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addInput(self.data.passwordListA4)		
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addInput(self.data.passwordListB5)
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addPassword(self.data.lclpwd4)
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addPassword(self.data.lclpwd3)
+		print("Status: " + self.passwordData.toString())
+		self.passwordData.addPassword(self.data.lclpwd2)
+		print("Status: " + self.passwordData.toString())
 		
 # 		print("Variables defined.")
 # 		vault = OpenableVault()
@@ -70,72 +80,72 @@ class TestProgramData(unittest.TestCase):
 # 		vault.removeInputList(self.passwordListA1)
 # 		print("11:" + vault.toString())
 	
-	def define(self):
-		self.lclpwd1 = PasswordTuple("Facebook", "q234")
-		self.lclpwd2 = PasswordTuple("Google", "778")
-		self.lclpwd3 = PasswordTuple("LinkedIn", "P324")
-		self.lclpwd4 = PasswordTuple("Quora", "hjkhkg34")
-		self.lclpwd5 = PasswordTuple("Foursquare", "hjkhksssssg34")
-		self.lclpwd6 = PasswordTuple("Dutch Oven", "hjkhsddkg34")
-
-		self.lclpwd1d = PasswordTuple("Facebook", "q234 Duplicated")
-		self.lclpwd2d = PasswordTuple("Google", "778 Duplicated")
-		self.lclpwd3d = PasswordTuple("LinkedIn", "P324 Duplicated")
-		self.lclpwd4d = PasswordTuple("Quora", "hjkhkg34 Duplicated")
-		self.lclpwd5d = PasswordTuple("Foursquare", "hjkhksssssg34 Duplicated")
-		self.lclpwd6d = PasswordTuple("Dutch Oven", "hjkhsddkg34 Duplicated")
-		
-		self.passwordListA0 = PasswordList([])
-		
-		self.passwordListA1 = PasswordList([])
-		self.passwordListA1.append(self.lclpwd1)
-		
-		self.passwordListA2 = PasswordList([])
-		self.passwordListA2.append(self.lclpwd1)
-		self.passwordListA2.append(self.lclpwd2)
-		
-		self.passwordListA3 = PasswordList([])
-		self.passwordListA3.append(self.lclpwd1)
-		self.passwordListA3.append(self.lclpwd2)
-		self.passwordListA3.append(self.lclpwd3)
-		
-		self.passwordListA4 = PasswordList([])
-		self.passwordListA4.append(self.lclpwd1)
-		self.passwordListA4.append(self.lclpwd2)
-		self.passwordListA4.append(self.lclpwd3)
-		self.passwordListA4.append(self.lclpwd4)
-
-		self.passwordListA5 = PasswordList([])
-		self.passwordListA5.append(self.lclpwd1)
-		self.passwordListA5.append(self.lclpwd2)
-		self.passwordListA5.append(self.lclpwd3)
-		self.passwordListA5.append(self.lclpwd4)
-		self.passwordListA5.append(self.lclpwd5)
-		
-		self.passwordListA6 = PasswordList([])
-		self.passwordListA6.append(self.lclpwd1)
-		self.passwordListA6.append(self.lclpwd2)
-		self.passwordListA6.append(self.lclpwd3)
-		self.passwordListA6.append(self.lclpwd4)
-		self.passwordListA6.append(self.lclpwd5)
-		self.passwordListA6.append(self.lclpwd6)
-		
-		self.passwordListB4 = PasswordList([])
-		self.passwordListB4.append(self.lclpwd4)
-		self.passwordListB4.append(self.lclpwd5)
-		
-		self.passwordListB5 = PasswordList([])
-		self.passwordListB5.append(self.lclpwd4)
-		
-		self.passwordListX = PasswordList([])
-		self.passwordListX.append(self.lclpwd1)
-		self.passwordListX.append(self.lclpwd2)
-		self.passwordListX.append(self.lclpwd3)
-		self.passwordListX.append(self.lclpwd5)
-		
-		self.key12t3 = self.gen.generate(self.passwordListA2, self.lclpwd3)
-		self.key123t4 = self.gen.generate(self.passwordListA3, self.lclpwd4)
-		self.key12t5 = self.gen.generate(self.passwordListA2, self.lclpwd5)
+# 	def define(self):
+# 		self.lclpwd1 = PasswordTuple("Facebook", "q234")
+# 		self.lclpwd2 = PasswordTuple("Google", "778")
+# 		self.lclpwd3 = PasswordTuple("LinkedIn", "P324")
+# 		self.lclpwd4 = PasswordTuple("Quora", "hjkhkg34")
+# 		self.lclpwd5 = PasswordTuple("Foursquare", "hjkhksssssg34")
+# 		self.lclpwd6 = PasswordTuple("Dutch Oven", "hjkhsddkg34")
+# 
+# 		self.lclpwd1d = PasswordTuple("Facebook", "q234 Duplicated")
+# 		self.lclpwd2d = PasswordTuple("Google", "778 Duplicated")
+# 		self.lclpwd3d = PasswordTuple("LinkedIn", "P324 Duplicated")
+# 		self.lclpwd4d = PasswordTuple("Quora", "hjkhkg34 Duplicated")
+# 		self.lclpwd5d = PasswordTuple("Foursquare", "hjkhksssssg34 Duplicated")
+# 		self.lclpwd6d = PasswordTuple("Dutch Oven", "hjkhsddkg34 Duplicated")
+# 		
+# 		self.passwordListA0 = PasswordList([])
+# 		
+# 		self.passwordListA1 = PasswordList([])
+# 		self.passwordListA1.append(self.lclpwd1)
+# 		
+# 		self.passwordListA2 = PasswordList([])
+# 		self.passwordListA2.append(self.lclpwd1)
+# 		self.passwordListA2.append(self.lclpwd2)
+# 		
+# 		self.passwordListA3 = PasswordList([])
+# 		self.passwordListA3.append(self.lclpwd1)
+# 		self.passwordListA3.append(self.lclpwd2)
+# 		self.passwordListA3.append(self.lclpwd3)
+# 		
+# 		self.passwordListA4 = PasswordList([])
+# 		self.passwordListA4.append(self.lclpwd1)
+# 		self.passwordListA4.append(self.lclpwd2)
+# 		self.passwordListA4.append(self.lclpwd3)
+# 		self.passwordListA4.append(self.lclpwd4)
+# 
+# 		self.passwordListA5 = PasswordList([])
+# 		self.passwordListA5.append(self.lclpwd1)
+# 		self.passwordListA5.append(self.lclpwd2)
+# 		self.passwordListA5.append(self.lclpwd3)
+# 		self.passwordListA5.append(self.lclpwd4)
+# 		self.passwordListA5.append(self.lclpwd5)
+# 		
+# 		self.passwordListA6 = PasswordList([])
+# 		self.passwordListA6.append(self.lclpwd1)
+# 		self.passwordListA6.append(self.lclpwd2)
+# 		self.passwordListA6.append(self.lclpwd3)
+# 		self.passwordListA6.append(self.lclpwd4)
+# 		self.passwordListA6.append(self.lclpwd5)
+# 		self.passwordListA6.append(self.lclpwd6)
+# 		
+# 		self.passwordListB4 = PasswordList([])
+# 		self.passwordListB4.append(self.lclpwd4)
+# 		self.passwordListB4.append(self.lclpwd5)
+# 		
+# 		self.passwordListB5 = PasswordList([])
+# 		self.passwordListB5.append(self.lclpwd4)
+# 		
+# 		self.passwordListX = PasswordList([])
+# 		self.passwordListX.append(self.lclpwd1)
+# 		self.passwordListX.append(self.lclpwd2)
+# 		self.passwordListX.append(self.lclpwd3)
+# 		self.passwordListX.append(self.lclpwd5)
+# 		
+# 		self.key12t3 = self.gen.generate(self.passwordListA2, self.lclpwd3)
+# 		self.key123t4 = self.gen.generate(self.passwordListA3, self.lclpwd4)
+# 		self.key12t5 = self.gen.generate(self.passwordListA2, self.lclpwd5)
 
 if __name__ == "__main__":
 	#import sys;sys.argv = ['', 'Test.testName']

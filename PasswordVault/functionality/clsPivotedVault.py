@@ -17,11 +17,14 @@ class PivotedVault(object):
 	'''
 	classdocs
 	'''
-	def __init__(self, pVault = SwappingVault(), pIntermediate = BasicBigIntGenerator().generate(), pGenerator = SimpleLabelledKeyGenerator()):
+	
+	#The reserved key "3161379751047332383565"
+	
+	def __init__(self, pVault = SimpleVault(), pIntermediate = BasicBigIntGenerator().generate(), pGenerator = SimpleLabelledKeyGenerator()):
 		'''
 		Constructor
 		'''
-		self.pivot = pIntermediate
+		self.pivot = str(pIntermediate)
 		self.vault = pVault
 		self.keygen = pGenerator
 	
@@ -36,9 +39,9 @@ class PivotedVault(object):
 		#super(ControlledIntermediateVault, self)
 		
 		#Check for duplicates? Or allow them?
-		lclKey = self.keygen.generate(pInputList, PasswordTuple(-1, self.pivot))
-		return self.vault.append(lclKey)
-
+		lclKey = self.keygen.generate(pInputList, ("Intermediate Constant: 3161379751047332383565", self.pivot))
+		self.vault.append(lclKey)
+		return
 	
 	def removeInputList(self, pInputList):
 		lclList = self.vault.getList()
@@ -47,19 +50,19 @@ class PivotedVault(object):
 			if pIL == pInputList:
 				print("Removing input list ", pInputList.toString())
 				self.vault.removeByInputList(pInputList)
-				return
+				return 0
 		print("Cannot pop input list.")
 		return -1
 	
 	def addInputListAndPasswords(self, pInputList):
 		self.addInputList(pInputList)
-		for i in pInputList.getList():
+		for i in pInputList:
 			self.addOutput(i)
 		return	
 		
 	def addOutput(self, pPasswordTuple):
-		lclPwdList = PasswordList([])
-		lclPwdList.append(PasswordTuple(-1, self.pivot))
+		lclPwdList = {}
+		lclPwdList["Intermediate Constant: 3161379751047332383565"] = self.pivot
 		lclKey = self.keygen.generate(lclPwdList, pPasswordTuple)
 		return self.vault.append(lclKey)
 	
@@ -67,10 +70,10 @@ class PivotedVault(object):
 		lclList = self.vault.getList()
 		for i in lclList:
 			resId = i.resultIdentifier()
-			if resId == pPasswordTuple.identifier():
+			if resId == pPasswordTuple[0]:
 				print("Removing output: ", str(resId))
-				self.vault.removeByResult(resId)
-				return
+				self.vault.removeByResultIdentifier(resId)
+				return 0
 		print("Cannot remove output.")
 		return -1
 	
