@@ -72,7 +72,7 @@ class OpenableVault(object):
 
 	def addInputListAndPasswords(self, pInputList):
 		self.addInput(pInputList)
-		for i in pInputList.getList():
+		for i in pInputList:
 			self.addPassword(i)
 		return
 	

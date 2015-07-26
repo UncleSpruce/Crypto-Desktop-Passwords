@@ -34,6 +34,7 @@ class ProgramPasswordData(object):
 	
 	def addPassword(self, pPasswordTuple):
 		self.vault.addPassword(pPasswordTuple)
+		print ("Adding Tuple (", pPasswordTuple[0], ",", pPasswordTuple[1], ")")
 		self.passwordList[pPasswordTuple[0]] = pPasswordTuple[1]
 		self.vault.open(self.passwordList)
 	

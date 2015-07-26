@@ -10,7 +10,7 @@ from methodology.clsSimpleKeyGenerator import SimpleKeyGenerator
 from methodology.clsPasswordTuple import PasswordTuple
 from methodology.clsPasswordList import PasswordList
 from methodology.clsSimpleLabelledKeyGenerator import SimpleLabelledKeyGenerator
-from methodology.clsSwappingVault import SwappingVault
+
 import pickle
 
 class PivotedVault(object):
@@ -20,11 +20,17 @@ class PivotedVault(object):
 	
 	#The reserved key "3161379751047332383565"
 	
-	def __init__(self, pVault = SimpleVault(), pIntermediate = BasicBigIntGenerator().generate(), pGenerator = SimpleLabelledKeyGenerator()):
+	def __init__(self, pVault = None, pPivot = None, pGenerator = None):
 		'''
 		Constructor
 		'''
-		self.pivot = str(pIntermediate)
+		if pVault is None:
+			pVault = SimpleVault()
+		if pPivot is None:
+			pPivot = BasicBigIntGenerator().generate()
+		if pGenerator is None:
+			pGenerator = SimpleLabelledKeyGenerator()
+		self.pivot = str(pPivot)
 		self.vault = pVault
 		self.keygen = pGenerator
 	
@@ -63,8 +69,10 @@ class PivotedVault(object):
 	def addOutput(self, pPasswordTuple):
 		lclPwdList = {}
 		lclPwdList["Intermediate Constant: 3161379751047332383565"] = self.pivot
+		print("Throat:", lclPwdList)
 		lclKey = self.keygen.generate(lclPwdList, pPasswordTuple)
-		return self.vault.append(lclKey)
+		self.vault.append(lclKey)
+		return
 	
 	def removeOutput(self, pPasswordTuple):
 		lclList = self.vault.getList()

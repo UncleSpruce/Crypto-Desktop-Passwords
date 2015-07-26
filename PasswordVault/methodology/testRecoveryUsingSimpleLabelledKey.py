@@ -1,8 +1,8 @@
 '''
 Created on Jul 20, 2015
-
 @author: Daniel Bruce
 '''
+
 import unittest
 import copy
 from methodology.clsSimpleLabelledKeyGenerator import SimpleLabelledKeyGenerator
@@ -17,7 +17,6 @@ class testRecoveryUsingSimpleLabelledKey(unittest.TestCase):
 		self.data = Definitions()
 		
 		self.sample1()
-
 		self.sample2()
 		self.sample3()
 		self.sample4()
