@@ -1,102 +1,107 @@
 MODULES_MANAGER_V2
-GUI.Beginning_Screen|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\Beginning_Screen.py
-GUI.Beginning_Screen_ui|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\Beginning_Screen_ui.py
-GUI.CustomPasswordApp1x1|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\CustomPasswordApp1x1.py
-GUI.PasswordApp1x1|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\PasswordApp1x1.py
-GUI.__init__|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\__init__.py
-GUI.clsMainProgramState|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\GUI\clsMainProgramState.py
-functionality.__init__|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\__init__.py
-functionality.clsControlledIntermediateVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsControlledIntermediateVault.py
-functionality.clsCurrentPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsCurrentPasswordList.py
-functionality.clsFactoryIntermediateVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryIntermediateVault.py
-functionality.clsFactoryPivotedVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryPivotedVault.py
-functionality.clsFactoryProgramPasswordData|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryProgramPasswordData.py
-functionality.clsIntermediateVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsIntermediateVault.py
-functionality.clsOpenableVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsOpenableVault.py
-functionality.clsPicklingMethodology|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsPicklingMethodology.py
-functionality.clsPivotedVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsPivotedVault.py
-functionality.clsProgramPasswordData|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsProgramPasswordData.py
-functionality.clsProgramState|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsProgramState.py
-functionality.clsRecoveryState|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\clsRecoveryState.py
-functionality.testOpenPickledVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testOpenPickledVault.py
-functionality.testPivotedVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testPivotedVault.py
-functionality.testProgramData|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramData.py
-functionality.testProgramState|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramState.py
-functionality.testProgramStateLoading|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramStateLoading.py
-functionality.testProgramStateSaving|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramStateSaving.py
-functionality.testSavingPasswordData|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testSavingPasswordData.py
-functionality.testUseSavedVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\functionality\testUseSavedVault.py
-methodology.BasicDifferenceMapperMethodology|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\BasicDifferenceMapperMethodology.py
-methodology.TestBasicDifferenceMapper|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicDifferenceMapper.py
-methodology.TestBasicKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicKey.py
-methodology.TestBasicLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicLabelledKeyGenerator.py
-methodology.TestBasicStringIntConverter|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicStringIntConverter.py
-methodology.TestCombinedMap|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestCombinedMap.py
-methodology.TestFullProcess|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestFullProcess.py
-methodology.TestHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestHash.py
-methodology.TestInBuiltFunctionality=|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestInBuiltFunctionality=.py
-methodology.TestMapFromInputToIntermediate|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestMapFromInputToIntermediate.py
-methodology.TestMapIntermediateToResult|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestMapIntermediateToResult.py
-methodology.TestPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestPasswordList.py
-methodology.TestPickleBasicLabelledKeyReader|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestPickleBasicLabelledKeyReader.py
-methodology.TestPickleWriter|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TestPickleWriter.py
-methodology.TesterQuoraHasher|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\TesterQuoraHasher.py
-methodology.__init__|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\__init__.py
-methodology.clsBasicBigIntGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicBigIntGenerator.py
-methodology.clsBasicCombine|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicCombine.py
-methodology.clsBasicCombinedAndJoinedValidation|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicCombinedAndJoinedValidation.py
-methodology.clsBasicCombiner|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicCombiner.py
-methodology.clsBasicDifferenceMapper|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicDifferenceMapper.py
-methodology.clsBasicHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicHash.py
-methodology.clsBasicKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicKey.py
-methodology.clsBasicKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicKeyGenerator.py
-methodology.clsBasicKeyParser|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicKeyParser.py
-methodology.clsBasicLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicLabelledKey.py
-methodology.clsBasicLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicLabelledKeyGenerator.py
-methodology.clsBasicMapInputToIntermediate|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicMapInputToIntermediate.py
-methodology.clsBasicMapIntermediateToResult|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicMapIntermediateToResult.py
-methodology.clsBasicRecovery|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicRecovery.py
-methodology.clsBasicSpreader|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicSpreader.py
-methodology.clsBasicStringBigIntCorrespondence|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringBigIntCorrespondence.py
-methodology.clsBasicStringIntCalculator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringIntCalculator.py
-methodology.clsBasicStringIntConverter|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringIntConverter.py
-methodology.clsBasicStringJoiner|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringJoiner.py
-methodology.clsBasicStringJoinerAndCombiner|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringJoinerAndCombiner.py
-methodology.clsChangablePasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsChangablePasswordList.py
-methodology.clsDLPHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsDLPHash.py
-methodology.clsDLPValidation|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsDLPValidation.py
-methodology.clsFactoryBasicLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsFactoryBasicLabelledKey.py
-methodology.clsGenericLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericLabelledKey.py
-methodology.clsGenericRecovery|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericRecovery.py
-methodology.clsGenericVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericVault.py
-methodology.clsKeyParser|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsKeyParser.py
-methodology.clsPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsPasswordList.py
-methodology.clsPasswordTuple|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsPasswordTuple.py
-methodology.clsSaltedHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSaltedHash.py
-methodology.clsSimpleKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleKey.py
-methodology.clsSimpleKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleKeyGenerator.py
-methodology.clsSimpleLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleLabelledKey.py
-methodology.clsSimpleLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleLabelledKeyGenerator.py
-methodology.clsSimpleVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleVault.py
-methodology.clsSwappingVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsSwappingVault.py
-methodology.clsTestPasswordList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\clsTestPasswordList.py
-methodology.iBigIntGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iBigIntGenerator.py
-methodology.iCombiningMethodology|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iCombiningMethodology.py
-methodology.iHashMethodology|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iHashMethodology.py
-methodology.iIntermediateMapper|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iIntermediateMapper.py
-methodology.iJoiningBehavior|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iJoiningBehavior.py
-methodology.iKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iKeyGenerator.py
-methodology.iStringBigIntCorrespondence|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\iStringBigIntCorrespondence.py
-methodology.obseleteBasicMapToIntermediate|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\obseleteBasicMapToIntermediate.py
-methodology.testBasicKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testBasicKeyGenerator.py
-methodology.testBasicLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testBasicLabelledKey.py
-methodology.testGenericLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testGenericLabelledKey.py
-methodology.testList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testList.py
-methodology.testRecoveryList|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testRecoveryList.py
-methodology.testRecoveryUsingSimpleLabelledKey|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testRecoveryUsingSimpleLabelledKey.py
-methodology.testSimpleKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testSimpleKeyGenerator.py
-methodology.testSimpleLabelledKeyGenerator|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testSimpleLabelledKeyGenerator.py
-methodology.testVault|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testVault.py
-methodology.testerQuoraHash|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\methodology\testerQuoraHash.py
-testcommons.__init__|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\testcommons\__init__.py
-testcommons.clsDefinitions|D:\Google Drive\My Documents\Github\Python\PasswordStorage\PasswordVault\testcommons\clsDefinitions.py
+GUI.Beginning_Screen|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\GUI\Beginning_Screen.py
+GUI.Beginning_Screen_ui|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\GUI\Beginning_Screen_ui.py
+GUI.CustomPasswordApp1x1|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\GUI\CustomPasswordApp1x1.py
+GUI.PasswordApp1x1|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\GUI\PasswordApp1x1.py
+GUI.__init__|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\GUI\__init__.py
+GUI.clsMainProgramState|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\GUI\clsMainProgramState.py
+GUI.testMain|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\GUI\testMain.py
+GUI.testQT|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\GUI\testQT.py
+PyQtGUI.BasicModelViewConfiguration|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\PyQtGUI\BasicModelViewConfiguration.py
+PyQtGUI.__init__|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\PyQtGUI\__init__.py
+PyQtGUI.testModelView|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\PyQtGUI\testModelView.py
+functionality.__init__|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\__init__.py
+functionality.clsControlledIntermediateVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsControlledIntermediateVault.py
+functionality.clsCurrentPasswordList|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsCurrentPasswordList.py
+functionality.clsFactoryIntermediateVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryIntermediateVault.py
+functionality.clsFactoryPivotedVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryPivotedVault.py
+functionality.clsFactoryProgramPasswordData|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsFactoryProgramPasswordData.py
+functionality.clsIntermediateVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsIntermediateVault.py
+functionality.clsOpenableVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsOpenableVault.py
+functionality.clsPicklingMethodology|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsPicklingMethodology.py
+functionality.clsPivotedVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsPivotedVault.py
+functionality.clsProgramPasswordData|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsProgramPasswordData.py
+functionality.clsProgramState|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsProgramState.py
+functionality.clsRecoveryState|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\clsRecoveryState.py
+functionality.testOpenPickledVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\testOpenPickledVault.py
+functionality.testPivotedVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\testPivotedVault.py
+functionality.testProgramData|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramData.py
+functionality.testProgramState|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramState.py
+functionality.testProgramStateLoading|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramStateLoading.py
+functionality.testProgramStateSaving|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\testProgramStateSaving.py
+functionality.testSavingPasswordData|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\testSavingPasswordData.py
+functionality.testUseSavedVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\functionality\testUseSavedVault.py
+methodology.BasicDifferenceMapperMethodology|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\BasicDifferenceMapperMethodology.py
+methodology.TestBasicDifferenceMapper|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicDifferenceMapper.py
+methodology.TestBasicKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicKey.py
+methodology.TestBasicLabelledKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicLabelledKeyGenerator.py
+methodology.TestBasicStringIntConverter|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestBasicStringIntConverter.py
+methodology.TestCombinedMap|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestCombinedMap.py
+methodology.TestFullProcess|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestFullProcess.py
+methodology.TestHash|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestHash.py
+methodology.TestInBuiltFunctionality=|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestInBuiltFunctionality=.py
+methodology.TestMapFromInputToIntermediate|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestMapFromInputToIntermediate.py
+methodology.TestMapIntermediateToResult|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestMapIntermediateToResult.py
+methodology.TestPasswordList|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestPasswordList.py
+methodology.TestPickleBasicLabelledKeyReader|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestPickleBasicLabelledKeyReader.py
+methodology.TestPickleWriter|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TestPickleWriter.py
+methodology.TesterQuoraHasher|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\TesterQuoraHasher.py
+methodology.__init__|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\__init__.py
+methodology.clsBasicBigIntGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicBigIntGenerator.py
+methodology.clsBasicCombine|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicCombine.py
+methodology.clsBasicCombinedAndJoinedValidation|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicCombinedAndJoinedValidation.py
+methodology.clsBasicCombiner|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicCombiner.py
+methodology.clsBasicDifferenceMapper|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicDifferenceMapper.py
+methodology.clsBasicHash|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicHash.py
+methodology.clsBasicKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicKey.py
+methodology.clsBasicKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicKeyGenerator.py
+methodology.clsBasicKeyParser|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicKeyParser.py
+methodology.clsBasicLabelledKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicLabelledKey.py
+methodology.clsBasicLabelledKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicLabelledKeyGenerator.py
+methodology.clsBasicMapInputToIntermediate|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicMapInputToIntermediate.py
+methodology.clsBasicMapIntermediateToResult|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicMapIntermediateToResult.py
+methodology.clsBasicRecovery|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicRecovery.py
+methodology.clsBasicSpreader|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicSpreader.py
+methodology.clsBasicStringBigIntCorrespondence|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringBigIntCorrespondence.py
+methodology.clsBasicStringIntCalculator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringIntCalculator.py
+methodology.clsBasicStringIntConverter|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringIntConverter.py
+methodology.clsBasicStringJoiner|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringJoiner.py
+methodology.clsBasicStringJoinerAndCombiner|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsBasicStringJoinerAndCombiner.py
+methodology.clsChangablePasswordList|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsChangablePasswordList.py
+methodology.clsDLPHash|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsDLPHash.py
+methodology.clsDLPValidation|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsDLPValidation.py
+methodology.clsFactoryBasicLabelledKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsFactoryBasicLabelledKey.py
+methodology.clsGenericLabelledKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericLabelledKey.py
+methodology.clsGenericRecovery|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericRecovery.py
+methodology.clsGenericVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsGenericVault.py
+methodology.clsKeyParser|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsKeyParser.py
+methodology.clsPasswordList|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsPasswordList.py
+methodology.clsPasswordTuple|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsPasswordTuple.py
+methodology.clsSaltedHash|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsSaltedHash.py
+methodology.clsSimpleKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleKey.py
+methodology.clsSimpleKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleKeyGenerator.py
+methodology.clsSimpleLabelledKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleLabelledKey.py
+methodology.clsSimpleLabelledKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleLabelledKeyGenerator.py
+methodology.clsSimpleVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsSimpleVault.py
+methodology.clsSwappingVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsSwappingVault.py
+methodology.clsTestPasswordList|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\clsTestPasswordList.py
+methodology.iBigIntGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\iBigIntGenerator.py
+methodology.iCombiningMethodology|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\iCombiningMethodology.py
+methodology.iHashMethodology|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\iHashMethodology.py
+methodology.iIntermediateMapper|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\iIntermediateMapper.py
+methodology.iJoiningBehavior|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\iJoiningBehavior.py
+methodology.iKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\iKeyGenerator.py
+methodology.iStringBigIntCorrespondence|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\iStringBigIntCorrespondence.py
+methodology.obseleteBasicMapToIntermediate|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\obseleteBasicMapToIntermediate.py
+methodology.testBasicKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testBasicKeyGenerator.py
+methodology.testBasicLabelledKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testBasicLabelledKey.py
+methodology.testGenericLabelledKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testGenericLabelledKey.py
+methodology.testList|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testList.py
+methodology.testRecoveryList|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testRecoveryList.py
+methodology.testRecoveryUsingSimpleLabelledKey|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testRecoveryUsingSimpleLabelledKey.py
+methodology.testSimpleKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testSimpleKeyGenerator.py
+methodology.testSimpleLabelledKeyGenerator|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testSimpleLabelledKeyGenerator.py
+methodology.testVault|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testVault.py
+methodology.testerQuoraHash|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\methodology\testerQuoraHash.py
+testcommons.__init__|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\testcommons\__init__.py
+testcommons.clsDefinitions|C:\Users\Daniel\Google Drive\Programming\Github\Python\PasswordStorage\PasswordVault\testcommons\clsDefinitions.py

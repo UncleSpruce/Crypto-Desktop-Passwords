@@ -1,0 +1,117 @@
+'''
+Created on Jul 26, 2015
+
+@author: Daniel Bruce
+'''
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+"""
+ZetCode PyQt5 tutorial 
+
+In this example, we create a simple
+window in PyQt5.
+
+author: Jan Bodnar
+website: zetcode.com 
+last edited: January 2015
+"""
+
+import sys
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import * #QApplication, QWidget, QTableView, QVBoxLayout, QTabWidget, QPushButton, QSizePolicy, QHBoxLayout
+import PyQt5
+import sip
+
+my_array = [('','')]
+		
+
+def main():
+	app = QApplication(sys.argv)
+	w = MyWindow()
+	w.show()
+	sys.exit(app.exec_())
+
+class MyWindow(QWidget):
+	def __init__(self, *args):
+		QWidget.__init__(self, *args)
+		self.setGeometry(250, 150, 400, 300)
+		self.setWindowTitle("Passencrypt")
+		
+		tablemodel = MyTableModel(my_array, self)
+		
+		
+		# Code for adding tabs
+		
+		tab_widget = QTabWidget() 
+		tab1 = QWidget() 
+		tab2 = QWidget()
+
+		tab_widget.addTab(tab1, "Passwords") 
+		tab_widget.addTab(tab2, "Keys")
+
+		# put a button on tab1 (page1)
+		# btn_hello1 = QPushButton("Hello page1", tab1)
+		# btn_hello1.move(10, 10)
+		# put a button on tab2 (page2)
+		btn_hello2 = QPushButton("Hello page2", tab2)
+		
+		# layout manager
+		vbox = QVBoxLayout()
+		vbox.addWidget(tab_widget)		 
+		self.setLayout(vbox)	  
+		# optionally create layout for each page
+		p1_vbox = QHBoxLayout(tab1)
+		#p1_vbox.addWidget(btn_hello1) 
+		p2_vbox = QHBoxLayout(tab2)
+		
+		#Code for Creating the Password table view.
+		#table = QtGui.QTableWidget()
+		
+		tableview = QTableView(tab1)
+		tableview.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Preferred)
+		
+		tableview.move(10, 10)
+		tableview.resizeColumnsToContents()
+		tableview.resizeRowsToContents()
+		tableview.verticalHeader().setVisible(False)
+		tableview.setAlternatingRowColors(True)
+		tableview.isFullScreen()
+		tableview.setModel(tablemodel)
+		tableview.horizontalHeader()# .setResizeMode(QtGui.QHeaderView.Stretch)
+		tableview.setMinimumSize(200,200)
+		
+		layout = QVBoxLayout(tab1)
+		layout.layoutStretch(1)
+		layout.addWidget(tableview)
+		self.setLayout(layout)
+
+
+		
+
+		
+
+
+class MyTableModel(QAbstractTableModel):
+	def __init__(self, datain, parent=None, *args):
+		QAbstractTableModel.__init__(self, parent, *args)
+		self.arraydata = datain
+
+	def rowCount(self, parent):
+		return len(self.arraydata)
+
+	def columnCount(self, parent):
+		return len(self.arraydata[0])
+
+	def data(self, index, role):
+		if not index.isValid():
+			return QVariant()
+		elif role != Qt.DisplayRole:
+			return QVariant()
+		return QVariant(self.arraydata[index.row()][index.column()])
+
+if __name__ == "__main__":
+	main()

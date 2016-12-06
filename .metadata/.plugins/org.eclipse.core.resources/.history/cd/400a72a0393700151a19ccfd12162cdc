@@ -1,0 +1,43 @@
+'''
+Created on Jul 26, 2015
+
+@author: Owner
+'''
+import unittest
+
+import sys
+from PyQt5 import *
+from PyQt5.QtWidgets import QApplication, QWidget, QItemDelegate, QCheckBox
+# from PyQt5 import QtCore, QtGui, QtWidgets
+# from PyQt5.QtCore import *
+# from PyQt5.QtGui import *
+import sip
+sip.setapi('QString', 2)
+sip.setapi('QVariant', 2)
+
+#---------
+# DEFINE
+#---------
+
+
+class MyItemDelegate(QItemDelegate):
+    def __init__(self, parent=None):
+        super(MyItemDelegate, self).__init__(parent)
+
+    def setEditorData(self, editor, index):
+        if type(editor) == QCheckBox:
+            checkState = int(index.data())
+            editor.setChecked(checkState)
+            return
+        return super(MyItemDelegate, self).setEditorData(editor, index)
+
+    def setModelData(self, editor, model, index):
+        if type(editor) == QtGui.QCheckBox:
+            checkState = editor.isChecked()
+            model.setData(index, str(int(checkState)))
+            return
+
+
+if __name__ == "__main__":
+	#import sys;sys.argv = ['', 'Test.testName']
+	unittest.main()

@@ -1,0 +1,67 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'PasswordListWidget.ui'
+#
+# Created by: PyQt5 UI code generator 5.5
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import *#QtCore, QtGui, QtWidgets
+#from PyQt5.Qt import QApplication
+#QApplication
+
+import sysconfig
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(462, 504)
+        self.tabKeys = QtWidgets.QTabWidget(Form)
+        self.tabKeys.setGeometry(QtCore.QRect(10, 15, 441, 461))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.MinimumExpanding, QtWidgets.QSizePolicy.MinimumExpanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.tabKeys.sizePolicy().hasHeightForWidth())
+        self.tabKeys.setSizePolicy(sizePolicy)
+        self.tabKeys.setObjectName("tabKeys")
+        self.tab = QtWidgets.QWidget()
+        self.tab.setObjectName("tab")
+        self.tableView = QtWidgets.QTableView(self.tab)
+        self.tableView.setGeometry(QtCore.QRect(10, 14, 275, 192))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(1)
+        sizePolicy.setVerticalStretch(1)
+        sizePolicy.setHeightForWidth(self.tableView.sizePolicy().hasHeightForWidth())
+        self.tableView.setSizePolicy(sizePolicy)
+        self.tableView.setAlternatingRowColors(True)
+        self.tableView.setObjectName("tableView")
+        self.tableView.horizontalHeader().setStretchLastSection(True)
+        self.tableView.verticalHeader().setStretchLastSection(True)
+        self.textBrowser = QtWidgets.QTextBrowser(self.tab)
+        self.textBrowser.setGeometry(QtCore.QRect(10, 220, 111, 31))
+        self.textBrowser.setObjectName("textBrowser")
+        self.textBrowser_2 = QtWidgets.QTextBrowser(self.tab)
+        self.textBrowser_2.setGeometry(QtCore.QRect(130, 220, 301, 31))
+        self.textBrowser_2.setObjectName("textBrowser_2")
+        self.pushButton = QtWidgets.QPushButton(self.tab)
+        self.pushButton.setGeometry(QtCore.QRect(10, 260, 181, 23))
+        self.pushButton.setObjectName("pushButton")
+        self.tabKeys.addTab(self.tab, "")
+        self.tab_2 = QtWidgets.QWidget()
+        self.tab_2.setObjectName("tab_2")
+        self.tabKeys.addTab(self.tab_2, "")
+
+        self.retranslateUi(Form)
+        self.tabKeys.setCurrentIndex(0)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "Form"))
+        self.pushButton.setText(_translate("Form", "Add Password"))
+        self.tabKeys.setTabText(self.tabKeys.indexOf(self.tab), _translate("Form", "Passwords"))
+        self.tabKeys.setTabText(self.tabKeys.indexOf(self.tab_2), _translate("Form", "Keys"))
+
+app = QtGui.QApplication(sys.argv)
+myWindow = Ui_Form(None)
+myWindow.show()
+app.exec_()

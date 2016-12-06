@@ -43,7 +43,7 @@ class TestProgramState(unittest.TestCase):
 		self.lclpwd3 = PasswordTuple("LinkedIn", "P324")
 		self.lclpwd4 = PasswordTuple("Quora", "hjkhkg34")
 		self.lclpwd5 = PasswordTuple("Foursquare", "hjkhksssssg34")
-		self.lclpwd6 = PasswordTuple("Dutch Oven", "hjkhsddkg34")
+		self.lclpwd6 = PasswordTuple("Dutch Facebook", "hjkhsddkg34")
 		
 		self.passwordListA0 = PasswordList([])
 		

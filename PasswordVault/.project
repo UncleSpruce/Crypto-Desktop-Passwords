@@ -3,6 +3,7 @@
 	<name>PasswordVault</name>
 	<comment></comment>
 	<projects>
+		<project>PasswordVaultQT</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

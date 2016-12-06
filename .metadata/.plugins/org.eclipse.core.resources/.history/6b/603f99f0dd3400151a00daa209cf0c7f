@@ -1,0 +1,110 @@
+'''
+Created on Jul 26, 2015
+
+@author: Daniel Bruce
+'''
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+"""
+ZetCode PyQt5 tutorial 
+
+In this example, we create a simple
+window in PyQt5.
+
+author: Jan Bodnar
+website: zetcode.com 
+last edited: January 2015
+"""
+
+import sys
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QApplication, QWidget, QTableView, QVBoxLayout, QTabWidget, QPushButton
+import PyQt5
+import sip
+
+my_array = [('',''),
+			('10','11','12'),
+			('20','21','22')]
+
+def main():
+	app = QApplication(sys.argv)
+	w = MyWindow()
+	w.show()
+	sys.exit(app.exec_())
+
+class MyWindow(QWidget):
+	def __init__(self, *args):
+		QWidget.__init__(self, *args)
+		self.setGeometry(250, 150, 400, 300)
+		self.setWindowTitle("Passencrypt")
+		
+		tablemodel = MyTableModel(my_array, self)
+		
+		
+		# Code for adding tabs
+		
+		tab_widget = QTabWidget() 
+		tab1 = QWidget() 
+		tab2 = QWidget()
+
+		tab_widget.addTab(tab1, "page1") 
+		tab_widget.addTab(tab2, "page2")
+
+		# put a button on tab1 (page1)
+		btn_hello1 = QPushButton("Hello page1", tab1)
+		btn_hello1.move(10, 10)
+		# put a button on tab2 (page2)
+		btn_hello2 = QPushButton("Hello page2", tab2)
+		btn_hello2.move(10, 10)
+		# layout manager
+		vbox = QVBoxLayout()
+		vbox.addWidget(tab_widget)		 
+		self.setLayout(vbox)	  
+		# optionally create layout for each page
+		p1_vbox = QVBoxLayout(tab1)
+		#p1_vbox.addWidget(btn_hello1) 
+		p2_vbox = QVBoxLayout(tab2)
+		
+		#Code for Creating the Password table view.
+		
+		#table = QtGui.QTableWidget()
+		
+		tableview = QTableView(tab1)
+		tableview.verticalHeader().setVisible(False)
+		
+		tableview.setModel(tablemodel)
+
+		layout = QVBoxLayout(self)
+		layout.addWidget(tableview)
+		self.setLayout(layout)
+
+
+		
+
+		
+
+
+class MyTableModel(QAbstractTableModel):
+	def __init__(self, datain, parent=None, *args):
+		QAbstractTableModel.__init__(self, parent, *args)
+		self.arraydata = datain
+
+	def rowCount(self, parent):
+		return len(self.arraydata)
+
+	def columnCount(self, parent):
+		return len(self.arraydata[0])
+
+	def data(self, index, role):
+		if not index.isValid():
+			return QVariant()
+		elif role != Qt.DisplayRole:
+			return QVariant()
+		return QVariant(self.arraydata[index.row()][index.column()])
+
+if __name__ == "__main__":
+	main()
